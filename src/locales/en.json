@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "My Wood Farm Wiki - Codes, Axes & Rebirth Guide",
+      "description": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides.",
+      "keywords": "My Wood Farm, Roblox, codes, axes, rebirth, upgrades, trees, cash, offline farming",
+      "ogTitle": "My Wood Farm Wiki - Codes, Axes & Rebirth Guide",
+      "ogDescription": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides.",
+      "twitterTitle": "My Wood Farm Wiki - Codes, Axes & Rebirth Guide",
+      "twitterDescription": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides."
     }
   },
   "nav": {
@@ -34,26 +34,26 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Idle Woodcutting Simulator",
+    "title": "My Wood Farm Wiki",
+    "description": "Chop trees for wood, upgrade and expand your plot, sell wood for cash, and keep earning while offline as your axes continue farming.",
+    "getFreeCodesCTA": "Check Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "69K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "96.98%",
+        "label": "Player Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "22.23 min",
+        "label": "Average Session"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
+        "value": "May 31, 2026",
         "label": "Release Date"
       }
     }
@@ -785,26 +785,24 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Start Your Wood Farm?",
+    "description": "Join the Did I Axe Roblox group for updates, or jump straight into My Wood Farm and start chopping trees.",
+    "joinCommunity": "Join Roblox Group",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "My Wood Farm Wiki",
+    "description": "Your complete resource hub for My Wood Farm codes, best axes, upgrades, rebirth, tree farming, cash strategies, and offline earnings.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Play My Wood Farm",
+    "robloxGroup": "Did I Axe Group",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 My Wood Farm Wiki. Not affiliated with the developers of My Wood Farm or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
