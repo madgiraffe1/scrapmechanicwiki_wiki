@@ -1,1 +1,631 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de My Wood Farm - Guia de Códigos, Machados e Renascimento",
+      "description": "Wiki de My Wood Farm para Roblox com códigos, melhores machados, caminhos de melhoria, dicas de renascimento, cultivo de árvores, estratégias de dinheiro, ganhos offline e guias de atualização.",
+      "keywords": "My Wood Farm, Roblox, códigos, machados, renascimento, melhorias, árvores, dinheiro, cultivo offline",
+      "ogTitle": "Wiki de My Wood Farm - Guia de Códigos, Machados e Renascimento",
+      "ogDescription": "Wiki de My Wood Farm para Roblox com códigos, melhores machados, caminhos de melhoria, dicas de renascimento, cultivo de árvores, estratégias de dinheiro, ganhos offline e guias de atualização.",
+      "twitterTitle": "Wiki de My Wood Farm - Guia de Códigos, Machados e Renascimento",
+      "twitterDescription": "Wiki de My Wood Farm para Roblox com códigos, melhores machados, caminhos de melhoria, dicas de renascimento, cultivo de árvores, estratégias de dinheiro, ganhos offline e guias de atualização."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "axes": "Machados",
+    "trees": "Árvores",
+    "money": "Dinheiro",
+    "upgrades": "Melhorias",
+    "updates": "Atualizações"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulador de Corte de Madeira Idle",
+    "title": "Wiki de My Wood Farm",
+    "description": "Corte árvores para obter madeira, melhore e expanda seu terreno, venda madeira por dinheiro e continue ganhando offline enquanto seus machados continuam farmando.",
+    "getFreeCodesCTA": "Verificar Códigos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "69K+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "96,98%",
+        "label": "Avaliação dos Jogadores"
+      },
+      "stat3": {
+        "value": "22,23 min",
+        "label": "Sessão Média"
+      },
+      "stat4": {
+        "value": "31 de maio de 2026",
+        "label": "Data de Lançamento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Minha Fazenda de Madeira",
+    "description": "Corte árvores para obter madeira, venda por dinheiro, melhore seus machados, expanda seu lote e continue ganhando offline neste simulador idle de corte de madeira no Roblox."
+  },
+  "tools": {
+    "title": "Minha Fazenda de Madeira",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para construir uma fazenda de madeira produtiva, de códigos e machados a melhorias, expansão de lote e ganhos offline",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de Minha Fazenda de Madeira",
+        "description": "Status atual dos códigos e onde as recompensas futuras aparecerão"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Minha Fazenda de Madeira",
+        "description": "Loop de corte, venda e melhoria da primeira sessão"
+      },
+      {
+        "icon": "Axe",
+        "title": "Tier List de Machados de Minha Fazenda de Madeira",
+        "description": "Classifique cada categoria de machado, de madeira a mágico"
+      },
+      {
+        "icon": "Coins",
+        "title": "Farm de Dinheiro em Minha Fazenda de Madeira",
+        "description": "As maneiras mais rápidas de transformar madeira em dinheiro"
+      },
+      {
+        "icon": "TreePine",
+        "title": "Árvores e Valores de Minha Fazenda de Madeira",
+        "description": "Alvos de árvores, tocos e árvores gigantes, e valores de madeira"
+      },
+      {
+        "icon": "ArrowUpCircle",
+        "title": "Ordem de Melhorias em Minha Fazenda de Madeira",
+        "description": "Melhores prioridades de melhoria de machado, produção e lote"
+      },
+      {
+        "icon": "Expand",
+        "title": "Expansão de Lote em Minha Fazenda de Madeira",
+        "description": "Desbloqueie terrenos e planeje uma fazenda de madeira maior"
+      },
+      {
+        "icon": "Moon",
+        "title": "Ganhos Offline em Minha Fazenda de Madeira",
+        "description": "Produção passiva de madeira e atualizações mais recentes"
+      }
+    ]
+  },
+  "modules": {
+    "woodFarmCodes": {
+      "title": "Códigos de Minha Fazenda de Madeira",
+      "eyebrow": "Recompensas Grátis",
+      "intro": "Minha Fazenda de Madeira atualmente não possui códigos de recompensa ativos ou um menu público de resgate de códigos. A experiência oficial do Roblox e a comunidade de desenvolvedores da Did I Axe são os principais lugares para verificar futuros lançamentos de códigos.",
+      "cards": [
+        {
+          "icon": "Ticket",
+          "status": "Nenhum Código Ativo",
+          "reward": "Nenhuma recompensa por código está disponível no momento",
+          "action": "Verifique novamente após as atualizações do jogo"
+        },
+        {
+          "icon": "Clock",
+          "status": "Nenhum Código Expirado",
+          "reward": "Nenhum código público lançado anteriormente está listado",
+          "action": "Acompanhe a comunidade de desenvolvedores para anúncios"
+        },
+        {
+          "icon": "Gift",
+          "status": "Sistema de Resgate",
+          "reward": "O jogo atualmente não possui um recurso de resgate de códigos",
+          "action": "Códigos futuros exigirão um menu de resgate no jogo"
+        }
+      ]
+    },
+    "woodFarmBeginnerGuide": {
+      "title": "Guia para Iniciantes de Minha Fazenda de Madeira",
+      "eyebrow": "Primeiros Passos",
+      "intro": "Seu primeiro objetivo é transformar árvores em madeira, vender essa madeira por dinheiro e reinvestir o dinheiro em machados mais fortes e na expansão da fazenda. Foque em melhorias de produção logo no início, pois seus machados também podem continuar coletando madeira enquanto você estiver offline.",
+      "steps": [
+        {
+          "icon": "Axe",
+          "title": "Comece a Cortar Árvores",
+          "description": "Equipe seu machado inicial e corte as árvores disponíveis no seu lote. Continue cortando até ter madeira suficiente para fazer sua primeira venda útil.",
+          "tip": "Fique perto das árvores no seu próprio lote para manter a primeira sessão simples."
+        },
+        {
+          "icon": "Coins",
+          "title": "Venda sua Madeira",
+          "description": "Converta a madeira que você produz em dinheiro. Vender regularmente garante o dinheiro necessário para machados, melhorias e progressão do lote.",
+          "tip": "Não deixe madeira utilizável parada sem vender quando estiver perto de conseguir comprar uma melhoria."
+        },
+        {
+          "icon": "ArrowUpCircle",
+          "title": "Compre um Machado Melhor",
+          "description": "Gaste suas primeiras economias em uma melhoria de machado que aumente sua produção de madeira. A progressão para machados mais fortes é o caminho principal para passar do corte lento inicial para maiores quantidades de madeira.",
+          "tip": "Priorize a produção antes de economizar para categorias de machados caras de fim de jogo."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Repita o Ciclo de Produção",
+          "description": "Corte mais árvores com o machado melhorado, venda a madeira adicional e reinvesta o rendimento mais alto. Cada ciclo concluído deve fazer a fazenda avançar mais rápido em direção à próxima melhoria.",
+          "tip": "Compare a rapidez com que cada novo machado ajuda você a alcançar a próxima compra."
+        },
+        {
+          "icon": "Expand",
+          "title": "Melhore e Expanda o Lote",
+          "description": "Use o dinheiro para melhorar e expandir o lote da sua fazenda à medida que novas opções de progressão se tornarem acessíveis. O desenvolvimento do lote funciona em conjunto com as melhorias de machados como parte do ciclo principal do jogo.",
+          "tip": "Mantenha dinheiro suficiente disponível para melhorias de produção em vez de gastar tudo de uma vez."
+        },
+        {
+          "icon": "Moon",
+          "title": "Use a Produção de Madeira Offline",
+          "description": "Seus machados continuam coletando madeira enquanto você está offline. Volte após uma pausa, venda a produção adicional e use o dinheiro para continuar melhorando.",
+          "tip": "A coleta offline é especialmente útil quando você não pode permanecer em uma sessão de corte ativa."
+        }
+      ]
+    },
+    "woodFarmAxeTierList": {
+      "title": "Tier List de Machados de Minha Fazenda de Madeira",
+      "eyebrow": "Classificações de Equipamentos",
+      "intro": "Os machados determinam a rapidez com que sua fazenda pode produzir madeira durante o jogo ativo e a coleta offline. Melhore primeiro os níveis iniciais de machado e, em seguida, mire nas categorias de machados raros, lendários e mágicos à medida que sua produção de dinheiro aumenta.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Melhores de Fim de Jogo",
+          "icon": "Sparkles",
+          "name": "Machados Mágicos",
+          "best_for": "Produção de madeira de fim de jogo",
+          "description": "A maior categoria de progressão exibida na jogabilidade atual de Minha Fazenda de Madeira. Esses machados são o principal objetivo de longo prazo após construir uma fazenda forte que gera muito dinheiro."
+        },
+        {
+          "tier": "---",
+          "label": "A",
+          "icon": "Excelente",
+          "name": "Crown",
+          "best_for": "Machados Lendários",
+          "description": "Grandes upgrades de fim de jogo"
+        },
+        {
+          "tier": "Upgrades raros e poderosos que oferecem um grande avanço além da progressão normal de machados. Machados lendários são ótimos alvos antes de avançar para os níveis de machados mágicos.",
+          "label": "B",
+          "icon": "Progressão Forte",
+          "name": "Star",
+          "best_for": "Machados Raros",
+          "description": "Farming de meio de jogo"
+        },
+        {
+          "tier": "Upgrades de progressão úteis para jogadores que já passaram dos equipamentos iniciais, mas ainda estão acumulando renda suficiente para machados lendários ou mágicos.",
+          "label": "C",
+          "icon": "Inicial",
+          "name": "Axe",
+          "best_for": "Machado de Madeira",
+          "description": "Corte da primeira sessão"
+        }
+      ]
+    },
+    "woodFarmMoneyFarming": {
+      "title": "O ponto de partida básico para cortar árvores e ganhar dinheiro inicial. Substitua-o assim que sua fazenda puder pagar confortavelmente por um upgrade de produção mais forte.",
+      "eyebrow": "Melhores Maneiras de Ganhar Dinheiro em Minha Fazenda de Madeira",
+      "intro": "Guia de Dinheiro",
+      "methods": [
+        {
+          "icon": "A progressão de dinheiro mais rápida vem de converter repetidamente madeira em dinheiro e reinvestir esse dinheiro na produção. O corte ativo funciona melhor durante sessões curtas e focadas, enquanto machados aprimorados e o farming offline continuam apoiando o crescimento a longo prazo.",
+          "name": "ArrowUpCircle",
+          "priority": 1,
+          "session_type": "Melhore seu Machado Cedo",
+          "description": "Todas as sessões",
+          "action": "Um machado mais forte melhora o ciclo principal de produção de madeira e ajuda cada venda futura a contribuir mais para o próximo upgrade."
+        },
+        {
+          "icon": "Use o dinheiro inicial para uma progressão prática de machados em vez de guardá-lo sem um objetivo.",
+          "name": "Axe",
+          "priority": 2,
+          "session_type": "Corte Árvores Ativamente",
+          "description": "Sessões ativas curtas",
+          "action": "O corte contínuo fornece madeira imediata e permite que você ganhe dinheiro sem esperar pela produção offline."
+        },
+        {
+          "icon": "Continue se movendo entre as árvores disponíveis e minimize o tempo longe da produção.",
+          "name": "Coins",
+          "priority": 3,
+          "session_type": "Venda Madeira Regularmente",
+          "description": "Progressão ativa",
+          "action": "A madeira só avança sua fazenda depois de ser convertida em dinheiro. Vendas regulares disponibilizam upgrades mais cedo e mantêm o ciclo de progressão ativo."
+        },
+        {
+          "icon": "Venda quando a quantidade atual de madeira deixar você perto de um upgrade de machado ou de lote.",
+          "name": "Expand",
+          "priority": 4,
+          "session_type": "Expanda e Melhore o Lote",
+          "description": "Progressão a longo prazo",
+          "action": "---"
+        },
+        {
+          "icon": "Equilibre os gastos com o terreno e a compra de machados para que a produção continue melhorando.",
+          "name": "Lua",
+          "priority": 5,
+          "session_type": "Use o Cultivo de Machado Offline",
+          "description": "Pausas longas e durante a noite",
+          "action": "Os machados continuam colhendo madeira enquanto você está offline, permitindo que a fazenda produza recursos entre as sessões ativas."
+        }
+      ]
+    },
+    "woodFarmTreesAndValues": {
+      "title": "Melhore antes de sair para que o progresso atual do seu machado contribua para a produção offline.",
+      "eyebrow": "Valores de Árvores, Tocos e Madeira de Minha Fazenda de Madeira",
+      "intro": "Banco de Dados de Árvores",
+      "columns": [
+        "Minha Fazenda de Madeira começa com árvores comuns e introduz gradualmente alvos mais fortes, como tocos e árvores gigantes. Machados mais fortes e uma estrutura de produção maior reduzem o tempo de corte e ajudam a transformar cada ciclo de colheita em mais madeira e dinheiro.",
+        "Alvo",
+        "Durabilidade",
+        "Rendimento de Madeira",
+        "Valor de Venda"
+      ],
+      "rows": [
+        {
+          "icon": "Melhor Estágio",
+          "target": "TreePine",
+          "durability": "Árvore Comum",
+          "wood_yield": "Baixa",
+          "selling_value": "Padrão",
+          "recommended_progression": "Retorno financeiro base",
+          "notes": "Início do jogo"
+        },
+        {
+          "icon": "O alvo principal para iniciar o ciclo de cortar, coletar, vender e melhorar.",
+          "target": "Broto",
+          "durability": "Toco de Árvore",
+          "wood_yield": "Alta",
+          "selling_value": "Alvo de produção de maior valor",
+          "recommended_progression": "Retorno financeiro melhorado por alvo concluído",
+          "notes": "Meio ao fim do jogo"
+        },
+        {
+          "icon": "Os tocos são projetados para progressão de machados mais fortes e exigem mais poder de produção do que as árvores comuns.",
+          "target": "Árvores",
+          "durability": "Árvore Gigante",
+          "wood_yield": "Muito alta",
+          "selling_value": "Alvo de grande produção",
+          "recommended_progression": "Grande retorno financeiro após a conclusão",
+          "notes": "Fim do jogo"
+        }
+      ]
+    },
+    "woodFarmUpgradeOrder": {
+      "title": "Um alvo de longa duração que se beneficia da colocação de mais machados e da melhoria do rendimento total da fazenda.",
+      "eyebrow": "Melhor Ordem de Melhoria em Minha Fazenda de Madeira",
+      "intro": "Guia de Progressão",
+      "steps": [
+        {
+          "icon": "A progressão mais eficiente mantém o dinheiro retornando para melhorias que aumentam a produção de madeira. Compare as compras medindo quanto dinheiro extra elas geram, em vez de comprar todas as melhorias disponíveis imediatamente.",
+          "stage": "Machado",
+          "priority": "---",
+          "action": "Use o Machado de Madeira inicial",
+          "why": "Corte árvores comuns, colete a madeira e venda por dinheiro.",
+          "spend_rule": "Isso estabelece a taxa de produção básica usada para avaliar cada melhoria posterior."
+        },
+        {
+          "icon": "Realize várias vendas antes de fazer a primeira grande compra.",
+          "stage": "ArrowUpCircle",
+          "priority": "Melhorar o Rendimento do Machado",
+          "action": "Compre uma melhoria de machado acessível",
+          "why": "Melhore o machado que está produzindo madeira ativamente antes de gastar muito em espaço extra.",
+          "spend_rule": "Machados mais rápidos ou mais fortes completam os alvos das árvores mais cedo e aumentam o dinheiro ganho em cada sessão."
+        },
+        {
+          "icon": "Priorize melhorias que gerem um aumento imediato na produção de madeira.",
+          "stage": "Layers",
+          "priority": "Aumentar a Densidade de Produção",
+          "action": "Adicione mais machados de trabalho",
+          "why": "Preencha posições úteis no lote atual para que vários machados possam contribuir para a produção.",
+          "spend_rule": "Machados adicionais aumentam o rendimento total ativo e continuam contribuindo para a produção de madeira offline."
+        },
+        {
+          "icon": "Use o espaço do lote existente antes de pagar por uma expansão que ficaria vazia.",
+          "stage": "Expandir",
+          "priority": "Expandir o Lote",
+          "action": "Compre mais terras quando a área atual estiver cheia",
+          "why": "Abra espaço adicional no lote e coloque novos machados sem bloquear o acesso às árvores ou à rota de venda.",
+          "spend_rule": "A expansão aumenta o número de posições de produção disponíveis para uma fazenda maior."
+        },
+        {
+          "icon": "Expanda quando o próximo machado não puder ser colocado de forma eficiente no lote atual.",
+          "stage": "Crown",
+          "priority": "Alveje Tocos e Árvores Gigantes",
+          "action": "Avance para a progressão de machados mágicos e lendários.",
+          "why": "Use machados de alto nível e uma estrutura maior contra tocos resistentes e árvores gigantes.",
+          "spend_rule": "Alvos de fim de jogo exigem mais poder de corte e recompensam fazendas construídas em torno de machados mais fortes."
+        }
+      ]
+    },
+    "woodFarmPlotExpansion": {
+      "title": "Calcule o tempo de retorno como o custo da melhoria dividido pelo dinheiro extra ganho por minuto.",
+      "eyebrow": "Guia de Expansão de Lote e Layout de My Wood Farm",
+      "intro": "Expansão da Fazenda",
+      "items": [
+        {
+          "title": "A expansão do lote é uma parte central da progressão no My Wood Farm. Terras adicionais tornam-se mais valiosas quando o lote existente já está produzindo de forma eficiente e a nova área pode suportar imediatamente mais machados.",
+          "content": "Moeda de Expansão e Progressão"
+        },
+        {
+          "title": "A expansão do lote é financiada com o dinheiro ganho na venda de madeira. Continue completando os ciclos das árvores e reinvestindo a renda das vendas até que a próxima compra de expansão esteja disponível.",
+          "content": "Melhor Momento para Expandir"
+        },
+        {
+          "title": "Expanda após as posições úteis de machados no lote atual estarem ocupadas. Comprar terras cedo demais deixa o dinheiro preso em um espaço vazio em vez de aumentar a produção de madeira.",
+          "content": "Layout Inicial do Lote"
+        },
+        {
+          "title": "Mantenha os machados próximos aos alvos de árvores comuns e garanta uma rota livre para coletar e vender madeira. Agrupe as primeiras posições de produção para que as melhorias sejam fáceis de monitorar.",
+          "content": "Layout da Fazenda Expandida"
+        },
+        {
+          "title": "Use o novo espaço externo aberto para machados adicionais, mantendo o centro livre para movimentação e alvos maiores. Construa em grupos de produção compactos em vez de espalhar machados individuais por todo o lote.",
+          "content": "Reserve uma seção aberta para tocos duráveis e árvores gigantes. Esses alvos funcionam melhor com vários machados aprimorados contribuindo de posições próximas."
+        },
+        {
+          "title": "Checklist de Compra de Expansão",
+          "content": "Antes de comprar terras, confirme se o lote atual está cheio, se resta dinheiro suficiente para outro machado e se o novo espaço pode ser usado imediatamente. A expansão deve aumentar a produção em vez de apenas aumentar o tamanho da fazenda."
+        }
+      ]
+    },
+    "woodFarmOfflineEarnings": {
+      "title": "Ganhos Offline e Últimas Atualizações de Minha Fazenda de Madeira",
+      "eyebrow": "Produção Passiva",
+      "intro": "A produção offline permite que a fazenda continue gerando madeira entre as sessões de jogo. Uma coleção maior de machados aprimorados melhora o valor de cada retorno, enquanto a experiência oficial do Roblox e a comunidade Did I Axe fornecem os principais locais para alterações e anúncios do jogo.",
+      "cards": [
+        {
+          "icon": "Lua",
+          "title": "Produção de Madeira Offline",
+          "category": "Mecânica Principal",
+          "value": "Os machados continuam coletando madeira enquanto o jogador está offline",
+          "details": "Posicione e aprimore machados produtivos antes de sair para que a fazenda esteja preparada para gerar madeira durante a pausa."
+        },
+        {
+          "icon": "Calculadora",
+          "title": "Fórmula de Ganhos Offline",
+          "category": "Calculadora",
+          "value": "Madeira offline obtida = madeira após retornar menos madeira antes de sair",
+          "details": "Divida a madeira obtida pelo número de minutos ou horas offline para calcular a taxa média de produção passiva da fazenda."
+        },
+        {
+          "icon": "Moedas",
+          "title": "Valor Estimado em Dinheiro",
+          "category": "Calculadora",
+          "value": "Dinheiro estimado = madeira offline obtida multiplicada pelo dinheiro ganho por madeira",
+          "details": "Use o retorno de venda atual mostrado durante uma venda normal para estimar quanto vale o ciclo de produção offline."
+        },
+        {
+          "icon": "ArrowUpCircle",
+          "title": "Melhor Rotina Antes de Sair",
+          "category": "Eficiência",
+          "value": "Aprimorar, posicionar machados, registrar a madeira e depois sair",
+          "details": "Gaste o dinheiro disponível em melhorias de produção úteis, confirme se todos os machados estão posicionados e registre o total inicial de madeira antes de encerrar a sessão."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Melhor Rotina de Retorno",
+          "category": "Eficiência",
+          "value": "Coletar, vender, aprimorar e expandir",
+          "details": "Resgate a madeira produzida, converta-a em dinheiro e reinvista os ganhos no próximo machado, melhoria de produção ou expansão de lote."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Acompanhamento de Atualizações Oficiais",
+          "category": "Atualizações",
+          "value": "Página da experiência Roblox e comunidade Did I Axe",
+          "details": "Verifique essas fontes para alterações envolvendo machados, árvores, equilíbrio de produção, expansão de lote e outros sistemas adicionados recentemente."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Minha Fazenda de Madeira",
+    "questions": [
+      {
+        "question": "O que é Minha Fazenda de Madeira?",
+        "answer": "My Wood Farm é um simulador de corte de madeira idle no Roblox onde você corta árvores para obter madeira, vende madeira por dinheiro, melhora machados, expande seu terreno e continua ganhando enquanto está offline, pois seus machados continuam farmando."
+      },
+      {
+        "question": "Existem códigos para o My Wood Farm?",
+        "answer": "O My Wood Farm atualmente não possui códigos de recompensa ativos ou um menu público de resgate de códigos. Novos códigos, quando adicionados pelos desenvolvedores da Did I Axe, aparecerão dentro do jogo e através da página oficial da experiência no Roblox."
+      },
+      {
+        "question": "Os machados continuam farmando no My Wood Farm enquanto você está offline?",
+        "answer": "Sim. No My Wood Farm, seus machados posicionados continuam farmando madeira enquanto você está offline, então voltar após uma pausa permite que você venda a madeira extra e reinvista o dinheiro em mais melhorias."
+      },
+      {
+        "question": "Qual é o melhor machado no My Wood Farm?",
+        "answer": "O objetivo mais forte a longo prazo no My Wood Farm é a categoria de machados mágicos, alcançada após progredir pelos machados de madeira, raros e lendários. No início, qualquer melhoria de machado acessível que aumente a produção de madeira é a melhor escolha."
+      },
+      {
+        "question": "Como ganho dinheiro rápido no My Wood Farm?",
+        "answer": "O dinheiro mais rápido no My Wood Farm vem de cortar árvores, vender madeira regularmente e reinvestir o dinheiro em melhorias de machados e de produção, deixando o farm offline de machados adicionar madeira extra entre as sessões."
+      },
+      {
+        "question": "O My Wood Farm é gratuito para jogar no Roblox?",
+        "answer": "Sim. O My Wood Farm é gratuito para jogar no Roblox. Você pode entrar através da página oficial da experiência My Wood Farm no Roblox e seguir a comunidade Did I Axe para atualizações."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Começar Sua Fazenda de Madeira?",
+    "description": "Junte-se ao grupo Did I Axe no Roblox para atualizações, ou entre direto no My Wood Farm e comece a cortar árvores.",
+    "joinCommunity": "Entrar no Grupo do Roblox",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "My Wood Farm Wiki",
+    "description": "Seu hub de recursos completo para códigos do My Wood Farm, melhores machados, melhorias, rebirth, farm de árvores, estratégias de dinheiro e ganhos offline.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "robloxGame": "Jogar My Wood Farm",
+    "robloxGroup": "Grupo Did I Axe",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 My Wood Farm Wiki. Não afiliado aos desenvolvedores de My Wood Farm ou à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos My Wood Farm",
+      "description": "Acompanhe códigos ativos do My Wood Farm, recompensas expiradas e qualquer futuro sistema de resgate de códigos dos desenvolvedores da Did I Axe.",
+      "metaTitle": "Códigos My Wood Farm - Lista de Códigos Ativos e Expirados",
+      "metaDescription": "Acompanhe códigos do My Wood Farm, recompensas expiradas e qualquer futuro sistema de resgate de códigos. Veja o status atual dos códigos e onde as novas recompensas do My Wood Farm serão anunciadas.",
+      "categoryLabel": "CÓDIGOS E RECOMPENSAS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Guias para códigos do My Wood Farm cobrindo o status atual das recompensas, como os códigos são resgatados quando adicionados e onde os desenvolvedores da Did I Axe anunciam novas recompensas para o simulador de corte de madeira idle.",
+      "why": "Por que verificar códigos?",
+      "whySteps": {
+        "step1Title": "Ver Códigos Atuais",
+        "step1Description": "Verifique se existem códigos ativos do My Wood Farm disponíveis agora",
+        "step2Title": "Acompanhar Expiração",
+        "step2Description": "Saiba quais códigos lançados anteriormente já expiraram",
+        "step3Title": "Nunca Perca Recompensas",
+        "step3Description": "Descubra onde os novos códigos de Minha Fazenda de Madeira serão anunciados"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Códigos"
+    },
+    "guide": {
+      "title": "Guias de Minha Fazenda de Madeira",
+      "description": "Guias completos de jogabilidade de Minha Fazenda de Madeira, do básico para iniciantes e controles até progressão avançada, caminhos de machados e estratégias de farm de dinheiro.",
+      "metaTitle": "Guias de Minha Fazenda de Madeira - Estratégias do Iniciante ao Avançado",
+      "metaDescription": "Guias completos de Minha Fazenda de Madeira cobrindo dicas para iniciantes, controles, caminhos de progressão, melhores machados, farm de dinheiro e ganhos offline para dominar o simulador idle de cortar madeira.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias abrangentes cobrindo as mecânicas de jogo de Minha Fazenda de Madeira, ciclos de cortar e vender, progressão de machados, controles e farm de dinheiro. Aprenda tudo, desde os primeiros passos até estratégias avançadas.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda o ciclo de cortar, vender e melhorar, e evite erros comuns de iniciantes",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga caminhos comprovados de melhoria de machados e lotes para fazer sua fazenda crescer rapidamente no Minha Fazenda de Madeira",
+        "step3Title": "Domine Estratégias",
+        "step3Description": "Desenvolva táticas avançadas para farm de dinheiro e ganhos offline"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "axes": {
+      "title": "Machados de Minha Fazenda de Madeira",
+      "description": "Guias detalhados de machados de Minha Fazenda de Madeira cobrindo cada categoria de machado, raridade, preço, atributos e a melhor fase de farm para cada melhoria.",
+      "metaTitle": "Machados de Minha Fazenda de Madeira - Guia do Melhor Machado e Tier List",
+      "metaDescription": "Banco de dados completo de machados de Minha Fazenda de Madeira, incluindo machados de madeira, raros, lendários e mágicos. Conheça atributos de machados, preços, o machado mais rápido e o melhor machado para cada fase de progressão.",
+      "categoryLabel": "MACHADOS E EQUIPAMENTOS",
+      "whatIs": "O que são Machados?",
+      "whatIsDescription": "Guias abrangentes para cada machado de Minha Fazenda de Madeira. Conheça a raridade do machado, poder de produção, atributos, preço e a melhor fase para melhorá-lo para que sua fazenda de madeira continue crescendo.",
+      "why": "Por que consultar guias de machados?",
+      "whySteps": {
+        "step1Title": "Compare Machados",
+        "step1Description": "Descubra o poder de produção, atributos e preço de cada categoria de machado de Minha Fazenda de Madeira",
+        "step2Title": "Planeje Melhorias",
+        "step2Description": "Escolha o melhor machado para a sua fase atual de progressão em Minha Fazenda de Madeira",
+        "step3Title": "Melhore o Rendimento",
+        "step3Description": "Melhore para os machados mais rápidos e raros para cortar mais rápido e ganhar mais madeira"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Machados"
+    },
+    "trees": {
+      "title": "Árvores de Minha Fazenda de Madeira",
+      "description": "Banco de dados completo de árvores de Minha Fazenda de Madeira cobrindo tipos de árvores, durabilidade, rendimento de madeira, localizações e os melhores alvos para cada fase de machado.",
+      "metaTitle": "Árvores de Minha Fazenda de Madeira - Tipos, Rendimentos e Melhores Alvos de Farm",
+      "metaDescription": "Guias completos de árvores de Minha Fazenda de Madeira cobrindo tipos de árvores, durabilidade, rendimento de madeira, localizações, árvores raras e árvores gigantes. Encontre os melhores alvos e rotas de farm para cada fase de progressão.",
+      "categoryLabel": "ÁRVORES E RENDIMENTOS",
+      "whatIs": "O que são Árvores?",
+      "whatIsDescription": "Guias para cada alvo de árvore do My Wood Farm, incluindo árvores comuns, raras e gigantes. Aprenda sobre a durabilidade das árvores, rendimento de madeira, localizações e quais árvores combinam com o poder atual do seu machado.",
+      "why": "Por que estudar as árvores?",
+      "whySteps": {
+        "step1Title": "Conheça os Tipos de Árvores",
+        "step1Description": "Compare alvos de árvores comuns, raras e gigantes e seus rendimentos de madeira",
+        "step2Title": "Combine com seu Machado",
+        "step2Description": "Escolha alvos de árvores que correspondam ao estágio atual do seu machado no My Wood Farm",
+        "step3Title": "Farme com Eficiência",
+        "step3Description": "Use as melhores localizações e rotas de árvores para maximizar a madeira e o dinheiro por viagem"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Árvores"
+    },
+    "money": {
+      "title": "Dinheiro no My Wood Farm",
+      "description": "Domine o farm de dinheiro no My Wood Farm com métodos de dinheiro rápido, a melhor madeira para vender, preços de venda e classificações de valor de madeira para obter a renda máxima.",
+      "metaTitle": "Dinheiro no My Wood Farm - Melhor Guia de Venda de Madeira e Dinheiro",
+      "metaDescription": "Explore os métodos de farm de dinheiro no My Wood Farm, a melhor madeira para vender, preços de venda e valores de madeira. Transforme madeira em dinheiro mais rápido e aumente sua renda no My Wood Farm com estratégias comprovadas.",
+      "categoryLabel": "DINHEIRO E GRANA",
+      "whatIs": "O que é Farm de Dinheiro?",
+      "whatIsDescription": "Guias para o farm de dinheiro no My Wood Farm, cobrindo corte ativo, venda eficiente, a melhor madeira para vender, preços de venda e valores de madeira para sessões curtas e longas.",
+      "why": "Por que farmar dinheiro?",
+      "whySteps": {
+        "step1Title": "Ganhe Dinheiro Mais Rápido",
+        "step1Description": "Use os métodos mais rápidos do My Wood Farm para transformar madeira em dinheiro",
+        "step2Title": "Conheça os Valores da Madeira",
+        "step2Description": "Compare os valores da madeira e os preços de venda para vender a melhor madeira primeiro",
+        "step3Title": "Reinvista com Inteligência",
+        "step3Description": "Coloque o dinheiro ganho de volta em machados e upgrades para acumular renda no My Wood Farm"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Dinheiro"
+    },
+    "upgrades": {
+      "title": "Upgrades no My Wood Farm",
+      "description": "Domine a ordem de upgrades do My Wood Farm com prioridades de machado, produção, expansão de terreno e layout da fazenda, além de orientações de retorno.",
+      "metaTitle": "Upgrades no My Wood Farm - Melhor Ordem de Upgrades e Layouts",
+      "metaDescription": "Domine os upgrades do My Wood Farm com a melhor ordem de machado, produção e expansão de terreno, layouts de fazenda e custos de expansão. Aprenda as regras de gastos e o tempo de retorno para uma progressão eficiente.",
+      "categoryLabel": "ORDEM DE UPGRADES",
+      "whatIs": "O que são Upgrades?",
+      "whatIsDescription": "Guias para o sistema de upgrades do My Wood Farm, cobrindo rendimento do machado, densidade de produção, expansão de terreno e layouts de fazenda. Aprenda quais upgrades priorizar em cada estágio de progressão.",
+      "why": "Por que planejar os upgrades?",
+      "whySteps": {
+        "step1Title": "Priorize a Produção",
+        "step1Description": "Foque o dinheiro nos upgrades do My Wood Farm que aumentam a produção de madeira primeiro",
+        "step2Title": "Gerencie os Gastos",
+        "step2Description": "Equilibre as compras de machado, produção e terrenos com os custos de expansão",
+        "step3Title": "Crie Layouts Inteligentes",
+        "step3Description": "Use o melhor layout de fazenda para acomodar mais machados e aumentar a produção geral"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Upgrade"
+    },
+    "updates": {
+      "title": "Atualizações de Minha Fazenda de Madeira",
+      "description": "Acompanhe as atualizações de Minha Fazenda de Madeira, mudanças de balanceamento, novos machados, novas árvores e o registro de atualizações mais recente da experiência oficial.",
+      "metaTitle": "Atualizações de Minha Fazenda de Madeira - Notas do Patch e Novo Conteúdo",
+      "metaDescription": "Acompanhe as atualizações de Minha Fazenda de Madeira, incluindo mudanças de balanceamento, novos machados, novas árvores, mudanças na expansão do lote e o registro de atualizações mais recente da experiência oficial do Roblox e da comunidade Did I Axe.",
+      "categoryLabel": "ATUALIZAÇÕES E NOVIDADES",
+      "whatIs": "O que são Atualizações?",
+      "whatIsDescription": "Guias cobrindo mudanças de versão de Minha Fazenda de Madeira, novos machados, novas árvores, atualizações de balanceamento de produção e o registro de atualizações mais recente da experiência oficial do Roblox e da comunidade Did I Axe.",
+      "why": "Por que acompanhar as atualizações?",
+      "whySteps": {
+        "step1Title": "Mantenha-se Atualizado",
+        "step1Description": "Veja os machados, árvores e mudanças de balanceamento mais recentes de Minha Fazenda de Madeira",
+        "step2Title": "Ajuste a Estratégia",
+        "step2Description": "Atualize seus planos de upgrade e farm de dinheiro após cada mudança",
+        "step3Title": "Acompanhe os Anúncios",
+        "step3Description": "Siga as notícias oficiais para novos conteúdos de Minha Fazenda de Madeira e o registro de atualizações"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Atualização"
+    }
+  }
+}
