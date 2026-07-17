@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-wood-farm-wiki",
-  "compatibility_date": "2025-03-10",
+  "name": "scrap-mechanic-wiki",
+  "compatibility_date": "2026-07-16",
   // asset-only：无 main/worker 脚本，内容页由 Cloudflare 资产服务器直接返回 = 0 Worker CPU。
   // out/ 为 Next 静态导出产物；构建后已把默认语言 en 提升到根（保持无前缀 URL）。
   "assets": {
@@ -13,6 +13,7 @@
   //   禁用后 wrangler deploy 跳过 /subdomain 注册，规避 Cloudflare 间歇性 [code 10013] 导致 deploy 中断、route 未绑定（bee-swarm-simulator.wiki 首次部署踩坑）。
   "workers_dev": false,
   "routes": [
-    { "pattern": "www.my-wood-farm.wiki/*", "zone_name": "my-wood-farm.wiki" }
+    { "pattern": "scrapmechanicwiki.wiki/*", "zone_name": "scrapmechanicwiki.wiki" },
+    { "pattern": "www.scrapmechanicwiki.wiki/*", "zone_name": "scrapmechanicwiki.wiki" }
   ]
 }

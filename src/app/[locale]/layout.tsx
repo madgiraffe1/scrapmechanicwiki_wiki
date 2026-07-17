@@ -6,20 +6,8 @@ import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { getNavPreviewData } from '@/lib/nav-preview'
 import type { Language } from '@/lib/content'
-import { Geist, Geist_Mono } from 'next/font/google'
-import Script from 'next/script'
 import ClientBody from '../ClientBody'
 import Analytics from '@/components/Analytics'
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 type Props = {
   children: React.ReactNode;
@@ -37,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.my-wood-farm.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://scrapmechanicwiki.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -60,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "My Wood Farm Wiki",
+      siteName: "Scrap Mechanic Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
@@ -68,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "My Wood Farm - Idle Woodcutting Simulator",
+          alt: "Scrap Mechanic Wiki",
         },
       ],
     },
@@ -111,22 +99,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   const navPreviewData = await getNavPreviewData(locale as Language);
 
 	return (
-		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-			<head>
-				<meta name="google-adsense-account" content="ca-pub-7733402184034568" />
-				<Script
-					async
-					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733402184034568"
-					crossOrigin="anonymous"
-					strategy="lazyOnload"
-				/>
-			</head>
-			<body suppressHydrationWarning className="antialiased">
-				<Analytics />
-				<NextIntlClientProvider messages={messages}>
-					<ClientBody navPreviewData={navPreviewData}>{children}</ClientBody>
-				</NextIntlClientProvider>
-			</body>
-		</html>
+		<>
+			<Analytics />
+			<NextIntlClientProvider messages={messages}>
+				<ClientBody navPreviewData={navPreviewData}>{children}</ClientBody>
+			</NextIntlClientProvider>
+		</>
 	)
 }

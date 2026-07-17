@@ -1,0 +1,165 @@
+export const metadata = {
+  title: "Guia de portões lógicos do Scrap Mechanic: Desbloqueie Automação Avançada e Construções Criativas",
+  description: "Domine os portões lógicos do Scrap Mechanic para construir circuitos complexos e automatizar suas criações mais ousadas. Este guia cobre AND, OR, XOR e muito mais para mecânicos avançados.",
+  category: "building",
+  date: "2026-07-17",
+}
+
+## Desencadeando a Automação Criativa com Portões Lógicos do Scrap Mechanic
+
+Já sonhou em construir fábricas totalmente automatizadas, sistemas de segurança intrincados ou até mesmo computadores funcionais no Scrap Mechanic? A chave para desbloquear essas criações avançadas reside na compreensão e utilização dos **portões lógicos do Scrap Mechanic**. Esses componentes fundamentais permitem processar sinais binários, transformando entradas simples em comportamentos complexos e inteligentes para suas engenhocas.
+
+Seja você um construtor novato que busca adicionar automação básica ou um mecânico experiente que almeja máquinas altamente sofisticadas, dominar os **portões lógicos do Scrap Mechanic** é uma habilidade essencial. Este guia o acompanhará por tudo o que você precisa saber, desde suas funções básicas até aplicações avançadas, ajudando-o a elevar sua proeza de engenharia no mundo do Scrap Mechanic.
+
+## O Que Exatamente São os Portões Lógicos do Scrap Mechanic?
+
+No Scrap Mechanic, um Portão Lógico é um componente interativo que processa sinais binários. Pense nos sinais binários como estados simples LIGADO (1) ou DESLIGADO (0). Esses portões recebem entrada de várias fontes, como botões, interruptores, sensores ou temporizadores, e então produzem uma saída com base em sua lógica interna específica. Quando a saída de um Portão Lógico está LIGADA, sua face se ilumina, fornecendo um indicador visual claro de seu estado atual.
+
+Os Portões Lógicos são uma parte central da família de itens "Nó de Programa", projetados para imitar princípios de engenharia elétrica do mundo real. Eles são os blocos de construção para qualquer criação que exija tomada de decisão ou ações condicionais.
+
+Aqui está uma rápida visão geral das propriedades básicas de um Portão Lógico:
+
+| Propriedade     | Valor       |
+| :----------- | :---------- |
+| **Categoria** | Interativo |
+| **Peso**   | N/A         |
+| **Durabilidade** | N/A         |
+| **Fricção** | N/A         |
+| **Flutuabilidade** | N/A         |
+| **Inflamável**| Não          |
+
+## Os Seis Portões Lógicos Fundamentais Explicados
+
+Scrap Mechanic oferece seis tipos distintos de portões lógicos, cada um realizando uma operação única em suas entradas. Compreendê-los é crucial para projetar circuitos eficazes. Você pode selecionar o tipo de portão específico na interface do bloco, e o tipo escolhido será exibido na face do portão.
+
+Vamos detalhar cada tipo:
+
+### 1. Portão AND
+
+O portão AND produz um sinal LIGADO *somente se* todas as suas entradas estiverem LIGADAS. Se houver sequer uma entrada DESLIGADA, a saída permanece DESLIGADA. Ele exige que múltiplas condições sejam satisfeitas simultaneamente.
+
+### 2. Portão OR
+
+O portão OR produz um sinal LIGADO *se pelo menos uma* de suas entradas estiver LIGADA. Ele só produz DESLIGADO se todas as entradas estiverem DESLIGADAS. Isso é útil quando qualquer uma de várias condições deve acionar uma ação.
+
+### 3. Portão XOR (OU Exclusivo)
+
+O portão XOR produz um sinal LIGADO *se um número ímpar* de suas entradas estiver LIGADO. Para duas entradas, isso significa que a saída está LIGADA se uma entrada estiver LIGADA e a outra DESLIGADA. Se ambas estiverem LIGADAS ou ambas DESLIGADAS, a saída está DESLIGADA.
+
+### 4. Portão NAND (NÃO E)
+
+O portão NAND é o inverso do portão AND. Ele produz um sinal LIGADO *a menos que todas* as suas entradas estejam LIGADAS. Se todas as entradas estiverem LIGADAS, a saída está DESLIGADA.
+
+### 5. Portão NOR (NÃO OU)
+
+O portão NOR é o inverso do portão OR. Ele produz um sinal LIGADO *somente se todas* as suas entradas estiverem DESLIGADAS. Se qualquer entrada estiver LIGADA, a saída está DESLIGADA.
+
+### 6. Portão XNOR (NÃO OU Exclusivo)
+
+O portão XNOR é o inverso do portão XOR. Ele produz um sinal LIGADO *se um número par* de suas entradas estiver LIGADO. Para duas entradas, isso significa que a saída está LIGADA se ambas as entradas estiverem LIGADAS ou ambas DESLIGADAS. Se apenas uma estiver LIGADA, a saída está DESLIGADA.
+
+Para visualizar melhor suas funções, aqui está uma tabela verdade para portões de duas entradas (A e B são entradas, C é saída):
+
+| Entrada A | Entrada B | AND (C) | OR (C) | XOR (C) | NAND (C) | NOR (C) | XNOR (C) |
+| :------ | :------ | :------ | :----- | :------ | :------- | :------ | :------- |
+| 0 (DESL) | 0 (DESL) | 0 (DESL) | 0 (DESL) | 0 (DESL) | 1 (LIG)   | 1 (LIG)  | 1 (LIG)   |
+| 0 (DESL) | 1 (LIG)  | 0 (DESL) | 1 (LIG)  | 1 (LIG)  | 1 (LIG)   | 0 (DESL) | 0 (DESL)  |
+| 1 (LIG)  | 0 (DESL) | 0 (DESL) | 1 (LIG)  | 1 (LIG)  | 1 (LIG)   | 0 (DESL) | 0 (DESL)  |
+| 1 (LIG)  | 1 (LIG)  | 1 (LIG)  | 1 (LIG)  | 0 (DESL) | 0 (DESL)  | 0 (DESL) | 1 (LIG)   |
+
+## Conectando e Usando Portões Lógicos em Suas Construções
+
+Usar os **portões lógicos do Scrap Mechanic** envolve entender o fluxo de sinais. As entradas devem ser conectadas *em* um Portão Lógico, e as saídas devem ser conectadas *do* Portão Lógico para outros componentes. A ferramenta de conexão é sua melhor amiga aqui, permitindo que você estabeleça esses caminhos cruciais.
+
+Por exemplo, considere uma porta simples de dois botões, um exemplo clássico encontrado no manual do jogo. Você pode querer que a porta se abra somente se *ambos* os botões forem pressionados. Isso exigiria um portão AND.
+
+1.  Coloque dois botões e um portão AND.
+2.  Conecte ambos os botões como entradas ao portão AND.
+3.  Conecte a saída do portão AND a um motor ou um rolamento que controla a porta.
+4.  Agora, a porta só será ativada quando ambos os botões forem pressionados simultaneamente.
+
+A beleza desses componentes reside em sua modularidade. Você pode encadear vários portões lógicos para criar condições cada vez mais complexas. Por exemplo, você poderia ter um sistema onde "Botão A E Botão B" OU "Sensor C" aciona um evento. É aqui que sua criatividade realmente brilha, ao projetar cérebros digitais intrincados para suas maravilhas mecânicas.
+
+## Aplicações Avançadas: Além dos Interruptores Simples
+
+Embora portas simples sejam um ótimo ponto de partida, o verdadeiro poder dos **portões lógicos do Scrap Mechanic** emerge em aplicações mais avançadas. Eles são a espinha dorsal de sistemas automatizados complexos, variando de linhas de fábrica sofisticadas a estruturas interativas.
+
+### Circuitos de Memória (Latches e Flip-Flops)
+
+Um dos usos avançados mais fascinantes é a criação de circuitos de memória, como latches ou flip-flops. Ao realimentar os Portões Lógicos em si mesmos, você pode projetar circuitos que "lembram" um estado (LIGADO ou DESLIGADO) mesmo após a entrada inicial ser removida. Isso permite interruptores de alternância, operações sequenciais e até mesmo armazenamento básico de dados dentro de suas criações. Por exemplo, um simples Latch SR (Set-Reset) pode ser construído usando dois portões NOR, permitindo que você ligue algo com um botão e desligue com outro, e ele permanecerá nesse estado até que o botão oposto seja pressionado.
+
+### Temporização e Atrasos
+
+É importante notar que cada Portão Lógico possui um atraso de saída minúsculo de 1 tick (0,025 segundos). Embora aparentemente insignificante, esse atraso pode ser crítico em circuitos muito rápidos ou precisamente cronometrados. Compreender e contabilizar esses atrasos pode prevenir comportamentos inesperados em sistemas sequenciais complexos.
+
+### Ferramentas Externas para Designs Complexos
+
+Para aqueles que planejam construções realmente elaboradas com lógica extensa, relatórios da comunidade sugerem que ferramentas externas como um "Scrap Mechanic Logic Gate Simulator" podem ser incrivelmente úteis. Esses simuladores permitem que você projete e teste seus circuitos lógicos fora do jogo, garantindo que funcionem corretamente antes de se comprometer a construí-los no jogo. Isso pode economizar inúmeras horas de solução de problemas.
+
+Para explorar mais sobre o mundo do Scrap Mechanic e suas possibilidades de construção, confira a página oficial do Steam: [Scrap Mechanic no Steam](https://store.steampowered.com/app/387990/Scrap_Mechanic/).
+
+## Criando Seus Portões Lógicos
+
+Antes de começar a montar circuitos complexos, você precisará criar seus Portões Lógicos. A receita é direta e requer recursos comuns, tornando-os acessíveis mesmo no início de suas aventuras de construção.
+
+Aqui está o que você precisará:
+
+| Componente       | Quantidade |
+| :-------------- | :------- |
+| Bloco de Metal     | 1        |
+| Placa de Circuito   | 1        |
+| Cola            | 1        |
+
+Você cria Portões Lógicos em um Craftbot. O tempo base de criação é 00:20, mas isso pode ser reduzido para 00:12 se seu Craftbot estiver no Nível 5. Estocar esses componentes é uma boa ideia se você planeja mergulhar fundo na automação avançada.
+
+## Compreendendo o Comportamento de Salvar/Carregar para Circuitos Complexos
+
+Para construtores que trabalham com circuitos de memória ou temporizadores persistentes, entender como os **portões lógicos do Scrap Mechanic** lidam com os estados de salvar e carregar é absolutamente crítico. Esse comportamento às vezes pode ser contra-intuitivo e levar a resultados inesperados se não for devidamente considerado.
+
+Ao contrário do que você pode esperar, os Portões Lógicos e interruptores não necessariamente salvam seu estado exato quando você sai e recarrega, nem sempre são zerados. Em vez disso, eles restauram para o estado em que estavam na última vez que uma das seguintes ações ocorreu:
+
+*   **Retirar a construção de um elevador:** Esta ação salva o estado de todos os portões lógicos e interruptores nessa criação.
+*   **Pintar o portão lógico/interruptor:** Alterar sua cor também aciona um salvamento de estado.
+*   **Fazer ou excluir uma conexão com o portão lógico/interruptor:** Qualquer modificação em sua fiação salva seu estado atual.
+*   **(Somente no modo Sobrevivência) Sair da área onde a construção estava localizada:** Descarregar o "chunk" salva o estado.
+
+### O Fenômeno do "Estado Glitchado"
+
+Relatórios da comunidade frequentemente descrevem um "estado glitchado" quando criações com circuitos de memória são colocadas em um elevador. Esta ação *limpa* o estado salvo de todos os interruptores e portões lógicos, fazendo com que os circuitos de memória se comportem erraticamente (por exemplo, piscando descontroladamente). Se você então interagir com o circuito enquanto ele está no elevador e *então* o retirar, esse novo estado se torna seu estado salvo. Isso significa que se você recarregar o jogo mais tarde, ele reverterá para o estado em que estava quando foi retirado do elevador pela última vez, não necessariamente o estado em que estava quando você saiu.
+
+**Nota Importante:** Este comportamento específico de salvar/carregar *não* se aplica a Temporizadores. Os Temporizadores salvam seu estado com base em quando foram descarregados pela última vez, o que pode levar a sinais "verdadeiros" de um único tick em sequências que deveriam ser longos períodos de sinais "falsos", ou vice-versa, ao recarregar.
+
+Construtores de sistemas complexos precisam projetar seus circuitos com esse comportamento em mente, talvez incorporando um mecanismo de "reset" ou garantindo que estados críticos sejam restabelecidos ao carregar.
+
+## Conclusão: Construa Suas Obras-Primas Mecânicas
+
+O mundo dos **portões lógicos do Scrap Mechanic** oferece uma profundidade incrível de possibilidades criativas. Desde a automação de portas simples até a engenharia de sistemas de memória complexos e a transformação de veículos, esses pequenos blocos interativos permitem que você dê vida inteligente às suas criações. Ao compreender cada tipo de portão, dominar as técnicas de conexão e considerar comportamentos avançados como estados de salvar/carregar, você estará no caminho certo para se tornar um verdadeiro maestro mecânico.
+
+Então, junte seus blocos de metal, placas de circuito e cola, e comece a experimentar. O único limite é a sua imaginação!
+
+## Perguntas Frequentes (FAQ)
+
+### P: Quais são os tipos básicos de portões lógicos do Scrap Mechanic?
+R: Scrap Mechanic apresenta seis tipos fundamentais de portões lógicos: AND, OR, XOR, e suas contrapartes inversas, NAND, NOR e XNOR. Cada portão executa uma operação específica em sinais de entrada binários (LIGADO/DESLIGADO) para produzir um único sinal de saída.
+
+### P: Os portões lógicos podem ser usados para criar memória no Scrap Mechanic?
+R: Sim, absolutamente! Ao realimentar a saída de um portão lógico em sua entrada, ou conectando vários portões em configurações específicas, você pode criar circuitos de memória como latches e flip-flops. Esses circuitos podem "lembrar" um estado LIGADO ou DESLIGADO, permitindo lógica sequencial complexa e interruptores de alternância.
+
+### P: Como o comportamento de salvar/carregar afeta meus circuitos lógicos?
+R: O comportamento de salvar/carregar para os **portões lógicos do Scrap Mechanic** pode ser complicado. Os portões lógicos e interruptores geralmente restauram para o estado em que estavam quando você realizou ações específicas pela última vez, como retirar uma construção de um elevador, pintar o portão ou modificar suas conexões. Colocar uma criação em um elevador limpará o estado de seus portões lógicos, potencialmente levando a um comportamento "glitchado" para circuitos de memória ao recarregar.
+
+### P: O que é o Controlador e como ele difere dos Portões Lógicos?
+R: O Controlador no Scrap Mechanic é um componente distinto usado principalmente para movimentos mecânicos sequenciais, especialmente envolvendo rolamentos. Ele permite programar uma série de rotações para até 10 rolamentos, cada um com 10 passos, possibilitando animações complexas como veículos transformáveis ou portas automáticas. Os portões lógicos, por outro lado, são projetados para processar sinais binários (LIGADO/DESLIGADO) e tomar decisões lógicas com base nas entradas, em vez de controlar sequências de movimento. Embora ambos sejam cruciais para construções avançadas, eles servem a funções primárias diferentes.
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: "What should I read next on Scrap Mechanic Wiki?",
+    answer: "Start with the related guides in this category, then move into survival, building, vehicles, bots, mods, multiplayer, or updates depending on what you want to improve next."
+  },
+  {
+    question: "Is this Scrap Mechanic guide official?",
+    answer: "This is an unofficial fan-made guide. Always check the official Scrap Mechanic site, Steam page, and Axolot Games channels for official announcements."
+  }
+]} />

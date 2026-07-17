@@ -1,28 +1,29 @@
 {
   "seo": {
     "home": {
-      "title": "My Wood Farm Wiki - Codes, Axes & Rebirth Guide",
-      "description": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides.",
-      "keywords": "My Wood Farm, Roblox, codes, axes, rebirth, upgrades, trees, cash, offline farming",
-      "ogTitle": "My Wood Farm Wiki - Codes, Axes & Rebirth Guide",
-      "ogDescription": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides.",
-      "twitterTitle": "My Wood Farm Wiki - Codes, Axes & Rebirth Guide",
-      "twitterDescription": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides."
+      "title": "Scrap Mechanic Wiki - Survival, Building & Vehicle Guides",
+      "description": "Scrap Mechanic Wiki with survival guides, building tutorials, vehicle designs, bot strategies, mods, multiplayer setup, updates, and beginner progression.",
+      "keywords": "Scrap Mechanic, Scrap Mechanic Wiki, survival, building, vehicles, bots, mods, multiplayer, updates",
+      "ogTitle": "Scrap Mechanic Wiki - Survival, Building & Vehicle Guides",
+      "ogDescription": "Scrap Mechanic Wiki with survival guides, building tutorials, vehicle designs, bot strategies, mods, multiplayer setup, updates, and beginner progression.",
+      "twitterTitle": "Scrap Mechanic Wiki - Survival, Building & Vehicle Guides",
+      "twitterDescription": "Scrap Mechanic Wiki with survival guides, building tutorials, vehicle designs, bot strategies, mods, multiplayer setup, updates, and beginner progression."
     }
   },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "axes": "Axes",
-    "trees": "Trees",
-    "money": "Money",
-    "upgrades": "Upgrades",
+    "guide": "Guides",
+    "survival": "Survival",
+    "building": "Building",
+    "vehicles": "Vehicles",
+    "bots": "Bots",
+    "mods": "Mods",
+    "multiplayer": "Multiplayer",
     "updates": "Updates"
   },
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Roblox",
+    "playNow": "Play now",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -35,597 +36,318 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Idle Woodcutting Simulator",
-    "title": "My Wood Farm Wiki",
-    "description": "Chop trees for wood, upgrade and expand your plot, sell wood for cash, and keep earning while offline as your axes continue farming.",
-    "getFreeCodesCTA": "Check Codes",
-    "playOnRobloxCTA": "Play on Roblox",
+    "badge": "Creative survival sandbox",
+    "title": "Scrap Mechanic Wiki",
+    "description": "Build transforming vehicles, survive hostile bots, automate farms, explore with friends, and learn the systems that make Scrap Mechanic creations reliable.",
+    "getFreeCodesCTA": "Read Guides",
+    "playOnRobloxCTA": "Open Steam Page",
+    "playOnSteamCTA": "Open Steam Page",
+    "readGuidesCTA": "Read Guides",
     "stats": {
       "stat1": {
-        "value": "69K+",
-        "label": "Total Visits"
+        "value": "2016",
+        "label": "Early Access"
       },
       "stat2": {
-        "value": "96.98%",
-        "label": "Player Rating"
+        "value": "Survival",
+        "label": "Core Mode"
       },
       "stat3": {
-        "value": "22.23 min",
-        "label": "Average Session"
+        "value": "Co-op",
+        "label": "Multiplayer"
       },
       "stat4": {
-        "value": "May 31, 2026",
-        "label": "Release Date"
+        "value": "Steam",
+        "label": "Platform"
       }
     }
   },
   "gameFeature": {
-    "title": "My Wood Farm Gameplay",
-    "description": "Chop trees for wood, sell for cash, upgrade axes, expand your plot and keep earning while offline in this idle woodcutting simulator on Roblox."
+    "title": "Scrap Mechanic - Survival Trailer",
+    "description": "Build transforming vehicles, survive hostile bots, automate farms, explore with friends, and learn the systems that make Scrap Mechanic creations reliable."
   },
   "tools": {
-    "title": "My Wood Farm",
+    "title": "Scrap Mechanic",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to build a productive wood farm, from codes and axes to upgrades, plot expansion and offline earnings",
+    "subtitle": "Focused guides for builders, survival players, vehicle designers, mod users, and co-op groups.",
     "cards": [
       {
-        "icon": "Ticket",
-        "title": "My Wood Farm Codes",
-        "description": "Current code status and where future rewards will appear"
-      },
-      {
         "icon": "BookOpen",
-        "title": "My Wood Farm Beginner Guide",
-        "description": "First-session chopping, selling and upgrading loop"
+        "title": "Guides",
+        "description": "Core Scrap Mechanic guides for beginners, controls, gameplay, reviews, and general progression."
       },
       {
-        "icon": "Axe",
-        "title": "My Wood Farm Axe Tier List",
-        "description": "Rank every axe category from wooden to magical"
+        "icon": "Shield",
+        "title": "Survival",
+        "description": "Survival mode routes for farming, raids, quests, maps, resources, and base planning."
       },
       {
-        "icon": "Coins",
-        "title": "My Wood Farm Money Farming",
-        "description": "Fastest ways to turn wood into cash"
+        "icon": "Hammer",
+        "title": "Building",
+        "description": "Building guides for bearings, engines, suspension, pistons, logic gates, and reliable contraptions."
       },
       {
-        "icon": "TreePine",
-        "title": "My Wood Farm Trees & Values",
-        "description": "Tree, stump and giant tree targets and wood values"
+        "icon": "Car",
+        "title": "Vehicles",
+        "description": "Vehicle guides for cars, tanks, planes, helicopters, trains, and stable mechanical layouts."
       },
       {
-        "icon": "ArrowUpCircle",
-        "title": "My Wood Farm Upgrade Order",
-        "description": "Best axe, production and plot upgrade priorities"
+        "icon": "Bot",
+        "title": "Bots",
+        "description": "Enemy and bot guides covering Totebots, Haybots, Farmbots, combat threats, and raid pressure."
       },
       {
-        "icon": "Expand",
-        "title": "My Wood Farm Plot Expansion",
-        "description": "Unlock land and lay out a larger wood farm"
+        "icon": "Puzzle",
+        "title": "Mods",
+        "description": "Workshop and modding guides for survival mods, VR experiments, and useful community add-ons."
       },
       {
-        "icon": "Moon",
-        "title": "My Wood Farm Offline Earnings",
-        "description": "Passive wood production and latest updates"
+        "icon": "Users",
+        "title": "Multiplayer",
+        "description": "Multiplayer and dedicated server guides for co-op worlds, hosting, and shared builds."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Updates",
+        "description": "Release, trailer, system requirement, platform, and latest update coverage for Scrap Mechanic."
       }
     ]
   },
-  "modules": {
-    "woodFarmCodes": {
-      "title": "My Wood Farm Codes",
-      "eyebrow": "Free Rewards",
-      "intro": "My Wood Farm currently has no active reward codes or public code redemption menu. The official Roblox experience and the Did I Axe developer community are the main places to check for future code releases.",
-      "cards": [
-        {
-          "icon": "Ticket",
-          "status": "No Active Codes",
-          "reward": "No code rewards are currently available",
-          "action": "Check again after game updates"
-        },
-        {
-          "icon": "Clock",
-          "status": "No Expired Codes",
-          "reward": "No previously released public codes are listed",
-          "action": "Watch the developer community for announcements"
-        },
-        {
-          "icon": "Gift",
-          "status": "Redemption System",
-          "reward": "The game does not currently list a code redemption feature",
-          "action": "Future codes will require an in-game redemption menu"
-        }
-      ]
-    },
-    "woodFarmBeginnerGuide": {
-      "title": "My Wood Farm Beginner Guide",
-      "eyebrow": "Getting Started",
-      "intro": "Your first goal is to turn trees into wood, sell that wood for cash and reinvest the money into stronger axes and farm expansion. Focus on production upgrades early because your axes can also continue farming wood while you are offline.",
-      "steps": [
-        {
-          "icon": "Axe",
-          "title": "Start Chopping Trees",
-          "description": "Equip your starting axe and chop the trees available on your plot. Keep chopping until you have enough wood to make your first useful sale.",
-          "tip": "Stay close to the trees on your own plot to keep the first session simple."
-        },
-        {
-          "icon": "Coins",
-          "title": "Sell Your Wood",
-          "description": "Convert the wood you produce into cash. Selling regularly gives you the money needed for axes, upgrades and plot progression.",
-          "tip": "Do not leave usable wood sitting unsold when you are close to affording an upgrade."
-        },
-        {
-          "icon": "ArrowUpCircle",
-          "title": "Buy a Better Axe",
-          "description": "Spend your first savings on an axe upgrade that improves your wood production. Stronger axe progression is the main route from slow early chopping to larger amounts of wood.",
-          "tip": "Prioritize production before saving for expensive late-game axe categories."
-        },
-        {
-          "icon": "RefreshCw",
-          "title": "Repeat the Production Loop",
-          "description": "Chop more trees with the upgraded axe, sell the additional wood and reinvest the higher income. Each completed cycle should move the farm toward the next upgrade faster.",
-          "tip": "Compare how quickly each new axe helps you reach the following purchase."
-        },
-        {
-          "icon": "Expand",
-          "title": "Upgrade and Expand the Plot",
-          "description": "Use cash to improve and expand your farm plot as new progression options become affordable. Plot development works alongside axe upgrades as part of the main game loop.",
-          "tip": "Keep enough cash available for production upgrades instead of spending everything at once."
-        },
-        {
-          "icon": "Moon",
-          "title": "Use Offline Wood Production",
-          "description": "Your axes continue farming wood while you are offline. Return after a break, sell the additional production and use the cash to continue upgrading.",
-          "tip": "Offline farming is especially useful when you cannot stay in an active chopping session."
-        }
-      ]
-    },
-    "woodFarmAxeTierList": {
-      "title": "My Wood Farm Axe Tier List",
-      "eyebrow": "Equipment Rankings",
-      "intro": "Axes determine how quickly your farm can produce wood during active play and offline farming. Upgrade through the early axe levels first, then target rare, legendary and magical axe categories as your cash production increases.",
-      "tiers": [
-        {
-          "tier": "S",
-          "label": "Best Late-Game",
-          "icon": "Sparkles",
-          "name": "Magical Axes",
-          "best_for": "Endgame wood production",
-          "description": "The highest progression category shown in current My Wood Farm gameplay. These axes are the main long-term target after building a strong cash-producing farm."
-        },
-        {
-          "tier": "A",
-          "label": "Excellent",
-          "icon": "Crown",
-          "name": "Legendary Axes",
-          "best_for": "Major late-game upgrades",
-          "description": "Powerful rare upgrades that provide a major step beyond normal axe progression. Legendary axes are strong targets before moving into magical axe levels."
-        },
-        {
-          "tier": "B",
-          "label": "Strong Progression",
-          "icon": "Star",
-          "name": "Rare Axes",
-          "best_for": "Mid-game farming",
-          "description": "Useful progression upgrades for players who have moved beyond starter equipment but are still building enough income for legendary or magical axes."
-        },
-        {
-          "tier": "C",
-          "label": "Starter",
-          "icon": "Axe",
-          "name": "Wooden Axe",
-          "best_for": "First-session chopping",
-          "description": "The basic starting point for chopping trees and earning initial cash. Replace it after your farm can comfortably afford a stronger production upgrade."
-        }
-      ]
-    },
-    "woodFarmMoneyFarming": {
-      "title": "Best Ways to Make Money in My Wood Farm",
-      "eyebrow": "Cash Guide",
-      "intro": "The fastest money progression comes from repeatedly converting wood into cash and reinvesting that cash into production. Active chopping works best during short focused sessions, while upgraded axes and offline farming continue supporting longer-term growth.",
-      "methods": [
-        {
-          "icon": "ArrowUpCircle",
-          "name": "Upgrade Your Axe Early",
-          "priority": 1,
-          "session_type": "All sessions",
-          "description": "A stronger axe improves the core wood-production loop and helps each future sale contribute more toward the next upgrade.",
-          "action": "Use early cash for practical axe progression instead of holding it without a target."
-        },
-        {
-          "icon": "Axe",
-          "name": "Actively Chop Trees",
-          "priority": 2,
-          "session_type": "Short active sessions",
-          "description": "Continuous chopping provides immediate wood and lets you earn cash without waiting for offline production.",
-          "action": "Keep moving between available trees and minimize time spent away from production."
-        },
-        {
-          "icon": "Coins",
-          "name": "Sell Wood Regularly",
-          "priority": 3,
-          "session_type": "Active progression",
-          "description": "Wood only advances your farm after it is converted into cash. Regular sales make upgrades available sooner and keep the progression loop moving.",
-          "action": "Sell when the current wood amount brings you close to an axe or plot upgrade."
-        },
-        {
-          "icon": "Expand",
-          "name": "Expand and Improve the Plot",
-          "priority": 4,
-          "session_type": "Long-term progression",
-          "description": "Plot upgrades and expansion are part of the official progression loop and support the growth of your overall wood farm.",
-          "action": "Balance plot spending with axe purchases so production continues improving."
-        },
-        {
-          "icon": "Moon",
-          "name": "Use Offline Axe Farming",
-          "priority": 5,
-          "session_type": "Long breaks and overnight",
-          "description": "Axes continue farming wood while you are offline, allowing the farm to produce resources between active sessions.",
-          "action": "Upgrade before logging off so your current axe progression contributes to offline production."
-        }
-      ]
-    },
-    "woodFarmTreesAndValues": {
-      "title": "My Wood Farm Trees, Stumps and Wood Values",
-      "eyebrow": "Tree Database",
-      "intro": "My Wood Farm begins with regular trees and gradually introduces stronger targets such as stumps and giant trees. Stronger axes and a larger production setup reduce chopping time and help turn each farming cycle into more wood and cash.",
-      "columns": [
-        "Target",
-        "Durability",
-        "Wood Yield",
-        "Selling Value",
-        "Best Stage"
-      ],
-      "rows": [
-        {
-          "icon": "TreePine",
-          "target": "Regular Tree",
-          "durability": "Low",
-          "wood_yield": "Standard",
-          "selling_value": "Base cash return",
-          "recommended_progression": "Early game",
-          "notes": "The main target for starting the chop, collect, sell and upgrade loop."
-        },
-        {
-          "icon": "Sprout",
-          "target": "Tree Stump",
-          "durability": "High",
-          "wood_yield": "Higher-value production target",
-          "selling_value": "Improved cash return per completed target",
-          "recommended_progression": "Mid to late game",
-          "notes": "Stumps are designed for stronger axe progression and take more production power than regular trees."
-        },
-        {
-          "icon": "Trees",
-          "target": "Giant Tree",
-          "durability": "Very high",
-          "wood_yield": "Large production target",
-          "selling_value": "Major cash return after completion",
-          "recommended_progression": "Late game",
-          "notes": "A long-duration target that benefits from placing more axes and improving total farm output."
-        }
-      ]
-    },
-    "woodFarmUpgradeOrder": {
-      "title": "Best My Wood Farm Upgrade Order",
-      "eyebrow": "Progression Guide",
-      "intro": "The most efficient progression keeps cash moving back into upgrades that increase wood production. Compare purchases by measuring how much extra cash they generate instead of buying every available upgrade immediately.",
-      "steps": [
-        {
-          "icon": "Axe",
-          "stage": "Start the Cash Loop",
-          "priority": "Use the starting Wooden Axe",
-          "action": "Chop regular trees, collect the wood and sell it for cash.",
-          "why": "This establishes the basic production rate used to judge every later upgrade.",
-          "spend_rule": "Complete several sales before making the first major purchase."
-        },
-        {
-          "icon": "ArrowUpCircle",
-          "stage": "Improve Axe Output",
-          "priority": "Buy an affordable axe improvement",
-          "action": "Upgrade the axe that is actively producing wood before spending heavily on extra space.",
-          "why": "Faster or stronger axes complete tree targets sooner and increase cash earned during each session.",
-          "spend_rule": "Prioritize upgrades that create an immediate increase in wood production."
-        },
-        {
-          "icon": "Layers",
-          "stage": "Increase Production Density",
-          "priority": "Add more working axes",
-          "action": "Fill useful positions on the current plot so multiple axes can contribute to production.",
-          "why": "Additional axes increase total active output and continue contributing to offline wood production.",
-          "spend_rule": "Use existing plot space before paying for expansion that would remain empty."
-        },
-        {
-          "icon": "Expand",
-          "stage": "Expand the Plot",
-          "priority": "Purchase more land when the current area is full",
-          "action": "Open additional plot space and place new axes without blocking access to trees or the selling route.",
-          "why": "Expansion raises the number of production positions available for a larger farm.",
-          "spend_rule": "Expand when the next axe cannot be placed efficiently on the current plot."
-        },
-        {
-          "icon": "Crown",
-          "stage": "Target Stumps and Giant Trees",
-          "priority": "Move into magical and legendary axe progression",
-          "action": "Use high-tier axes and a larger setup against durable stumps and giant trees.",
-          "why": "Late-game targets require more chopping power and reward farms built around stronger axes.",
-          "spend_rule": "Calculate payback time as upgrade cost divided by the extra cash earned per minute."
-        }
-      ]
-    },
-    "woodFarmPlotExpansion": {
-      "title": "My Wood Farm Plot Expansion and Layout Guide",
-      "eyebrow": "Farm Expansion",
-      "intro": "Plot expansion is a core part of My Wood Farm progression. Additional land becomes most valuable when the existing plot is already producing efficiently and the new area can immediately support more axes.",
-      "items": [
-        {
-          "title": "Expansion Currency and Progression",
-          "content": "Plot expansion is funded with cash earned by selling wood. Continue completing tree cycles and reinvesting the sale income until the next expansion purchase becomes available."
-        },
-        {
-          "title": "Best Time to Expand",
-          "content": "Expand after the useful axe positions on the current plot are occupied. Buying land too early leaves cash tied up in empty space instead of increasing wood output."
-        },
-        {
-          "title": "Early Plot Layout",
-          "content": "Keep axes close to regular tree targets and maintain a clear route for collecting and selling wood. Group the first production positions together so upgrades are easy to monitor."
-        },
-        {
-          "title": "Expanded Farm Layout",
-          "content": "Use newly opened outer space for additional axes while keeping the center clear for movement and larger targets. Build in compact production groups instead of spreading single axes across the entire plot."
-        },
-        {
-          "title": "Stump and Giant Tree Area",
-          "content": "Reserve an open section for durable stumps and giant trees. These targets work best with several upgraded axes contributing from nearby positions."
-        },
-        {
-          "title": "Expansion Purchase Checklist",
-          "content": "Before buying land, confirm that the current plot is filled, enough cash remains for another axe and the new space can be used immediately. Expansion should increase production rather than only increase farm size."
-        }
-      ]
-    },
-    "woodFarmOfflineEarnings": {
-      "title": "My Wood Farm Offline Earnings and Latest Updates",
-      "eyebrow": "Passive Production",
-      "intro": "Offline production lets the farm keep generating wood between play sessions. A larger collection of upgraded axes improves the value of each return, while the official Roblox experience and Did I Axe community provide the main locations for game changes and announcements.",
-      "cards": [
-        {
-          "icon": "Moon",
-          "title": "Offline Wood Production",
-          "category": "Core Mechanic",
-          "value": "Axes continue farming wood while the player is offline",
-          "details": "Place and upgrade productive axes before leaving so the farm is prepared to generate wood during the break."
-        },
-        {
-          "icon": "Calculator",
-          "title": "Offline Earnings Formula",
-          "category": "Calculator",
-          "value": "Offline wood gained = wood after returning minus wood before leaving",
-          "details": "Divide the wood gained by the number of offline minutes or hours to calculate the farm's average passive production rate."
-        },
-        {
-          "icon": "Coins",
-          "title": "Estimated Cash Value",
-          "category": "Calculator",
-          "value": "Estimated cash = offline wood gained multiplied by cash earned per wood",
-          "details": "Use the current selling return shown during a normal sale to estimate how much the offline production cycle is worth."
-        },
-        {
-          "icon": "ArrowUpCircle",
-          "title": "Best Before-Logout Routine",
-          "category": "Efficiency",
-          "value": "Upgrade, place axes, record wood and then leave",
-          "details": "Spend available cash on useful production improvements, confirm every axe is placed and record the starting wood total before ending the session."
-        },
-        {
-          "icon": "RefreshCw",
-          "title": "Best Return Routine",
-          "category": "Efficiency",
-          "value": "Collect, sell, upgrade and expand",
-          "details": "Claim the produced wood, convert it into cash and reinvest the earnings into the next axe, production improvement or plot expansion."
-        },
-        {
-          "icon": "Sparkles",
-          "title": "Official Update Tracking",
-          "category": "Updates",
-          "value": "Roblox experience page and Did I Axe community",
-          "details": "Check these sources for changes involving axes, trees, production balance, plot expansion and other newly added systems."
-        }
-      ]
-    }
+  "homeHighlights": {
+    "cards": [
+      {
+        "icon": "Wrench",
+        "title": "Build systems that hold together",
+        "description": "Learn how bearings, engines, suspension, controllers, and logic pieces combine into stable machines."
+      },
+      {
+        "icon": "Shield",
+        "title": "Survive the pressure curve",
+        "description": "Plan farms, raids, quests, and resource loops so survival mode keeps moving instead of stalling."
+      },
+      {
+        "icon": "Car",
+        "title": "Tune vehicles by purpose",
+        "description": "Compare cars, tanks, aircraft, trains, and utility platforms by stability, steering, and power."
+      },
+      {
+        "icon": "Users",
+        "title": "Share worlds with less friction",
+        "description": "Use multiplayer and server guides to keep co-op builds, saves, and sessions organized."
+      }
+    ]
   },
+  "modules": {},
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about My Wood Farm",
+    "subtitle": "Quick answers for new and returning Scrap Mechanic players.",
     "questions": [
       {
-        "question": "What is My Wood Farm?",
-        "answer": "My Wood Farm is an idle woodcutting simulator on Roblox where you chop trees for wood, sell wood for cash, upgrade axes, expand your plot and keep earning while offline as your axes continue farming."
+        "question": "What is Scrap Mechanic?",
+        "answer": "Scrap Mechanic is a creative sandbox and survival game from Axolot Games where players build machines, vehicles, bases, farms, and automated systems from interactive parts."
       },
       {
-        "question": "Are there any My Wood Farm codes?",
-        "answer": "My Wood Farm currently has no active reward codes or public code redemption menu. New codes, when added by the Did I Axe developers, will appear inside the game and through the official Roblox experience page."
+        "question": "Does Scrap Mechanic have survival mode?",
+        "answer": "Yes. Survival mode adds resource gathering, farming, bots, raids, crafting, exploration, and progression on top of the building sandbox."
       },
       {
-        "question": "Do axes keep farming in My Wood Farm while you are offline?",
-        "answer": "Yes. In My Wood Farm your placed axes continue farming wood while you are offline, so returning after a break lets you sell the extra wood and reinvest the cash into more upgrades."
+        "question": "Can I play Scrap Mechanic with friends?",
+        "answer": "Yes. Scrap Mechanic supports co-op multiplayer, and the wiki includes multiplayer and dedicated server guidance for shared worlds."
       },
       {
-        "question": "What is the best axe in My Wood Farm?",
-        "answer": "The strongest long-term target in My Wood Farm is the magical axe category, reached after progressing through wooden, rare and legendary axes. Early on, any affordable axe upgrade that raises wood production is the best choice."
+        "question": "Where should beginners start?",
+        "answer": "Start with the beginner guide, then learn survival basics, bearings, engines, suspension, and simple vehicle layouts before moving into complex logic builds."
       },
       {
-        "question": "How do I make money fast in My Wood Farm?",
-        "answer": "The fastest money in My Wood Farm comes from chopping trees, selling wood regularly and reinvesting the cash into axe and production upgrades, then letting offline axe farming add extra wood between sessions."
-      },
-      {
-        "question": "Is My Wood Farm free to play on Roblox?",
-        "answer": "Yes. My Wood Farm is free to play on Roblox. You can join through the official My Wood Farm Roblox experience page and follow the Did I Axe community for updates."
+        "question": "Are mods supported?",
+        "answer": "The Steam Workshop is a major part of the Scrap Mechanic community, with mods, custom parts, maps, and survival-focused add-ons."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Your Wood Farm?",
-    "description": "Join the Did I Axe Roblox group for updates, or jump straight into My Wood Farm and start chopping trees.",
-    "joinCommunity": "Join Roblox Group",
-    "joinGame": "Play on Roblox"
+    "title": "Ready to build a better machine?",
+    "description": "Use the guides to plan your survival route, tune your builds, and verify official game information before your next session.",
+    "officialSite": "Official Site",
+    "steamPage": "Steam Page",
+    "joinCommunity": "Official Site",
+    "joinGame": "Steam Page"
   },
   "footer": {
-    "title": "My Wood Farm Wiki",
-    "description": "Your complete resource hub for My Wood Farm codes, best axes, upgrades, rebirth, tree farming, cash strategies, and offline earnings.",
+    "title": "Scrap Mechanic Wiki",
+    "description": "An unofficial fan-made resource hub for Scrap Mechanic survival, building, vehicles, bots, mods, multiplayer, and updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "robloxGame": "Play My Wood Farm",
-    "robloxGroup": "Did I Axe Group",
+    "robloxGame": "Steam Page",
+    "robloxGroup": "Official Site",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 My Wood Farm Wiki. Not affiliated with the developers of My Wood Farm or Roblox Corporation.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Scrap Mechanic Wiki. Scrap Mechanic is owned by Axolot Games.",
+    "disclaimer": "Unofficial fan-made resource website. Not affiliated with Axolot Games."
   },
   "pages": {
-    "codes": {
-      "title": "My Wood Farm Codes",
-      "description": "Track active My Wood Farm codes, expired rewards and any future code redemption system from the Did I Axe developers.",
-      "metaTitle": "My Wood Farm Codes - Active & Expired Code List",
-      "metaDescription": "Track My Wood Farm codes, expired rewards and any future code redemption system. See the current code status and where new My Wood Farm rewards will be announced.",
-      "categoryLabel": "CODES & REWARDS",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Guides to My Wood Farm codes covering the current reward status, how codes are redeemed when added, and where the Did I Axe developers announce new rewards for the idle woodcutting simulator.",
-      "why": "Why check codes?",
-      "whySteps": {
-        "step1Title": "See Current Codes",
-        "step1Description": "Check whether any active My Wood Farm codes are available right now",
-        "step2Title": "Track Expiration",
-        "step2Description": "Know which previously released codes have already expired",
-        "step3Title": "Never Miss Rewards",
-        "step3Description": "Find where new My Wood Farm codes will be announced"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Code Guides"
-    },
     "guide": {
-      "title": "My Wood Farm Guides",
-      "description": "Complete My Wood Farm gameplay guides from beginner basics and controls to advanced progression, axe paths and money farming strategies.",
-      "metaTitle": "My Wood Farm Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete My Wood Farm guides covering beginner tips, controls, progression paths, best axes, money farming and offline earnings for mastering the idle woodcutting simulator.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering My Wood Farm gameplay mechanics, chopping and selling loops, axe progression, controls and money farming. Learn everything from first steps to advanced strategies.",
-      "why": "Why read guides?",
+      "title": "Scrap Mechanic Guides",
+      "description": "Core Scrap Mechanic guides for beginners, controls, gameplay, reviews, and general progression.",
+      "metaTitle": "Scrap Mechanic Guides - Wiki Guides",
+      "metaDescription": "Core Scrap Mechanic guides for beginners, controls, gameplay, reviews, and general progression.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is Guides?",
+      "whatIsDescription": "Core Scrap Mechanic guides for beginners, controls, gameplay, reviews, and general progression.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the chop, sell and upgrade loop and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven axe and plot upgrade paths to grow your My Wood Farm quickly",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for money farming and offline earnings"
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "axes": {
-      "title": "My Wood Farm Axes",
-      "description": "Detailed My Wood Farm axe guides covering every axe category, rarity, price, stats and the best farming stage for each upgrade.",
-      "metaTitle": "My Wood Farm Axes - Best Axe & Tier List Guide",
-      "metaDescription": "Complete My Wood Farm axe database including wooden, rare, legendary and magical axes. Learn axe stats, prices, the fastest axe and the best axe for each progression stage.",
-      "categoryLabel": "AXES & EQUIPMENT",
-      "whatIs": "What are Axes?",
-      "whatIsDescription": "Comprehensive guides for every My Wood Farm axe. Learn axe rarity, production power, stats, price and the best stage to upgrade so your wood farm keeps growing.",
-      "why": "Why check axe guides?",
+    "survival": {
+      "title": "Scrap Mechanic Survival",
+      "description": "Survival mode routes for farming, raids, quests, maps, resources, and base planning.",
+      "metaTitle": "Scrap Mechanic Survival - Wiki Guides",
+      "metaDescription": "Survival mode routes for farming, raids, quests, maps, resources, and base planning.",
+      "categoryLabel": "SURVIVAL",
+      "whatIs": "What is Survival?",
+      "whatIsDescription": "Survival mode routes for farming, raids, quests, maps, resources, and base planning.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Compare Axes",
-        "step1Description": "Discover the production power, stats and price of every My Wood Farm axe category",
-        "step2Title": "Plan Upgrades",
-        "step2Description": "Choose the best axe for your current My Wood Farm progression stage",
-        "step3Title": "Improve Output",
-        "step3Description": "Upgrade to the fastest and rarest axes to chop faster and earn more wood"
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
       },
       "featured": "Featured & Essential",
-      "all": "All Axes"
+      "all": "All Survival"
     },
-    "trees": {
-      "title": "My Wood Farm Trees",
-      "description": "Complete My Wood Farm tree database covering tree types, durability, wood yields, locations and the best targets for each axe stage.",
-      "metaTitle": "My Wood Farm Trees - Types, Yields & Best Farming Targets",
-      "metaDescription": "Complete My Wood Farm tree guides covering tree types, durability, wood yields, locations, rare trees and giant trees. Find the best targets and farming routes for each progression stage.",
-      "categoryLabel": "TREES & YIELDS",
-      "whatIs": "What are Trees?",
-      "whatIsDescription": "Guides to every My Wood Farm tree target including regular trees, rare trees and giant trees. Learn tree durability, wood yields, locations and which trees match your current axe power.",
-      "why": "Why study trees?",
+    "building": {
+      "title": "Scrap Mechanic Building",
+      "description": "Building guides for bearings, engines, suspension, pistons, logic gates, and reliable contraptions.",
+      "metaTitle": "Scrap Mechanic Building - Wiki Guides",
+      "metaDescription": "Building guides for bearings, engines, suspension, pistons, logic gates, and reliable contraptions.",
+      "categoryLabel": "BUILDING",
+      "whatIs": "What is Building?",
+      "whatIsDescription": "Building guides for bearings, engines, suspension, pistons, logic gates, and reliable contraptions.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Know Tree Types",
-        "step1Description": "Compare regular, rare and giant tree targets and their wood yields",
-        "step2Title": "Match Your Axe",
-        "step2Description": "Pick tree targets that match your current My Wood Farm axe stage",
-        "step3Title": "Farm Efficiently",
-        "step3Description": "Use the best tree locations and routes to maximize wood and cash per run"
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
       },
       "featured": "Featured & Essential",
-      "all": "All Tree Guides"
+      "all": "All Building"
     },
-    "money": {
-      "title": "My Wood Farm Money",
-      "description": "Master My Wood Farm money farming with fast cash methods, best wood to sell, selling prices and wood value rankings for maximum income.",
-      "metaTitle": "My Wood Farm Money - Best Cash & Wood Selling Guide",
-      "metaDescription": "Explore My Wood Farm money farming methods, best wood to sell, selling prices and wood values. Turn wood into cash faster and grow your My Wood Farm income with proven strategies.",
-      "categoryLabel": "MONEY & CASH",
-      "whatIs": "What is Money Farming?",
-      "whatIsDescription": "Guides to My Wood Farm money farming covering active chopping, efficient selling, the best wood to sell, selling prices and wood values for short and long sessions.",
-      "why": "Why farm money?",
+    "vehicles": {
+      "title": "Scrap Mechanic Vehicles",
+      "description": "Vehicle guides for cars, tanks, planes, helicopters, trains, and stable mechanical layouts.",
+      "metaTitle": "Scrap Mechanic Vehicles - Wiki Guides",
+      "metaDescription": "Vehicle guides for cars, tanks, planes, helicopters, trains, and stable mechanical layouts.",
+      "categoryLabel": "VEHICLES",
+      "whatIs": "What is Vehicles?",
+      "whatIsDescription": "Vehicle guides for cars, tanks, planes, helicopters, trains, and stable mechanical layouts.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Earn Cash Faster",
-        "step1Description": "Use the fastest My Wood Farm methods to turn wood into cash",
-        "step2Title": "Know Wood Values",
-        "step2Description": "Compare wood values and selling prices to sell the best wood first",
-        "step3Title": "Reinvest Smartly",
-        "step3Description": "Put earned cash back into axes and upgrades for compounding My Wood Farm income"
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
       },
       "featured": "Featured & Essential",
-      "all": "All Money Guides"
+      "all": "All Vehicles"
     },
-    "upgrades": {
-      "title": "My Wood Farm Upgrades",
-      "description": "Master the My Wood Farm upgrade order with axe, production, plot expansion and farm layout priorities plus payoff guidance.",
-      "metaTitle": "My Wood Farm Upgrades - Best Upgrade Order & Layouts",
-      "metaDescription": "Master My Wood Farm upgrades with the best axe, production and plot expansion order, farm layouts and expansion costs. Learn spending rules and payoff timing for efficient progression.",
-      "categoryLabel": "UPGRADE ORDER",
-      "whatIs": "What are Upgrades?",
-      "whatIsDescription": "Guides to the My Wood Farm upgrade system covering axe output, production density, plot expansion and farm layouts. Learn which upgrades to prioritize at each progression stage.",
-      "why": "Why plan upgrades?",
+    "bots": {
+      "title": "Scrap Mechanic Bots",
+      "description": "Enemy and bot guides covering Totebots, Haybots, Farmbots, combat threats, and raid pressure.",
+      "metaTitle": "Scrap Mechanic Bots - Wiki Guides",
+      "metaDescription": "Enemy and bot guides covering Totebots, Haybots, Farmbots, combat threats, and raid pressure.",
+      "categoryLabel": "BOTS",
+      "whatIs": "What is Bots?",
+      "whatIsDescription": "Enemy and bot guides covering Totebots, Haybots, Farmbots, combat threats, and raid pressure.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Prioritize Production",
-        "step1Description": "Focus cash on My Wood Farm upgrades that raise wood output first",
-        "step2Title": "Manage Spending",
-        "step2Description": "Balance axe, production and plot purchases against expansion costs",
-        "step3Title": "Build Smart Layouts",
-        "step3Description": "Use the best farm layout to pack more axes and boost overall production"
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
       },
       "featured": "Featured & Essential",
-      "all": "All Upgrade Guides"
+      "all": "All Bots"
+    },
+    "mods": {
+      "title": "Scrap Mechanic Mods",
+      "description": "Workshop and modding guides for survival mods, VR experiments, and useful community add-ons.",
+      "metaTitle": "Scrap Mechanic Mods - Wiki Guides",
+      "metaDescription": "Workshop and modding guides for survival mods, VR experiments, and useful community add-ons.",
+      "categoryLabel": "MODS",
+      "whatIs": "What is Mods?",
+      "whatIsDescription": "Workshop and modding guides for survival mods, VR experiments, and useful community add-ons.",
+      "why": "Why use these guides?",
+      "whySteps": {
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Mods"
+    },
+    "multiplayer": {
+      "title": "Scrap Mechanic Multiplayer",
+      "description": "Multiplayer and dedicated server guides for co-op worlds, hosting, and shared builds.",
+      "metaTitle": "Scrap Mechanic Multiplayer - Wiki Guides",
+      "metaDescription": "Multiplayer and dedicated server guides for co-op worlds, hosting, and shared builds.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "Multiplayer and dedicated server guides for co-op worlds, hosting, and shared builds.",
+      "why": "Why use these guides?",
+      "whySteps": {
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer"
     },
     "updates": {
-      "title": "My Wood Farm Updates",
-      "description": "Track My Wood Farm updates, balance changes, new axes, new trees and the latest update log from the official experience.",
-      "metaTitle": "My Wood Farm Updates - Patch Notes & New Content",
-      "metaDescription": "Track My Wood Farm updates including balance changes, new axes, new trees, plot expansion changes and the latest update log from the official Roblox experience and Did I Axe community.",
-      "categoryLabel": "UPDATES & NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Guides covering My Wood Farm version changes, new axes, new trees, production balance updates and the latest update log from the official Roblox experience and Did I Axe community.",
-      "why": "Why follow updates?",
+      "title": "Scrap Mechanic Updates",
+      "description": "Release, trailer, system requirement, platform, and latest update coverage for Scrap Mechanic.",
+      "metaTitle": "Scrap Mechanic Updates - Wiki Guides",
+      "metaDescription": "Release, trailer, system requirement, platform, and latest update coverage for Scrap Mechanic.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What is Updates?",
+      "whatIsDescription": "Release, trailer, system requirement, platform, and latest update coverage for Scrap Mechanic.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "See the latest My Wood Farm axes, trees and balance changes",
-        "step2Title": "Adjust Strategy",
-        "step2Description": "Update your upgrade and money farming plans after each change",
-        "step3Title": "Catch Announcements",
-        "step3Description": "Follow official news for new My Wood Farm content and the update log"
+        "step1Title": "Learn the category",
+        "step1Description": "Understand the systems, terms, and common mistakes for this part of Scrap Mechanic.",
+        "step2Title": "Pick the next action",
+        "step2Description": "Use focused guides to decide what to build, craft, fight, tune, or verify next.",
+        "step3Title": "Avoid wasted sessions",
+        "step3Description": "Reduce trial-and-error by checking proven layouts, routes, and setup notes first."
       },
       "featured": "Featured & Essential",
-      "all": "All Update Guides"
+      "all": "All Updates"
     }
   }
 }

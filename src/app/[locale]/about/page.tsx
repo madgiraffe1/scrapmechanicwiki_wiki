@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.scrapmechanicwiki.wiki'
   const path = '/about'
 
   return {
-    title: 'About My Wood Farm Wiki - Your Ultimate Roblox Game Resource',
-    description: 'Learn about My Wood Farm Wiki, a community-driven resource hub providing comprehensive guides, axe tips, code lists, and strategies for the My Wood Farm Roblox game.',
+    title: 'About Scrap Mechanic Wiki - Your Ultimate Game Game Resource',
+    description: 'Learn about Scrap Mechanic Wiki, a community-driven resource hub providing comprehensive guides, axe tips, code lists, and strategies for the Scrap Mechanic PC game.',
     robots: {
       index: false,
       follow: true,
@@ -30,22 +30,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'My Wood Farm Wiki',
-      title: 'About My Wood Farm Wiki',
-      description: 'Learn about our mission to provide the best My Wood Farm game resources and guides.',
+      siteName: 'Scrap Mechanic Wiki',
+      title: 'About Scrap Mechanic Wiki',
+      description: 'Learn about our mission to provide the best Scrap Mechanic game resources and guides.',
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: 'My Wood Farm Wiki',
+          alt: 'Scrap Mechanic Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About My Wood Farm Wiki',
-      description: 'Learn about our mission to provide the best My Wood Farm game resources.',
+      title: 'About Scrap Mechanic Wiki',
+      description: 'Learn about our mission to provide the best Scrap Mechanic game resources.',
       images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
@@ -59,10 +59,10 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About My Wood Farm Wiki
+            About Scrap Mechanic Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for My Wood Farm
+            Your community-driven resource center for Scrap Mechanic
           </p>
         </div>
       </section>
@@ -71,15 +71,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to My Wood Farm Wiki</h2>
+            <h2>Welcome to Scrap Mechanic Wiki</h2>
             <p>
-              My Wood Farm Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Roblox game "My Wood Farm". We are a community-driven platform that provides comprehensive guides,
+              Scrap Mechanic Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              master the PC game "Scrap Mechanic". We are a community-driven platform that provides comprehensive guides,
               axe and rebirth guides, wood value lists, code updates, and strategic insights to enhance your gaming experience.
             </p>
             <p>
               Whether you're a new player just starting your wood farm or a seasoned veteran looking to optimize your strategies,
-              My Wood Farm Wiki is here to support you every step of the way.
+              Scrap Mechanic Wiki is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Our Mission</h2>
             <p>
-              Our mission is simple: <strong>to empower My Wood Farm players with accurate, up-to-date information
+              Our mission is simple: <strong>to empower Scrap Mechanic players with accurate, up-to-date information
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
@@ -103,7 +103,7 @@ export default function About() {
 
             <h2>Our Vision</h2>
             <p>
-              We envision My Wood Farm Wiki as the <strong>go-to destination</strong> for every My Wood Farm player seeking
+              We envision Scrap Mechanic Wiki as the <strong>go-to destination</strong> for every Scrap Mechanic player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
               axe tier guides, want to find new codes, or are looking for advanced rebirth tactics.
             </p>
@@ -185,7 +185,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              My Wood Farm Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              Scrap Mechanic Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
               feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
             </p>
             <ul>
@@ -208,15 +208,15 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              My Wood Farm Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              My Wood Farm as much as you do. We're players first, constantly testing strategies, exploring game
+              Scrap Mechanic Wiki is maintained by a dedicated team of passionate gamers and developers who love
+              Scrap Mechanic as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of My Wood Farm mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of Scrap Mechanic mechanics and strategies</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
@@ -234,15 +234,15 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>My Wood Farm Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of My Wood Farm or any official entities.
+              <strong>Scrap Mechanic Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              endorsed by, or associated with the developers of Scrap Mechanic or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              My Wood Farm Wiki is a non-profit, community resource created by fans, for fans.
+              Scrap Mechanic Wiki is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>
@@ -259,26 +259,26 @@ export default function About() {
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@my-wood-farm.wiki
+                <a href="mailto:contact@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@scrapmechanicwiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@my-wood-farm.wiki
+                <a href="mailto:support@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@scrapmechanicwiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@my-wood-farm.wiki
+                <a href="mailto:contribute@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@scrapmechanicwiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@my-wood-farm.wiki
+                <a href="mailto:partnerships@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@scrapmechanicwiki.wiki
                 </a>
               </div>
             </div>
@@ -294,7 +294,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest guides, tips, and My Wood Farm news.
+            Stay updated with the latest guides, tips, and Scrap Mechanic news.
             Bookmark this site and check back regularly for new content!
           </p>
           <Link

@@ -1,10 +1,11 @@
 import {
 	BookOpen,
-	Ticket,
-	Axe,
-	TreePine,
-	Coins,
-	ArrowUpCircle,
+	Shield,
+	Hammer,
+	Car,
+	Bot,
+	Puzzle,
+	Users,
 	Sparkles,
 	type LucideIcon,
 } from 'lucide-react'
@@ -16,15 +17,7 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置（My Wood Farm：7 个内容分类，community 已按规范删除）
-// 顺序：Codes → Guide → Axes → Trees → Money → Upgrades → Updates
 export const NAVIGATION_CONFIG: NavigationItem[] = [
-	{
-		key: 'codes',
-		path: '/codes',
-		icon: Ticket,
-		isContentType: true,
-	},
 	{
 		key: 'guide',
 		path: '/guide',
@@ -32,27 +25,39 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
 		isContentType: true,
 	},
 	{
-		key: 'axes',
-		path: '/axes',
-		icon: Axe,
+		key: 'survival',
+		path: '/survival',
+		icon: Shield,
 		isContentType: true,
 	},
 	{
-		key: 'trees',
-		path: '/trees',
-		icon: TreePine,
+		key: 'building',
+		path: '/building',
+		icon: Hammer,
 		isContentType: true,
 	},
 	{
-		key: 'money',
-		path: '/money',
-		icon: Coins,
+		key: 'vehicles',
+		path: '/vehicles',
+		icon: Car,
 		isContentType: true,
 	},
 	{
-		key: 'upgrades',
-		path: '/upgrades',
-		icon: ArrowUpCircle,
+		key: 'bots',
+		path: '/bots',
+		icon: Bot,
+		isContentType: true,
+	},
+	{
+		key: 'mods',
+		path: '/mods',
+		icon: Puzzle,
+		isContentType: true,
+	},
+	{
+		key: 'multiplayer',
+		path: '/multiplayer',
+		icon: Users,
 		isContentType: true,
 	},
 	{

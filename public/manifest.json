@@ -1,12 +1,12 @@
 {
-  "name": "My Wood Farm Wiki - Codes, Axes & Farming Guide",
-  "short_name": "My Wood Farm",
-  "description": "My Wood Farm Wiki for Roblox covers codes, best axes, upgrade paths, rebirth, tree farming, cash strategies and offline earnings.",
+  "name": "Scrap Mechanic Wiki - Survival, Building & Vehicle Guides",
+  "short_name": "Scrap Mechanic",
+  "description": "Scrap Mechanic Wiki covers survival, building, vehicles, bots, mods, multiplayer, updates, and beginner progression.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#2C9653",
-  "background_color": "#F7F5ED",
+  "theme_color": "#D85B08",
+  "background_color": "#FFFFFF",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

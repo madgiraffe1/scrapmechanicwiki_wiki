@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node scripts/validate-icons.js && next dev -H 0.0.0.0 -p 7278",
     "build": "node scripts/validate-icons.js && next build",
+    "postbuild": "node scripts/promote-default-locale.mjs",
     "start": "next start",
     "test": "npm run lint && npm run typecheck",
     "lint": "npx tsc --noEmit && next lint",

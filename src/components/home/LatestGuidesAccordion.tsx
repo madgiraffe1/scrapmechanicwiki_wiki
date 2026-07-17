@@ -82,16 +82,7 @@ function AccordionColumn({
               {/* 元信息 */}
               <div className="pl-4 flex items-center gap-4 text-xs text-muted-foreground mb-2">
                 {article.frontmatter.date && (
-                  <span>
-                    {new Date(article.frontmatter.date).toLocaleDateString(
-                      locale,
-                      {
-                        year: "numeric",
-                        month: "short",
-                        day: "numeric",
-                      },
-                    )}
-                  </span>
+                  <span>{article.frontmatter.date}</span>
                 )}
                 <span className="text-[hsl(var(--nav-theme-light))] uppercase tracking-wider">
                   {article.contentType}

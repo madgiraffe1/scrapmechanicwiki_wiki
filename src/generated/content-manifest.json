@@ -1,481 +1,487 @@
 {
   "en": {
-    "axes": [
+    "bots": [
       {
-        "slug": "my-wood-farm-axe-prices",
-        "file": "my-wood-farm-axe-prices"
+        "slug": "scrap-mechanic-bots",
+        "file": "scrap-mechanic-bots"
       },
       {
-        "slug": "my-wood-farm-axe-stats",
-        "file": "my-wood-farm-axe-stats"
+        "slug": "scrap-mechanic-enemies",
+        "file": "scrap-mechanic-enemies"
       },
       {
-        "slug": "my-wood-farm-axe-tier-list",
-        "file": "my-wood-farm-axe-tier-list"
+        "slug": "scrap-mechanic-farmbot",
+        "file": "scrap-mechanic-farmbot"
       },
       {
-        "slug": "my-wood-farm-axe-upgrades",
-        "file": "my-wood-farm-axe-upgrades"
+        "slug": "scrap-mechanic-haybot",
+        "file": "scrap-mechanic-haybot"
       },
       {
-        "slug": "my-wood-farm-fastest-axe",
-        "file": "my-wood-farm-fastest-axe"
-      },
-      {
-        "slug": "my-wood-farm-how-to-get-new-axes",
-        "file": "my-wood-farm-how-to-get-new-axes"
-      },
-      {
-        "slug": "my-wood-farm-rarest-axe",
-        "file": "my-wood-farm-rarest-axe"
+        "slug": "scrap-mechanic-totebot",
+        "file": "scrap-mechanic-totebot"
       }
     ],
-    "codes": [
+    "building": [
       {
-        "slug": "my-wood-farm-codes",
-        "file": "my-wood-farm-codes"
+        "slug": "scrap-mechanic-bearing",
+        "file": "scrap-mechanic-bearing"
+      },
+      {
+        "slug": "scrap-mechanic-engine",
+        "file": "scrap-mechanic-engine"
+      },
+      {
+        "slug": "scrap-mechanic-logic-gates",
+        "file": "scrap-mechanic-logic-gates"
+      },
+      {
+        "slug": "scrap-mechanic-piston",
+        "file": "scrap-mechanic-piston"
+      },
+      {
+        "slug": "scrap-mechanic-suspension",
+        "file": "scrap-mechanic-suspension"
       }
     ],
     "guide": [
       {
-        "slug": "my-wood-farm-beginner-guide",
-        "file": "my-wood-farm-beginner-guide"
+        "slug": "scrap-mechanic-beginner-guide",
+        "file": "scrap-mechanic-beginner-guide"
       },
       {
-        "slug": "my-wood-farm-controls",
-        "file": "my-wood-farm-controls"
+        "slug": "scrap-mechanic-gameplay",
+        "file": "scrap-mechanic-gameplay"
       },
       {
-        "slug": "my-wood-farm-guide",
-        "file": "my-wood-farm-guide"
+        "slug": "scrap-mechanic-guide",
+        "file": "scrap-mechanic-guide"
       },
       {
-        "slug": "my-wood-farm-how-to-play",
-        "file": "my-wood-farm-how-to-play"
-      },
-      {
-        "slug": "my-wood-farm-noob-to-pro",
-        "file": "my-wood-farm-noob-to-pro"
-      },
-      {
-        "slug": "my-wood-farm-progression-guide",
-        "file": "my-wood-farm-progression-guide"
-      },
-      {
-        "slug": "my-wood-farm-tips-and-tricks",
-        "file": "my-wood-farm-tips-and-tricks"
+        "slug": "scrap-mechanic-review",
+        "file": "scrap-mechanic-review"
       }
     ],
-    "money": [
+    "mods": [
       {
-        "slug": "my-wood-farm-best-wood-to-sell",
-        "file": "my-wood-farm-best-wood-to-sell"
+        "slug": "scrap-mechanic-mods",
+        "file": "scrap-mechanic-mods"
       },
       {
-        "slug": "my-wood-farm-how-to-make-money-fast",
-        "file": "my-wood-farm-how-to-make-money-fast"
+        "slug": "scrap-mechanic-survival-mods",
+        "file": "scrap-mechanic-survival-mods"
       },
       {
-        "slug": "my-wood-farm-money-guide",
-        "file": "my-wood-farm-money-guide"
+        "slug": "scrap-mechanic-vr-mod",
+        "file": "scrap-mechanic-vr-mod"
       },
       {
-        "slug": "my-wood-farm-selling-prices",
-        "file": "my-wood-farm-selling-prices"
-      },
-      {
-        "slug": "my-wood-farm-wood-values",
-        "file": "my-wood-farm-wood-values"
+        "slug": "scrap-mechanic-workshop",
+        "file": "scrap-mechanic-workshop"
       }
     ],
-    "trees": [
+    "multiplayer": [
       {
-        "slug": "my-wood-farm-giant-tree",
-        "file": "my-wood-farm-giant-tree"
+        "slug": "scrap-mechanic-dedicated-server",
+        "file": "scrap-mechanic-dedicated-server"
       },
       {
-        "slug": "my-wood-farm-rare-trees",
-        "file": "my-wood-farm-rare-trees"
+        "slug": "scrap-mechanic-multiplayer",
+        "file": "scrap-mechanic-multiplayer"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "scrap-mechanic-farming",
+        "file": "scrap-mechanic-farming"
       },
       {
-        "slug": "my-wood-farm-tree-durability",
-        "file": "my-wood-farm-tree-durability"
+        "slug": "scrap-mechanic-raids",
+        "file": "scrap-mechanic-raids"
       },
       {
-        "slug": "my-wood-farm-tree-locations",
-        "file": "my-wood-farm-tree-locations"
+        "slug": "scrap-mechanic-survival-map",
+        "file": "scrap-mechanic-survival-map"
       },
       {
-        "slug": "my-wood-farm-tree-types",
-        "file": "my-wood-farm-tree-types"
+        "slug": "scrap-mechanic-survival-quests",
+        "file": "scrap-mechanic-survival-quests"
       },
       {
-        "slug": "my-wood-farm-wood-yields",
-        "file": "my-wood-farm-wood-yields"
+        "slug": "scrap-mechanic-survival",
+        "file": "scrap-mechanic-survival"
       }
     ],
     "updates": [
       {
-        "slug": "my-wood-farm-latest-update",
-        "file": "my-wood-farm-latest-update"
+        "slug": "scrap-mechanic-latest-update",
+        "file": "scrap-mechanic-latest-update"
       },
       {
-        "slug": "my-wood-farm-new-axes",
-        "file": "my-wood-farm-new-axes"
+        "slug": "scrap-mechanic-platforms",
+        "file": "scrap-mechanic-platforms"
       },
       {
-        "slug": "my-wood-farm-new-trees",
-        "file": "my-wood-farm-new-trees"
+        "slug": "scrap-mechanic-release-date",
+        "file": "scrap-mechanic-release-date"
       },
       {
-        "slug": "my-wood-farm-update-log",
-        "file": "my-wood-farm-update-log"
+        "slug": "scrap-mechanic-system-requirements",
+        "file": "scrap-mechanic-system-requirements"
+      },
+      {
+        "slug": "scrap-mechanic-trailer",
+        "file": "scrap-mechanic-trailer"
+      },
+      {
+        "slug": "scrap-mechanic-update",
+        "file": "scrap-mechanic-update"
       }
     ],
-    "upgrades": [
+    "vehicles": [
       {
-        "slug": "my-wood-farm-best-farm-layout",
-        "file": "my-wood-farm-best-farm-layout"
+        "slug": "scrap-mechanic-helicopter",
+        "file": "scrap-mechanic-helicopter"
       },
       {
-        "slug": "my-wood-farm-best-upgrades",
-        "file": "my-wood-farm-best-upgrades"
+        "slug": "scrap-mechanic-plane",
+        "file": "scrap-mechanic-plane"
       },
       {
-        "slug": "my-wood-farm-expansion-costs",
-        "file": "my-wood-farm-expansion-costs"
+        "slug": "scrap-mechanic-tank",
+        "file": "scrap-mechanic-tank"
       },
       {
-        "slug": "my-wood-farm-plot-expansion",
-        "file": "my-wood-farm-plot-expansion"
+        "slug": "scrap-mechanic-train",
+        "file": "scrap-mechanic-train"
       },
       {
-        "slug": "my-wood-farm-production-upgrades",
-        "file": "my-wood-farm-production-upgrades"
-      },
-      {
-        "slug": "my-wood-farm-upgrade-order",
-        "file": "my-wood-farm-upgrade-order"
+        "slug": "scrap-mechanic-vehicles",
+        "file": "scrap-mechanic-vehicles"
       }
     ]
   },
   "es": {
-    "axes": [
+    "bots": [
       {
-        "slug": "my-wood-farm-axe-prices",
-        "file": "my-wood-farm-axe-prices"
+        "slug": "scrap-mechanic-bots",
+        "file": "scrap-mechanic-bots"
       },
       {
-        "slug": "my-wood-farm-axe-stats",
-        "file": "my-wood-farm-axe-stats"
+        "slug": "scrap-mechanic-enemies",
+        "file": "scrap-mechanic-enemies"
       },
       {
-        "slug": "my-wood-farm-axe-tier-list",
-        "file": "my-wood-farm-axe-tier-list"
+        "slug": "scrap-mechanic-farmbot",
+        "file": "scrap-mechanic-farmbot"
       },
       {
-        "slug": "my-wood-farm-axe-upgrades",
-        "file": "my-wood-farm-axe-upgrades"
+        "slug": "scrap-mechanic-haybot",
+        "file": "scrap-mechanic-haybot"
       },
       {
-        "slug": "my-wood-farm-fastest-axe",
-        "file": "my-wood-farm-fastest-axe"
-      },
-      {
-        "slug": "my-wood-farm-how-to-get-new-axes",
-        "file": "my-wood-farm-how-to-get-new-axes"
-      },
-      {
-        "slug": "my-wood-farm-rarest-axe",
-        "file": "my-wood-farm-rarest-axe"
+        "slug": "scrap-mechanic-totebot",
+        "file": "scrap-mechanic-totebot"
       }
     ],
-    "codes": [
+    "building": [
       {
-        "slug": "my-wood-farm-codes",
-        "file": "my-wood-farm-codes"
+        "slug": "scrap-mechanic-bearing",
+        "file": "scrap-mechanic-bearing"
+      },
+      {
+        "slug": "scrap-mechanic-engine",
+        "file": "scrap-mechanic-engine"
+      },
+      {
+        "slug": "scrap-mechanic-logic-gates",
+        "file": "scrap-mechanic-logic-gates"
+      },
+      {
+        "slug": "scrap-mechanic-piston",
+        "file": "scrap-mechanic-piston"
+      },
+      {
+        "slug": "scrap-mechanic-suspension",
+        "file": "scrap-mechanic-suspension"
       }
     ],
     "guide": [
       {
-        "slug": "my-wood-farm-beginner-guide",
-        "file": "my-wood-farm-beginner-guide"
+        "slug": "scrap-mechanic-beginner-guide",
+        "file": "scrap-mechanic-beginner-guide"
       },
       {
-        "slug": "my-wood-farm-controls",
-        "file": "my-wood-farm-controls"
+        "slug": "scrap-mechanic-gameplay",
+        "file": "scrap-mechanic-gameplay"
       },
       {
-        "slug": "my-wood-farm-guide",
-        "file": "my-wood-farm-guide"
+        "slug": "scrap-mechanic-guide",
+        "file": "scrap-mechanic-guide"
       },
       {
-        "slug": "my-wood-farm-how-to-play",
-        "file": "my-wood-farm-how-to-play"
-      },
-      {
-        "slug": "my-wood-farm-noob-to-pro",
-        "file": "my-wood-farm-noob-to-pro"
-      },
-      {
-        "slug": "my-wood-farm-progression-guide",
-        "file": "my-wood-farm-progression-guide"
-      },
-      {
-        "slug": "my-wood-farm-tips-and-tricks",
-        "file": "my-wood-farm-tips-and-tricks"
+        "slug": "scrap-mechanic-review",
+        "file": "scrap-mechanic-review"
       }
     ],
-    "money": [
+    "mods": [
       {
-        "slug": "my-wood-farm-best-wood-to-sell",
-        "file": "my-wood-farm-best-wood-to-sell"
+        "slug": "scrap-mechanic-mods",
+        "file": "scrap-mechanic-mods"
       },
       {
-        "slug": "my-wood-farm-how-to-make-money-fast",
-        "file": "my-wood-farm-how-to-make-money-fast"
+        "slug": "scrap-mechanic-survival-mods",
+        "file": "scrap-mechanic-survival-mods"
       },
       {
-        "slug": "my-wood-farm-money-guide",
-        "file": "my-wood-farm-money-guide"
+        "slug": "scrap-mechanic-vr-mod",
+        "file": "scrap-mechanic-vr-mod"
       },
       {
-        "slug": "my-wood-farm-selling-prices",
-        "file": "my-wood-farm-selling-prices"
-      },
-      {
-        "slug": "my-wood-farm-wood-values",
-        "file": "my-wood-farm-wood-values"
+        "slug": "scrap-mechanic-workshop",
+        "file": "scrap-mechanic-workshop"
       }
     ],
-    "trees": [
+    "multiplayer": [
       {
-        "slug": "my-wood-farm-giant-tree",
-        "file": "my-wood-farm-giant-tree"
+        "slug": "scrap-mechanic-dedicated-server",
+        "file": "scrap-mechanic-dedicated-server"
       },
       {
-        "slug": "my-wood-farm-rare-trees",
-        "file": "my-wood-farm-rare-trees"
+        "slug": "scrap-mechanic-multiplayer",
+        "file": "scrap-mechanic-multiplayer"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "scrap-mechanic-farming",
+        "file": "scrap-mechanic-farming"
       },
       {
-        "slug": "my-wood-farm-tree-durability",
-        "file": "my-wood-farm-tree-durability"
+        "slug": "scrap-mechanic-raids",
+        "file": "scrap-mechanic-raids"
       },
       {
-        "slug": "my-wood-farm-tree-locations",
-        "file": "my-wood-farm-tree-locations"
+        "slug": "scrap-mechanic-survival-map",
+        "file": "scrap-mechanic-survival-map"
       },
       {
-        "slug": "my-wood-farm-tree-types",
-        "file": "my-wood-farm-tree-types"
+        "slug": "scrap-mechanic-survival-quests",
+        "file": "scrap-mechanic-survival-quests"
       },
       {
-        "slug": "my-wood-farm-wood-yields",
-        "file": "my-wood-farm-wood-yields"
+        "slug": "scrap-mechanic-survival",
+        "file": "scrap-mechanic-survival"
       }
     ],
     "updates": [
       {
-        "slug": "my-wood-farm-latest-update",
-        "file": "my-wood-farm-latest-update"
+        "slug": "scrap-mechanic-latest-update",
+        "file": "scrap-mechanic-latest-update"
       },
       {
-        "slug": "my-wood-farm-new-axes",
-        "file": "my-wood-farm-new-axes"
+        "slug": "scrap-mechanic-platforms",
+        "file": "scrap-mechanic-platforms"
       },
       {
-        "slug": "my-wood-farm-new-trees",
-        "file": "my-wood-farm-new-trees"
+        "slug": "scrap-mechanic-release-date",
+        "file": "scrap-mechanic-release-date"
       },
       {
-        "slug": "my-wood-farm-update-log",
-        "file": "my-wood-farm-update-log"
+        "slug": "scrap-mechanic-system-requirements",
+        "file": "scrap-mechanic-system-requirements"
+      },
+      {
+        "slug": "scrap-mechanic-trailer",
+        "file": "scrap-mechanic-trailer"
+      },
+      {
+        "slug": "scrap-mechanic-update",
+        "file": "scrap-mechanic-update"
       }
     ],
-    "upgrades": [
+    "vehicles": [
       {
-        "slug": "my-wood-farm-best-farm-layout",
-        "file": "my-wood-farm-best-farm-layout"
+        "slug": "scrap-mechanic-helicopter",
+        "file": "scrap-mechanic-helicopter"
       },
       {
-        "slug": "my-wood-farm-best-upgrades",
-        "file": "my-wood-farm-best-upgrades"
+        "slug": "scrap-mechanic-plane",
+        "file": "scrap-mechanic-plane"
       },
       {
-        "slug": "my-wood-farm-expansion-costs",
-        "file": "my-wood-farm-expansion-costs"
+        "slug": "scrap-mechanic-tank",
+        "file": "scrap-mechanic-tank"
       },
       {
-        "slug": "my-wood-farm-plot-expansion",
-        "file": "my-wood-farm-plot-expansion"
+        "slug": "scrap-mechanic-train",
+        "file": "scrap-mechanic-train"
       },
       {
-        "slug": "my-wood-farm-production-upgrades",
-        "file": "my-wood-farm-production-upgrades"
-      },
-      {
-        "slug": "my-wood-farm-upgrade-order",
-        "file": "my-wood-farm-upgrade-order"
+        "slug": "scrap-mechanic-vehicles",
+        "file": "scrap-mechanic-vehicles"
       }
     ]
   },
   "pt": {
-    "axes": [
+    "bots": [
       {
-        "slug": "my-wood-farm-axe-prices",
-        "file": "my-wood-farm-axe-prices"
+        "slug": "scrap-mechanic-bots",
+        "file": "scrap-mechanic-bots"
       },
       {
-        "slug": "my-wood-farm-axe-stats",
-        "file": "my-wood-farm-axe-stats"
+        "slug": "scrap-mechanic-enemies",
+        "file": "scrap-mechanic-enemies"
       },
       {
-        "slug": "my-wood-farm-axe-tier-list",
-        "file": "my-wood-farm-axe-tier-list"
+        "slug": "scrap-mechanic-farmbot",
+        "file": "scrap-mechanic-farmbot"
       },
       {
-        "slug": "my-wood-farm-axe-upgrades",
-        "file": "my-wood-farm-axe-upgrades"
+        "slug": "scrap-mechanic-haybot",
+        "file": "scrap-mechanic-haybot"
       },
       {
-        "slug": "my-wood-farm-fastest-axe",
-        "file": "my-wood-farm-fastest-axe"
-      },
-      {
-        "slug": "my-wood-farm-how-to-get-new-axes",
-        "file": "my-wood-farm-how-to-get-new-axes"
-      },
-      {
-        "slug": "my-wood-farm-rarest-axe",
-        "file": "my-wood-farm-rarest-axe"
+        "slug": "scrap-mechanic-totebot",
+        "file": "scrap-mechanic-totebot"
       }
     ],
-    "codes": [
+    "building": [
       {
-        "slug": "my-wood-farm-codes",
-        "file": "my-wood-farm-codes"
+        "slug": "scrap-mechanic-bearing",
+        "file": "scrap-mechanic-bearing"
+      },
+      {
+        "slug": "scrap-mechanic-engine",
+        "file": "scrap-mechanic-engine"
+      },
+      {
+        "slug": "scrap-mechanic-logic-gates",
+        "file": "scrap-mechanic-logic-gates"
+      },
+      {
+        "slug": "scrap-mechanic-piston",
+        "file": "scrap-mechanic-piston"
+      },
+      {
+        "slug": "scrap-mechanic-suspension",
+        "file": "scrap-mechanic-suspension"
       }
     ],
     "guide": [
       {
-        "slug": "my-wood-farm-beginner-guide",
-        "file": "my-wood-farm-beginner-guide"
+        "slug": "scrap-mechanic-beginner-guide",
+        "file": "scrap-mechanic-beginner-guide"
       },
       {
-        "slug": "my-wood-farm-controls",
-        "file": "my-wood-farm-controls"
+        "slug": "scrap-mechanic-gameplay",
+        "file": "scrap-mechanic-gameplay"
       },
       {
-        "slug": "my-wood-farm-guide",
-        "file": "my-wood-farm-guide"
+        "slug": "scrap-mechanic-guide",
+        "file": "scrap-mechanic-guide"
       },
       {
-        "slug": "my-wood-farm-how-to-play",
-        "file": "my-wood-farm-how-to-play"
-      },
-      {
-        "slug": "my-wood-farm-noob-to-pro",
-        "file": "my-wood-farm-noob-to-pro"
-      },
-      {
-        "slug": "my-wood-farm-progression-guide",
-        "file": "my-wood-farm-progression-guide"
-      },
-      {
-        "slug": "my-wood-farm-tips-and-tricks",
-        "file": "my-wood-farm-tips-and-tricks"
+        "slug": "scrap-mechanic-review",
+        "file": "scrap-mechanic-review"
       }
     ],
-    "money": [
+    "mods": [
       {
-        "slug": "my-wood-farm-best-wood-to-sell",
-        "file": "my-wood-farm-best-wood-to-sell"
+        "slug": "scrap-mechanic-mods",
+        "file": "scrap-mechanic-mods"
       },
       {
-        "slug": "my-wood-farm-how-to-make-money-fast",
-        "file": "my-wood-farm-how-to-make-money-fast"
+        "slug": "scrap-mechanic-survival-mods",
+        "file": "scrap-mechanic-survival-mods"
       },
       {
-        "slug": "my-wood-farm-money-guide",
-        "file": "my-wood-farm-money-guide"
+        "slug": "scrap-mechanic-vr-mod",
+        "file": "scrap-mechanic-vr-mod"
       },
       {
-        "slug": "my-wood-farm-selling-prices",
-        "file": "my-wood-farm-selling-prices"
-      },
-      {
-        "slug": "my-wood-farm-wood-values",
-        "file": "my-wood-farm-wood-values"
+        "slug": "scrap-mechanic-workshop",
+        "file": "scrap-mechanic-workshop"
       }
     ],
-    "trees": [
+    "multiplayer": [
       {
-        "slug": "my-wood-farm-giant-tree",
-        "file": "my-wood-farm-giant-tree"
+        "slug": "scrap-mechanic-dedicated-server",
+        "file": "scrap-mechanic-dedicated-server"
       },
       {
-        "slug": "my-wood-farm-rare-trees",
-        "file": "my-wood-farm-rare-trees"
+        "slug": "scrap-mechanic-multiplayer",
+        "file": "scrap-mechanic-multiplayer"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "scrap-mechanic-farming",
+        "file": "scrap-mechanic-farming"
       },
       {
-        "slug": "my-wood-farm-tree-durability",
-        "file": "my-wood-farm-tree-durability"
+        "slug": "scrap-mechanic-raids",
+        "file": "scrap-mechanic-raids"
       },
       {
-        "slug": "my-wood-farm-tree-locations",
-        "file": "my-wood-farm-tree-locations"
+        "slug": "scrap-mechanic-survival-map",
+        "file": "scrap-mechanic-survival-map"
       },
       {
-        "slug": "my-wood-farm-tree-types",
-        "file": "my-wood-farm-tree-types"
+        "slug": "scrap-mechanic-survival-quests",
+        "file": "scrap-mechanic-survival-quests"
       },
       {
-        "slug": "my-wood-farm-wood-yields",
-        "file": "my-wood-farm-wood-yields"
+        "slug": "scrap-mechanic-survival",
+        "file": "scrap-mechanic-survival"
       }
     ],
     "updates": [
       {
-        "slug": "my-wood-farm-latest-update",
-        "file": "my-wood-farm-latest-update"
+        "slug": "scrap-mechanic-latest-update",
+        "file": "scrap-mechanic-latest-update"
       },
       {
-        "slug": "my-wood-farm-new-axes",
-        "file": "my-wood-farm-new-axes"
+        "slug": "scrap-mechanic-platforms",
+        "file": "scrap-mechanic-platforms"
       },
       {
-        "slug": "my-wood-farm-new-trees",
-        "file": "my-wood-farm-new-trees"
+        "slug": "scrap-mechanic-release-date",
+        "file": "scrap-mechanic-release-date"
       },
       {
-        "slug": "my-wood-farm-update-log",
-        "file": "my-wood-farm-update-log"
+        "slug": "scrap-mechanic-system-requirements",
+        "file": "scrap-mechanic-system-requirements"
+      },
+      {
+        "slug": "scrap-mechanic-trailer",
+        "file": "scrap-mechanic-trailer"
+      },
+      {
+        "slug": "scrap-mechanic-update",
+        "file": "scrap-mechanic-update"
       }
     ],
-    "upgrades": [
+    "vehicles": [
       {
-        "slug": "my-wood-farm-best-farm-layout",
-        "file": "my-wood-farm-best-farm-layout"
+        "slug": "scrap-mechanic-helicopter",
+        "file": "scrap-mechanic-helicopter"
       },
       {
-        "slug": "my-wood-farm-best-upgrades",
-        "file": "my-wood-farm-best-upgrades"
+        "slug": "scrap-mechanic-plane",
+        "file": "scrap-mechanic-plane"
       },
       {
-        "slug": "my-wood-farm-expansion-costs",
-        "file": "my-wood-farm-expansion-costs"
+        "slug": "scrap-mechanic-tank",
+        "file": "scrap-mechanic-tank"
       },
       {
-        "slug": "my-wood-farm-plot-expansion",
-        "file": "my-wood-farm-plot-expansion"
+        "slug": "scrap-mechanic-train",
+        "file": "scrap-mechanic-train"
       },
       {
-        "slug": "my-wood-farm-production-upgrades",
-        "file": "my-wood-farm-production-upgrades"
-      },
-      {
-        "slug": "my-wood-farm-upgrade-order",
-        "file": "my-wood-farm-upgrade-order"
+        "slug": "scrap-mechanic-vehicles",
+        "file": "scrap-mechanic-vehicles"
       }
     ]
   }

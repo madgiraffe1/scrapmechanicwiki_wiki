@@ -13,7 +13,7 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://scrapmechanicwiki.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -54,11 +54,11 @@ export function ArticleStructuredData({
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'My Wood Farm Wiki Team',
+			name: 'Scrap Mechanic Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'My Wood Farm Wiki',
+			name: 'Scrap Mechanic Wiki',
 			logo: {
 				'@type': 'ImageObject',
 				url: `${siteUrl}/images/hero.webp`,

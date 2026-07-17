@@ -5,8 +5,8 @@ import { routing } from '@/i18n/routing'
 export const dynamic = 'force-static'
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.wiki'
-  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'My Wood Farm Wiki'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://scrapmechanicwiki.wiki'
+  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Scrap Mechanic Wiki'
 
   const lines: string[] = []
   lines.push(`# ${siteName}`)

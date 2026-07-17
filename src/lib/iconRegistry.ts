@@ -18,6 +18,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Keyboard: LucideIcons.Keyboard,
   Shield: LucideIcons.Shield,
   Hammer: LucideIcons.Hammer,
+  Wrench: LucideIcons.Wrench,
+  Bot: LucideIcons.Bot,
+  Car: LucideIcons.Car,
+  Puzzle: LucideIcons.Puzzle,
   Package: LucideIcons.Package,
   AlertTriangle: LucideIcons.AlertTriangle,
   Eye: LucideIcons.Eye,
@@ -28,7 +32,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
-  // 游戏主题图标（My Wood Farm）
+  // 游戏主题图标
   Ticket: LucideIcons.Ticket,
   Axe: LucideIcons.Axe,
   Coins: LucideIcons.Coins,

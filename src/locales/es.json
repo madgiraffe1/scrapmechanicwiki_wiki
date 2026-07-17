@@ -1,631 +1,353 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Mi granja de madera - Guía de códigos, hachas y renacimiento",
-      "description": "Wiki de Mi granja de madera para Roblox con códigos, mejores hachas, rutas de mejora, consejos de renacimiento, cultivo de árboles, estrategias de dinero, ganancias sin conexión y guías de actualización.",
-      "keywords": "Mi granja de madera, Roblox, códigos, hachas, renacimiento, mejoras, árboles, dinero, cultivo sin conexión",
-      "ogTitle": "Wiki de Mi granja de madera - Guía de códigos, hachas y renacimiento",
-      "ogDescription": "Wiki de Mi granja de madera para Roblox con códigos, mejores hachas, rutas de mejora, consejos de renacimiento, cultivo de árboles, estrategias de dinero, ganancias sin conexión y guías de actualización.",
-      "twitterTitle": "Wiki de Mi granja de madera - Guía de códigos, hachas y renacimiento",
-      "twitterDescription": "Wiki de Mi granja de madera para Roblox con códigos, mejores hachas, rutas de mejora, consejos de renacimiento, cultivo de árboles, estrategias de dinero, ganancias sin conexión y guías de actualización."
+      "title": "Scrap Mechanic Wiki - Guias de supervivencia, construccion y vehiculos",
+      "description": "Scrap Mechanic Wiki con guias de supervivencia, tutoriales de construccion, disenos de vehiculos, estrategias contra bots, mods, multijugador, actualizaciones y progreso inicial.",
+      "keywords": "Scrap Mechanic, Scrap Mechanic Wiki, survival, building, vehicles, bots, mods, multiplayer, updates",
+      "ogTitle": "Scrap Mechanic Wiki - Guias de supervivencia, construccion y vehiculos",
+      "ogDescription": "Scrap Mechanic Wiki con guias de supervivencia, tutoriales de construccion, disenos de vehiculos, estrategias contra bots, mods, multijugador, actualizaciones y progreso inicial.",
+      "twitterTitle": "Scrap Mechanic Wiki - Guias de supervivencia, construccion y vehiculos",
+      "twitterDescription": "Scrap Mechanic Wiki con guias de supervivencia, tutoriales de construccion, disenos de vehiculos, estrategias contra bots, mods, multijugador, actualizaciones y progreso inicial."
     }
   },
   "nav": {
-    "codes": "Códigos",
-    "guide": "Guía",
-    "axes": "Hachas",
-    "trees": "Árboles",
-    "money": "Dinero",
-    "upgrades": "Mejoras",
+    "guide": "Guias",
+    "survival": "Supervivencia",
+    "building": "Construccion",
+    "vehicles": "Vehiculos",
+    "bots": "Bots",
+    "mods": "Mods",
+    "multiplayer": "Multijugador",
     "updates": "Actualizaciones"
   },
   "common": {
     "home": "Inicio",
-    "more": "Más",
-    "playNow": "Jugar en Roblox",
+    "more": "Mas",
+    "playNow": "Jugar ahora",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
     "darkMode": "Modo oscuro",
-    "notFound": "Página no encontrada",
-    "notFoundDescription": "La página que buscas no existe.",
+    "notFound": "Pagina no encontrada",
+    "notFoundDescription": "La pagina que buscas no existe.",
     "backToHome": "Volver al inicio",
-    "relatedArticles": "Artículos relacionados",
-    "readMore": "Leer más",
-    "articlesComingSoon": "Próximamente más artículos"
+    "relatedArticles": "Articulos relacionados",
+    "readMore": "Leer mas",
+    "articlesComingSoon": "Articulos proximamente"
   },
   "hero": {
-    "badge": "Simulador de tala inactivo",
-    "title": "Wiki de Mi granja de madera",
-    "description": "Tala árboles para obtener madera, mejora y expande tu terreno, vende madera por dinero y sigue ganando sin conexión mientras tus hachas continúan trabajando.",
-    "getFreeCodesCTA": "Ver códigos",
-    "playOnRobloxCTA": "Jugar en Roblox",
+    "badge": "Sandbox creativo de supervivencia",
+    "title": "Scrap Mechanic Wiki",
+    "description": "Construye vehiculos transformables, sobrevive a bots hostiles, automatiza granjas, explora con amigos y aprende sistemas para creaciones fiables.",
+    "getFreeCodesCTA": "Leer guias",
+    "playOnRobloxCTA": "Abrir pagina de Steam",
+    "playOnSteamCTA": "Abrir pagina de Steam",
+    "readGuidesCTA": "Leer guias",
     "stats": {
       "stat1": {
-        "value": "69K+",
-        "label": "Visitas totales"
+        "value": "2016",
+        "label": "Acceso anticipado"
       },
       "stat2": {
-        "value": "96.98%",
-        "label": "Calificación de jugadores"
+        "value": "Supervivencia",
+        "label": "Modo central"
       },
       "stat3": {
-        "value": "22.23 min",
-        "label": "Promedio de sesión"
+        "value": "Co-op",
+        "label": "Multijugador"
       },
       "stat4": {
-        "value": "31 de mayo de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "Steam",
+        "label": "Plataforma"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Mi granja de madera",
-    "description": "Tala árboles para obtener madera, véndela por dinero, mejora tus hachas, expande tu parcela y sigue ganando sin conexión en este simulador de tala inactivo en Roblox."
+    "title": "Scrap Mechanic - Survival Trailer",
+    "description": "Construye vehiculos transformables, sobrevive a bots hostiles, automatiza granjas, explora con amigos y aprende sistemas para creaciones fiables."
   },
   "tools": {
-    "title": "Mi granja de madera",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para construir una granja de madera productiva, desde códigos y hachas hasta mejoras, expansión de parcelas y ganancias sin conexión",
+    "title": "Recursos de",
+    "titleHighlight": "Scrap Mechanic",
+    "subtitle": "Guias enfocadas para constructores, jugadores de supervivencia, disenadores de vehiculos, usuarios de mods y grupos cooperativos.",
     "cards": [
       {
-        "icon": "Ticket",
-        "title": "Códigos de Mi granja de madera",
-        "description": "Estado actual de los códigos y dónde aparecerán las futuras recompensas"
-      },
-      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes de Mi granja de madera",
-        "description": "Bucle de tala, venta y mejora de la primera sesión"
+        "title": "Guias",
+        "description": "Guias principales de Scrap Mechanic para principiantes, controles, jugabilidad, analisis y progreso general."
       },
       {
-        "icon": "Axe",
-        "title": "Lista de niveles de hachas de Mi granja de madera",
-        "description": "Rankea cada categoría de hacha, desde madera hasta mágica"
+        "icon": "Shield",
+        "title": "Supervivencia",
+        "description": "Rutas del modo supervivencia para farmeo, incursiones, misiones, mapas, recursos y bases."
       },
       {
-        "icon": "Coins",
-        "title": "Farmear dinero en Mi granja de madera",
-        "description": "Las formas más rápidas de convertir madera en dinero"
+        "icon": "Hammer",
+        "title": "Construccion",
+        "description": "Guias de construccion para rodamientos, motores, suspension, pistones, puertas logicas e inventos fiables."
       },
       {
-        "icon": "TreePine",
-        "title": "Árboles y valores de Mi granja de madera",
-        "description": "Objetivos de árboles, tocones y árboles gigantes, y valores de la madera"
+        "icon": "Car",
+        "title": "Vehiculos",
+        "description": "Guias de vehiculos para coches, tanques, aviones, helicopteros, trenes y estructuras estables."
       },
       {
-        "icon": "ArrowUpCircle",
-        "title": "Orden de mejoras de Mi granja de madera",
-        "description": "Prioridades de mejora para la mejor hacha, producción y parcela"
+        "icon": "Bot",
+        "title": "Bots",
+        "description": "Guias de enemigos y bots sobre Totebots, Haybots, Farmbots, amenazas de combate y presion de incursiones."
       },
       {
-        "icon": "Expand",
-        "title": "Expansión de parcelas de Mi granja de madera",
-        "description": "Desbloquea terreno y diseña una granja de madera más grande"
+        "icon": "Puzzle",
+        "title": "Mods",
+        "description": "Guias de Workshop y mods para mods de supervivencia, pruebas de VR y complementos de la comunidad."
       },
       {
-        "icon": "Moon",
-        "title": "Ganancias sin conexión de Mi granja de madera",
-        "description": "Producción pasiva de madera y últimas actualizaciones"
+        "icon": "Users",
+        "title": "Multijugador",
+        "description": "Guias de multijugador y servidor dedicado para mundos cooperativos, alojamiento y construcciones compartidas."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Actualizaciones",
+        "description": "Cobertura de lanzamiento, trailer, requisitos, plataformas y ultimas actualizaciones de Scrap Mechanic."
       }
     ]
   },
-  "modules": {
-    "woodFarmCodes": {
-      "title": "Códigos de Mi granja de madera",
-      "eyebrow": "Recompensas gratuitas",
-      "intro": "Mi granja de madera no tiene actualmente códigos de recompensa activos ni un menú público para canjear códigos. La experiencia oficial de Roblox y la comunidad de desarrolladores de Did I Axe son los principales lugares para buscar futuros lanzamientos de códigos.",
-      "cards": [
-        {
-          "icon": "Ticket",
-          "status": "Sin códigos activos",
-          "reward": "Actualmente no hay recompensas de códigos disponibles",
-          "action": "Vuelve a consultar después de las actualizaciones del juego"
-        },
-        {
-          "icon": "Clock",
-          "status": "Sin códigos caducados",
-          "reward": "No hay una lista de códigos públicos lanzados anteriormente",
-          "action": "Sigue a la comunidad de desarrolladores para ver los anuncios"
-        },
-        {
-          "icon": "Regalo",
-          "status": "Sistema de canje",
-          "reward": "Actualmente el juego no incluye una función de canje de códigos",
-          "action": "Los futuros códigos requerirán un menú de canje dentro del juego"
-        }
-      ]
-    },
-    "woodFarmBeginnerGuide": {
-      "title": "Guía para principiantes de Mi granja de madera",
-      "eyebrow": "Primeros pasos",
-      "intro": "Tu primer objetivo es convertir árboles en madera, vender esa madera por dinero y reinvertir las ganancias en hachas más fuertes y en la expansión de la granja. Concéntrate en las mejoras de producción desde el principio, ya que tus hachas también pueden seguir recolectando madera mientras estás desconectado.",
-      "steps": [
-        {
-          "icon": "Hacha",
-          "title": "Empieza a talar árboles",
-          "description": "Equipa tu hacha inicial y tala los árboles disponibles en tu parcela. Sigue talando hasta que tengas suficiente madera para realizar tu primera venta útil.",
-          "tip": "Mantente cerca de los árboles de tu propia parcela para que la primera sesión sea sencilla."
-        },
-        {
-          "icon": "Monedas",
-          "title": "Vende tu madera",
-          "description": "Convierte la madera que produces en dinero. Vender con regularidad te dará el dinero necesario para hachas, mejoras y el progreso de tu parcela.",
-          "tip": "No dejes madera útil sin vender cuando estés cerca de poder permitirte una mejora."
-        },
-        {
-          "icon": "ArrowUpCircle",
-          "title": "Compra un hacha mejor",
-          "description": "Gasta tus primeros ahorros en una mejora de hacha que aumente tu producción de madera. Progresar con hachas más fuertes es la vía principal para pasar de una tala inicial lenta a mayores cantidades de madera.",
-          "tip": "Prioriza la producción antes de ahorrar para las costosas categorías de hachas del final del juego."
-        },
-        {
-          "icon": "RefreshCw",
-          "title": "Repite el ciclo de producción",
-          "description": "Tala más árboles con el hacha mejorada, vende la madera adicional y reinvierte los mayores ingresos. Cada ciclo completado debería hacer que la granja avance más rápido hacia la siguiente mejora.",
-          "tip": "Compara qué tan rápido te ayuda cada hacha nueva a alcanzar la siguiente compra."
-        },
-        {
-          "icon": "Expand",
-          "title": "Mejora y expande la parcela",
-          "description": "Usa el dinero para mejorar y expandir tu parcela de la granja a medida que puedas permitirte nuevas opciones de progresión. El desarrollo de la parcela funciona junto con las mejoras de hachas como parte del ciclo principal del juego.",
-          "tip": "Mantén suficiente dinero disponible para las mejoras de producción en lugar de gastarlo todo a la vez."
-        },
-        {
-          "icon": "Moon",
-          "title": "Usa la producción de madera sin conexión",
-          "description": "Tus hachas siguen recolectando madera mientras estás desconectado. Regresa después de un descanso, vende la producción adicional y usa el dinero para seguir mejorando.",
-          "tip": "La recolección sin conexión es especialmente útil cuando no puedes mantener una sesión de tala activa."
-        }
-      ]
-    },
-    "woodFarmAxeTierList": {
-      "title": "Lista de niveles de hachas de Mi granja de madera",
-      "eyebrow": "Clasificación de equipamiento",
-      "intro": "Las hachas determinan qué tan rápido puede producir madera tu granja durante el juego activo y la recolección sin conexión. Sube primero de nivel con las hachas iniciales y luego apunta a las categorías de hachas raras, legendarias y mágicas a medida que aumente tu producción de dinero.",
-      "tiers": [
-        {
-          "tier": "S",
-          "label": "Lo mejor para el final del juego",
-          "icon": "Sparkles",
-          "name": "Hachas mágicas",
-          "best_for": "Producción de madera para el final del juego",
-          "description": "La categoría de progresión más alta que se muestra en el juego actual de Mi granja de madera. Estas hachas son el principal objetivo a largo plazo tras construir una granja con una sólida producción de dinero."
-        },
-        {
-          "tier": "A",
-          "label": "Excelente",
-          "icon": "Corona",
-          "name": "Hachas legendarias",
-          "best_for": "Mejoras importantes para la etapa avanzada",
-          "description": "Mejoras raras y poderosas que representan un gran salto respecto a la progresión normal de las hachas. Las hachas legendarias son objetivos clave antes de pasar a los niveles de hachas mágicas."
-        },
-        {
-          "tier": "B",
-          "label": "Progresión sólida",
-          "icon": "Estrella",
-          "name": "Hachas raras",
-          "best_for": "Recolección de etapa media",
-          "description": "Mejoras de progresión útiles para jugadores que han superado el equipo inicial, pero que aún están acumulando ingresos para hachas legendarias o mágicas."
-        },
-        {
-          "tier": "C",
-          "label": "Inicial",
-          "icon": "Hacha",
-          "name": "Hacha de madera",
-          "best_for": "Tala de la primera sesión",
-          "description": "El punto de partida básico para talar árboles y ganar dinero inicial. Cámbiala en cuanto tu granja pueda costear cómodamente una mejora de producción más fuerte."
-        }
-      ]
-    },
-    "woodFarmMoneyFarming": {
-      "title": "Mejores formas de ganar dinero en Mi granja de madera",
-      "eyebrow": "Guía de dinero",
-      "intro": "La progresión de dinero más rápida se logra convirtiendo madera en efectivo repetidamente y reinvirtiendo ese dinero en producción. La tala activa funciona mejor en sesiones cortas y concentradas, mientras que las hachas mejoradas y la recolección sin conexión apoyan el crecimiento a largo plazo.",
-      "methods": [
-        {
-          "icon": "ArrowUpCircle",
-          "name": "Mejora tu hacha pronto",
-          "priority": 1,
-          "session_type": "Todas las sesiones",
-          "description": "Un hacha más fuerte mejora el ciclo principal de producción de madera y ayuda a que cada venta contribuya más a la siguiente mejora.",
-          "action": "Usa el dinero inicial para progresar de forma práctica con las hachas en lugar de guardarlo sin un objetivo claro."
-        },
-        {
-          "icon": "Hacha",
-          "name": "Tala árboles activamente",
-          "priority": 2,
-          "session_type": "Sesiones activas cortas",
-          "description": "La tala continua proporciona madera inmediata y te permite ganar dinero sin esperar a la producción sin conexión.",
-          "action": "Mantente en movimiento entre los árboles disponibles y minimiza el tiempo fuera de la producción."
-        },
-        {
-          "icon": "Coins",
-          "name": "Vende madera con regularidad",
-          "priority": 3,
-          "session_type": "Progresión activa",
-          "description": "La madera solo hace avanzar tu granja después de convertirla en dinero. Las ventas regulares permiten acceder antes a las mejoras y mantienen el ciclo de progresión en movimiento.",
-          "action": "Vende cuando la cantidad actual de madera te acerque a una mejora de hacha o de parcela."
-        },
-        {
-          "icon": "Expandir",
-          "name": "Expande y mejora la parcela",
-          "priority": 4,
-          "session_type": "Progresión a largo plazo",
-          "description": "Las mejoras y la expansión de la parcela son parte del ciclo oficial de progresión y apoyan el crecimiento general de tu granja de madera.",
-          "action": "Equilibra el gasto en parcelas con la compra de hachas para que la producción siga mejorando."
-        },
-        {
-          "icon": "Luna",
-          "name": "Usa la tala con hachas sin conexión",
-          "priority": 5,
-          "session_type": "Descansos largos y durante la noche",
-          "description": "Las hachas siguen talando madera mientras estás sin conexión, lo que permite que la granja produzca recursos entre sesiones activas.",
-          "action": "Mejora antes de desconectarte para que tu progreso actual con las hachas contribuya a la producción sin conexión."
-        }
-      ]
-    },
-    "woodFarmTreesAndValues": {
-      "title": "Valores de árboles, tocones y madera de Mi granja de madera",
-      "eyebrow": "Base de datos de árboles",
-      "intro": "Mi granja de madera comienza con árboles comunes y poco a poco introduce objetivos más resistentes, como tocones y árboles gigantes. Unas hachas más fuertes y una mayor estructura de producción reducen el tiempo de tala y ayudan a convertir cada ciclo de producción en más madera y dinero.",
-      "columns": [
-        "Objetivo",
-        "Durabilidad",
-        "Producción de madera",
-        "Valor de venta",
-        "Mejor etapa"
-      ],
-      "rows": [
-        {
-          "icon": "TreePine",
-          "target": "Árbol común",
-          "durability": "Baja",
-          "wood_yield": "Estándar",
-          "selling_value": "Ganancia base de dinero",
-          "recommended_progression": "Fase inicial",
-          "notes": "El objetivo principal para comenzar el ciclo de talar, recolectar, vender y mejorar."
-        },
-        {
-          "icon": "Brote",
-          "target": "Tocón de árbol",
-          "durability": "Alta",
-          "wood_yield": "Objetivo de producción de mayor valor",
-          "selling_value": "Ganancia de dinero mejorada por objetivo completado",
-          "recommended_progression": "Fase media a avanzada",
-          "notes": "Los tocones están diseñados para el progreso de hachas más fuertes y requieren más poder de producción que los árboles comunes."
-        },
-        {
-          "icon": "Árboles",
-          "target": "Árbol gigante",
-          "durability": "Muy alta",
-          "wood_yield": "Gran objetivo de producción",
-          "selling_value": "Gran ganancia de dinero al completarse",
-          "recommended_progression": "Fase avanzada",
-          "notes": "Un objetivo de larga duración que se beneficia al colocar más hachas y mejorar el rendimiento total de la granja."
-        }
-      ]
-    },
-    "woodFarmUpgradeOrder": {
-      "title": "El mejor orden de mejoras de Mi granja de madera",
-      "eyebrow": "Guía de progresión",
-      "intro": "La progresión más eficiente mantiene el flujo de dinero destinado a mejoras que aumentan la producción de madera. Compara las compras midiendo cuánto dinero extra generan en lugar de comprar todas las mejoras disponibles de inmediato.",
-      "steps": [
-        {
-          "icon": "Hacha",
-          "stage": "Iniciar el ciclo de dinero",
-          "priority": "Usa el hacha de madera inicial",
-          "action": "Tala árboles normales, recoge la madera y véndela por dinero.",
-          "why": "Esto establece la tasa de producción básica que sirve para evaluar cada mejora posterior.",
-          "spend_rule": "Realiza varias ventas antes de hacer la primera compra importante."
-        },
-        {
-          "icon": "ArrowUpCircle",
-          "stage": "Mejora el rendimiento del hacha",
-          "priority": "Compra una mejora de hacha asequible",
-          "action": "Mejora el hacha que está produciendo madera activamente antes de gastar mucho en espacio extra.",
-          "why": "Las hachas más rápidas o fuertes talan los árboles antes y aumentan el dinero ganado en cada sesión.",
-          "spend_rule": "Prioriza las mejoras que generen un aumento inmediato en la producción de madera."
-        },
-        {
-          "icon": "Layers",
-          "stage": "Aumenta la densidad de producción",
-          "priority": "Añade más hachas de trabajo",
-          "action": "Ocupa posiciones útiles en la parcela actual para que varias hachas contribuyan a la producción.",
-          "why": "Las hachas adicionales aumentan el rendimiento activo total y siguen contribuyendo a la producción de madera sin conexión.",
-          "spend_rule": "Usa el espacio disponible en la parcela antes de pagar por una expansión que se quedaría vacía."
-        },
-        {
-          "icon": "Expandir",
-          "stage": "Expande la parcela",
-          "priority": "Compra más terreno cuando el área actual esté llena",
-          "action": "Abre espacio adicional en la parcela y coloca hachas nuevas sin bloquear el acceso a los árboles o la ruta de venta.",
-          "why": "La expansión aumenta el número de posiciones de producción disponibles para una granja más grande.",
-          "spend_rule": "Expande cuando la siguiente hacha no se pueda colocar de forma eficiente en la parcela actual."
-        },
-        {
-          "icon": "Crown",
-          "stage": "Ve a por los tocones y los árboles gigantes",
-          "priority": "Avanza hacia la progresión de hachas mágicas y legendarias",
-          "action": "Usa hachas de nivel alto y una configuración más grande contra tocones resistentes y árboles gigantes.",
-          "why": "Los objetivos del final del juego requieren más potencia de tala y recompensan a las granjas diseñadas en torno a hachas más fuertes.",
-          "spend_rule": "Calcula el tiempo de amortización dividiendo el coste de la mejora por el dinero extra ganado por minuto."
-        }
-      ]
-    },
-    "woodFarmPlotExpansion": {
-      "title": "Guía de expansión y diseño de parcelas de Mi granja de madera",
-      "eyebrow": "Expansión de la granja",
-      "intro": "La expansión de parcelas es una parte fundamental de la progresión en Mi granja de madera. El terreno adicional es más valioso cuando la parcela actual ya produce de forma eficiente y la nueva zona puede albergar más hachas de inmediato.",
-      "items": [
-        {
-          "title": "Moneda de expansión y progresión",
-          "content": "La expansión de la parcela se financia con el dinero ganado al vender madera. Sigue completando ciclos de árboles y reinvirtiendo los ingresos de las ventas hasta que la siguiente compra de expansión esté disponible."
-        },
-        {
-          "title": "El mejor momento para expandirse",
-          "content": "Expándete cuando las posiciones útiles para hachas en la parcela actual estén ocupadas. Comprar terreno demasiado pronto inmoviliza el dinero en espacios vacíos en lugar de aumentar la producción de madera."
-        },
-        {
-          "title": "Diseño inicial de la parcela",
-          "content": "Mantén las hachas cerca de los árboles normales y asegura una ruta despejada para recoger y vender madera. Agrupa las primeras posiciones de producción para que las mejoras sean fáciles de supervisar."
-        },
-        {
-          "title": "Diseño de granja expandida",
-          "content": "Usa el espacio exterior recién abierto para hachas adicionales, manteniendo el centro despejado para el movimiento y los objetivos más grandes. Construye en grupos de producción compactos en lugar de esparcir hachas individuales por toda la parcela."
-        },
-        {
-          "title": "Área de tocones y árboles gigantes",
-          "content": "Reserva una sección abierta para tocones resistentes y árboles gigantes. Estos objetivos funcionan mejor con varias hachas mejoradas contribuyendo desde posiciones cercanas."
-        },
-        {
-          "title": "Lista de control para comprar expansiones",
-          "content": "Antes de comprar terreno, confirma que la parcela actual esté llena, que quede suficiente dinero para otra hacha y que el nuevo espacio se pueda usar de inmediato. La expansión debe aumentar la producción en lugar de solo aumentar el tamaño de la granja."
-        }
-      ]
-    },
-    "woodFarmOfflineEarnings": {
-      "title": "Ganancias sin conexión y últimas actualizaciones de Mi granja de madera",
-      "eyebrow": "Producción pasiva",
-      "intro": "La producción sin conexión permite que la granja siga generando madera entre sesiones de juego. Una mayor colección de hachas mejoradas aumenta el valor de cada retorno, mientras que la experiencia oficial de Roblox y la comunidad de Did I Axe son los canales principales para ver cambios y anuncios del juego.",
-      "cards": [
-        {
-          "icon": "Luna",
-          "title": "Producción de madera sin conexión",
-          "category": "Mecánica principal",
-          "value": "Las hachas siguen recolectando madera mientras el jugador está sin conexión",
-          "details": "Coloca y mejora hachas productivas antes de salir para que la granja esté lista para generar madera durante el descanso."
-        },
-        {
-          "icon": "Calculadora",
-          "title": "Fórmula de ganancias sin conexión",
-          "category": "Calculadora",
-          "value": "Madera obtenida sin conexión = madera al volver menos madera antes de salir",
-          "details": "Divide la madera obtenida por el número de minutos u horas sin conexión para calcular la tasa promedio de producción pasiva de la granja."
-        },
-        {
-          "icon": "Monedas",
-          "title": "Valor estimado en dinero",
-          "category": "Calculadora",
-          "value": "Dinero estimado = madera obtenida sin conexión multiplicada por el dinero ganado por madera",
-          "details": "Usa el rendimiento de venta actual que se muestra durante una venta normal para estimar cuánto vale el ciclo de producción sin conexión."
-        },
-        {
-          "icon": "ArrowUpCircle",
-          "title": "Mejor rutina antes de cerrar sesión",
-          "category": "Eficiencia",
-          "value": "Mejora, coloca hachas, registra la madera y luego sal",
-          "details": "Gasta el dinero disponible en mejoras de producción útiles, confirma que todas las hachas estén colocadas y registra el total de madera inicial antes de finalizar la sesión."
-        },
-        {
-          "icon": "RefreshCw",
-          "title": "Mejor rutina de retorno",
-          "category": "Eficiencia",
-          "value": "Recolecta, vende, mejora y expande",
-          "details": "Reclama la madera producida, conviértela en dinero y reinvierte las ganancias en la siguiente hacha, mejora de producción o expansión de parcela."
-        },
-        {
-          "icon": "Sparkles",
-          "title": "Seguimiento oficial de actualizaciones",
-          "category": "Actualizaciones",
-          "value": "Página de la experiencia de Roblox y comunidad de Did I Axe",
-          "details": "Consulta estas fuentes para ver los cambios relacionados con hachas, árboles, equilibrio de producción, expansión de parcelas y otros sistemas añadidos recientemente."
-        }
-      ]
-    }
+  "homeHighlights": {
+    "cards": [
+      {
+        "icon": "Wrench",
+        "title": "Construye sistemas resistentes",
+        "description": "Aprende como rodamientos, motores, suspension, controladores y logica crean maquinas estables."
+      },
+      {
+        "icon": "Shield",
+        "title": "Sobrevive a la curva de presion",
+        "description": "Planea granjas, incursiones, misiones y recursos para que la supervivencia avance sin atascarse."
+      },
+      {
+        "icon": "Car",
+        "title": "Ajusta vehiculos segun su funcion",
+        "description": "Compara coches, tanques, aeronaves, trenes y plataformas por estabilidad, direccion y potencia."
+      },
+      {
+        "icon": "Users",
+        "title": "Comparte mundos con menos friccion",
+        "description": "Usa guias de multijugador y servidor para organizar construcciones, guardados y sesiones cooperativas."
+      }
+    ]
   },
+  "modules": {},
   "faq": {
     "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Mi granja de madera",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Respuestas rapidas para jugadores nuevos y veteranos de Scrap Mechanic.",
     "questions": [
       {
-        "question": "¿Qué es Mi granja de madera?",
-        "answer": "Mi granja de madera es un simulador de tala idle en Roblox donde talas árboles para obtener madera, vendes madera por dinero, mejoras hachas, expandes tu terreno y sigues ganando dinero sin conexión mientras tus hachas continúan farmeando."
+        "question": "Que es Scrap Mechanic?",
+        "answer": "Scrap Mechanic es un juego sandbox creativo y de supervivencia de Axolot Games donde los jugadores construyen maquinas, vehiculos, bases, granjas y sistemas automaticos."
       },
       {
-        "question": "¿Hay códigos para Mi granja de madera?",
-        "answer": "Mi granja de madera actualmente no tiene códigos de recompensa activos ni un menú público para canjear códigos. Los nuevos códigos, cuando los agreguen los desarrolladores de Did I Axe, aparecerán dentro del juego y a través de la página oficial de la experiencia en Roblox."
+        "question": "Scrap Mechanic tiene modo supervivencia?",
+        "answer": "Si. El modo supervivencia anade recoleccion de recursos, farmeo, bots, incursiones, fabricacion, exploracion y progresion al sandbox de construccion."
       },
       {
-        "question": "¿Las hachas siguen farmeando en Mi granja de madera mientras estás sin conexión?",
-        "answer": "Sí. En Mi granja de madera, tus hachas colocadas siguen farmeando madera mientras estás sin conexión, por lo que volver después de un descanso te permite vender la madera extra y reinvertir el dinero en más mejoras."
+        "question": "Puedo jugar Scrap Mechanic con amigos?",
+        "answer": "Si. Scrap Mechanic admite multijugador cooperativo, y la wiki incluye guias para mundos compartidos y servidores dedicados."
       },
       {
-        "question": "¿Cuál es la mejor hacha en Mi granja de madera?",
-        "answer": "El objetivo más fuerte a largo plazo en Mi granja de madera es la categoría de hachas mágicas, a la que se llega tras progresar a través de hachas de madera, raras y legendarias. Al principio, cualquier mejora de hacha asequible que aumente la producción de madera es la mejor opción."
+        "question": "Por donde deberian empezar los principiantes?",
+        "answer": "Empieza con la guia para principiantes, luego aprende supervivencia, rodamientos, motores, suspension y vehiculos simples antes de logica compleja."
       },
       {
-        "question": "¿Cómo ganar dinero rápido en Mi granja de madera?",
-        "answer": "El dinero más rápido en Mi granja de madera se obtiene talando árboles, vendiendo madera con regularidad y reinvirtiendo el dinero en mejoras de hachas y producción, para luego dejar que el farmeo de hachas sin conexión añada madera extra entre sesiones."
-      },
-      {
-        "question": "¿Es gratis jugar a Mi granja de madera en Roblox?",
-        "answer": "Sí. Es gratis jugar a Mi granja de madera en Roblox. Puedes unirte a través de la página oficial de la experiencia de Mi granja de madera en Roblox y seguir a la comunidad de Did I Axe para recibir actualizaciones."
+        "question": "Hay soporte para mods?",
+        "answer": "Steam Workshop es una parte importante de la comunidad de Scrap Mechanic, con mods, piezas personalizadas, mapas y complementos de supervivencia."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para comenzar tu granja de madera?",
-    "description": "Únete al grupo de Roblox de Did I Axe para recibir actualizaciones, o entra directamente a Mi granja de madera y comienza a talar árboles.",
-    "joinCommunity": "Unirse al grupo de Roblox",
-    "joinGame": "Jugar en Roblox"
+    "title": "Listo para construir una maquina mejor?",
+    "description": "Usa las guias para planear tu ruta de supervivencia, ajustar construcciones y revisar informacion oficial antes de tu proxima sesion.",
+    "officialSite": "Sitio oficial",
+    "steamPage": "Pagina de Steam",
+    "joinCommunity": "Sitio oficial",
+    "joinGame": "Pagina de Steam"
   },
   "footer": {
-    "title": "Wiki de Mi granja de madera",
-    "description": "Tu centro de recursos completo para códigos de Mi granja de madera, mejores hachas, mejoras, renacimiento, cultivo de árboles, estrategias para ganar dinero y ganancias sin conexión.",
+    "title": "Scrap Mechanic Wiki",
+    "description": "Centro no oficial hecho por fans para supervivencia, construccion, vehiculos, bots, mods, multijugador y actualizaciones de Scrap Mechanic.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "robloxGame": "Jugar a Mi granja de madera",
-    "robloxGroup": "Grupo Did I Axe",
+    "robloxGame": "Pagina de Steam",
+    "robloxGroup": "Sitio oficial",
     "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
+    "privacy": "Politica de privacidad",
+    "terms": "Terminos de servicio",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Mi granja de madera. No afiliado con los desarrolladores de Mi granja de madera ni con Roblox Corporation.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyright": "© 2026 Scrap Mechanic Wiki. Scrap Mechanic pertenece a Axolot Games.",
+    "disclaimer": "Sitio no oficial hecho por fans. No afiliado con Axolot Games."
   },
   "pages": {
-    "codes": {
-      "title": "Códigos de Mi granja de madera",
-      "description": "Sigue los códigos activos de Mi granja de madera, las recompensas caducadas y cualquier sistema futuro de canje de códigos de los desarrolladores de Did I Axe.",
-      "metaTitle": "Códigos de Mi granja de madera - Lista de códigos activos y expirados",
-      "metaDescription": "Sigue los códigos de Mi granja de madera, las recompensas caducadas y cualquier sistema futuro de canje de códigos. Consulta el estado actual de los códigos y dónde se anunciarán las nuevas recompensas de Mi granja de madera.",
-      "categoryLabel": "CÓDIGOS Y RECOMPENSAS",
-      "whatIs": "¿Qué son los códigos?",
-      "whatIsDescription": "Guías de códigos de Mi granja de madera que cubren el estado actual de las recompensas, cómo se canjean los códigos cuando se agregan y dónde anuncian los desarrolladores de Did I Axe nuevas recompensas para el simulador de tala idle.",
-      "why": "¿Por qué revisar los códigos?",
-      "whySteps": {
-        "step1Title": "Ver códigos actuales",
-        "step1Description": "Comprueba si hay códigos activos de Mi granja de madera disponibles en este momento",
-        "step2Title": "Seguimiento de expiración",
-        "step2Description": "Saber qué códigos lanzados anteriormente ya han caducado",
-        "step3Title": "No te pierdas ninguna recompensa",
-        "step3Description": "Descubre dónde se anunciarán los nuevos códigos de My Wood Farm"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de códigos"
-    },
     "guide": {
-      "title": "Guías de My Wood Farm",
-      "description": "Guías completas de juego de My Wood Farm, desde los conceptos básicos y controles para principiantes hasta la progresión avanzada, rutas de hachas y estrategias de farmeo de dinero.",
-      "metaTitle": "Guías de My Wood Farm: estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de My Wood Farm que cubren consejos para principiantes, controles, rutas de progresión, las mejores hachas, farmeo de dinero y ganancias sin conexión para dominar el simulador de tala inactivo.",
-      "categoryLabel": "GUÍAS DE JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías completas que cubren las mecánicas de juego de My Wood Farm, el ciclo de talar y vender, la progresión de las hachas, los controles y el farmeo de dinero. Aprende todo, desde los primeros pasos hasta las estrategias avanzadas.",
-      "why": "¿Por qué leer guías?",
+      "title": "Scrap Mechanic Guias",
+      "description": "Guias principales de Scrap Mechanic para principiantes, controles, jugabilidad, analisis y progreso general.",
+      "metaTitle": "Scrap Mechanic Guias - Wiki Guides",
+      "metaDescription": "Guias principales de Scrap Mechanic para principiantes, controles, jugabilidad, analisis y progreso general.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "Que es Guias?",
+      "whatIsDescription": "Guias principales de Scrap Mechanic para principiantes, controles, jugabilidad, analisis y progreso general.",
+      "why": "Por que usar estas guias?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el ciclo de talar, vender y mejorar, y evita los errores comunes de los principiantes",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue rutas probadas de mejora de hachas y parcelas para hacer crecer tu My Wood Farm rápidamente",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para el farmeo de dinero y las ganancias sin conexión"
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacados esenciales",
+      "all": "Todo: Guias"
     },
-    "axes": {
-      "title": "Hachas de My Wood Farm",
-      "description": "Guías detalladas de hachas de My Wood Farm que cubren cada categoría de hacha, rareza, precio, estadísticas y la mejor etapa de farmeo para cada mejora.",
-      "metaTitle": "Hachas de My Wood Farm: guía de la mejor hacha y tier list",
-      "metaDescription": "Base de datos completa de hachas de My Wood Farm, que incluye hachas de madera, raras, legendarias y mágicas. Conoce las estadísticas de las hachas, los precios, el hacha más rápida y la mejor hacha para cada etapa de progresión.",
-      "categoryLabel": "HACHAS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son las hachas?",
-      "whatIsDescription": "Guías completas para cada hacha de My Wood Farm. Conoce la rareza de las hachas, el poder de producción, las estadísticas, el precio y la mejor etapa para mejorar para que tu granja de madera siga creciendo.",
-      "why": "¿Por qué consultar las guías de hachas?",
+    "survival": {
+      "title": "Scrap Mechanic Supervivencia",
+      "description": "Rutas del modo supervivencia para farmeo, incursiones, misiones, mapas, recursos y bases.",
+      "metaTitle": "Scrap Mechanic Supervivencia - Wiki Guides",
+      "metaDescription": "Rutas del modo supervivencia para farmeo, incursiones, misiones, mapas, recursos y bases.",
+      "categoryLabel": "SUPERVIVENCIA",
+      "whatIs": "Que es Supervivencia?",
+      "whatIsDescription": "Rutas del modo supervivencia para farmeo, incursiones, misiones, mapas, recursos y bases.",
+      "why": "Por que usar estas guias?",
       "whySteps": {
-        "step1Title": "Compara hachas",
-        "step1Description": "Descubre el poder de producción, las estadísticas y el precio de cada categoría de hacha de My Wood Farm",
-        "step2Title": "Planifica mejoras",
-        "step2Description": "Elige la mejor hacha para tu etapa de progresión actual en My Wood Farm",
-        "step3Title": "Mejora la producción",
-        "step3Description": "Mejora a las hachas más rápidas y raras para talar más rápido y obtener más madera"
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las hachas"
+      "featured": "Destacados esenciales",
+      "all": "Todo: Supervivencia"
     },
-    "trees": {
-      "title": "Árboles de My Wood Farm",
-      "description": "Base de datos detallada de árboles de My Wood Farm que cubre tipos de árboles, durabilidad, rendimiento de madera, ubicaciones y los mejores objetivos para cada etapa de hacha.",
-      "metaTitle": "Árboles de My Wood Farm: tipos, rendimientos y mejores objetivos de farmeo",
-      "metaDescription": "Guías completas de árboles de My Wood Farm que cubren tipos de árboles, durabilidad, rendimiento de madera, ubicaciones, árboles raros y árboles gigantes. Encuentra los mejores objetivos y rutas de farmeo para cada etapa de progresión.",
-      "categoryLabel": "---",
-      "whatIs": "ÁRBOLES Y RENDIMIENTO",
-      "whatIsDescription": "¿Qué son los árboles?",
-      "why": "Guías para cada objetivo de árbol en My Wood Farm, incluyendo árboles comunes, raros y gigantes. Aprende sobre la durabilidad, el rendimiento de madera, ubicaciones y qué árboles coinciden con tu poder de hacha actual.",
+    "building": {
+      "title": "Scrap Mechanic Construccion",
+      "description": "Guias de construccion para rodamientos, motores, suspension, pistones, puertas logicas e inventos fiables.",
+      "metaTitle": "Scrap Mechanic Construccion - Wiki Guides",
+      "metaDescription": "Guias de construccion para rodamientos, motores, suspension, pistones, puertas logicas e inventos fiables.",
+      "categoryLabel": "CONSTRUCCION",
+      "whatIs": "Que es Construccion?",
+      "whatIsDescription": "Guias de construccion para rodamientos, motores, suspension, pistones, puertas logicas e inventos fiables.",
+      "why": "Por que usar estas guias?",
       "whySteps": {
-        "step1Title": "¿Por qué estudiar los árboles?",
-        "step1Description": "Conoce los tipos de árboles",
-        "step2Title": "Compara árboles comunes, raros y gigantes y sus rendimientos de madera",
-        "step2Description": "Combina con tu hacha",
-        "step3Title": "Elige árboles que coincidan con tu nivel actual de hacha en My Wood Farm",
-        "step3Description": "Farmea eficientemente"
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
       },
-      "featured": "Usa las mejores ubicaciones y rutas de árboles para maximizar la madera y el dinero por recorrido",
-      "all": "Destacado y esencial"
+      "featured": "Destacados esenciales",
+      "all": "Todo: Construccion"
     },
-    "money": {
-      "title": "Todas las guías de árboles",
-      "description": "Dinero en My Wood Farm",
-      "metaTitle": "Domina el farmeo de dinero en My Wood Farm con métodos rápidos, la mejor madera para vender, precios de venta y clasificaciones de valor de madera para obtener el máximo ingreso.",
-      "metaDescription": "Dinero en My Wood Farm - La mejor guía de venta de madera y efectivo",
-      "categoryLabel": "Explora los métodos de farmeo de dinero en My Wood Farm, la mejor madera para vender, precios de venta y valores de madera. Convierte la madera en dinero más rápido y aumenta tus ingresos en My Wood Farm con estrategias probadas.",
-      "whatIs": "DINERO Y EFECTIVO",
-      "whatIsDescription": "¿Qué es el farmeo de dinero?",
-      "why": "Guías de farmeo de dinero en My Wood Farm que cubren la tala activa, venta eficiente, la mejor madera para vender, precios de venta y valores de madera para sesiones cortas y largas.",
+    "vehicles": {
+      "title": "Scrap Mechanic Vehiculos",
+      "description": "Guias de vehiculos para coches, tanques, aviones, helicopteros, trenes y estructuras estables.",
+      "metaTitle": "Scrap Mechanic Vehiculos - Wiki Guides",
+      "metaDescription": "Guias de vehiculos para coches, tanques, aviones, helicopteros, trenes y estructuras estables.",
+      "categoryLabel": "VEHICULOS",
+      "whatIs": "Que es Vehiculos?",
+      "whatIsDescription": "Guias de vehiculos para coches, tanques, aviones, helicopteros, trenes y estructuras estables.",
+      "why": "Por que usar estas guias?",
       "whySteps": {
-        "step1Title": "¿Por qué farmear dinero?",
-        "step1Description": "Gana dinero más rápido",
-        "step2Title": "Usa los métodos más rápidos de My Wood Farm para convertir madera en dinero",
-        "step2Description": "Conoce el valor de la madera",
-        "step3Title": "Compara el valor de la madera y los precios de venta para vender primero la mejor madera",
-        "step3Description": "Reinvierte con inteligencia"
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
       },
-      "featured": "Invierte el dinero ganado en hachas y mejoras para multiplicar tus ingresos en My Wood Farm",
-      "all": "Destacado y esencial"
+      "featured": "Destacados esenciales",
+      "all": "Todo: Vehiculos"
     },
-    "upgrades": {
-      "title": "Todas las guías de dinero",
-      "description": "Mejoras de My Wood Farm",
-      "metaTitle": "Domina el orden de mejoras en My Wood Farm con prioridades de hacha, producción, expansión de parcelas y diseño de granja, además de guías de rentabilidad.",
-      "metaDescription": "Mejoras de My Wood Farm - Mejor orden de mejoras y diseños",
-      "categoryLabel": "Domina las mejoras de My Wood Farm con el mejor orden de hacha, producción y expansión de parcelas, diseños de granja y costos de expansión. Aprende reglas de gasto y tiempos de retorno para una progresión eficiente.",
-      "whatIs": "ORDEN DE MEJORAS",
-      "whatIsDescription": "¿Qué son las mejoras?",
-      "why": "Guías del sistema de mejoras de My Wood Farm que cubren la potencia del hacha, densidad de producción, expansión de parcelas y diseños de granja. Aprende qué mejoras priorizar en cada etapa de progresión.",
+    "bots": {
+      "title": "Scrap Mechanic Bots",
+      "description": "Guias de enemigos y bots sobre Totebots, Haybots, Farmbots, amenazas de combate y presion de incursiones.",
+      "metaTitle": "Scrap Mechanic Bots - Wiki Guides",
+      "metaDescription": "Guias de enemigos y bots sobre Totebots, Haybots, Farmbots, amenazas de combate y presion de incursiones.",
+      "categoryLabel": "BOTS",
+      "whatIs": "Que es Bots?",
+      "whatIsDescription": "Guias de enemigos y bots sobre Totebots, Haybots, Farmbots, amenazas de combate y presion de incursiones.",
+      "why": "Por que usar estas guias?",
       "whySteps": {
-        "step1Title": "¿Por qué planificar las mejoras?",
-        "step1Description": "Prioriza la producción",
-        "step2Title": "Enfoca el dinero en las mejoras de My Wood Farm que aumenten primero la producción de madera",
-        "step2Description": "Gestiona los gastos",
-        "step3Title": "Crea diseños inteligentes",
-        "step3Description": "Usa el mejor diseño de granja para colocar más hachas y aumentar la producción general"
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
       },
-      "featured": "Destacados y esenciales",
-      "all": "Todas las guías de mejoras"
+      "featured": "Destacados esenciales",
+      "all": "Todo: Bots"
+    },
+    "mods": {
+      "title": "Scrap Mechanic Mods",
+      "description": "Guias de Workshop y mods para mods de supervivencia, pruebas de VR y complementos de la comunidad.",
+      "metaTitle": "Scrap Mechanic Mods - Wiki Guides",
+      "metaDescription": "Guias de Workshop y mods para mods de supervivencia, pruebas de VR y complementos de la comunidad.",
+      "categoryLabel": "MODS",
+      "whatIs": "Que es Mods?",
+      "whatIsDescription": "Guias de Workshop y mods para mods de supervivencia, pruebas de VR y complementos de la comunidad.",
+      "why": "Por que usar estas guias?",
+      "whySteps": {
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
+      },
+      "featured": "Destacados esenciales",
+      "all": "Todo: Mods"
+    },
+    "multiplayer": {
+      "title": "Scrap Mechanic Multijugador",
+      "description": "Guias de multijugador y servidor dedicado para mundos cooperativos, alojamiento y construcciones compartidas.",
+      "metaTitle": "Scrap Mechanic Multijugador - Wiki Guides",
+      "metaDescription": "Guias de multijugador y servidor dedicado para mundos cooperativos, alojamiento y construcciones compartidas.",
+      "categoryLabel": "MULTIJUGADOR",
+      "whatIs": "Que es Multijugador?",
+      "whatIsDescription": "Guias de multijugador y servidor dedicado para mundos cooperativos, alojamiento y construcciones compartidas.",
+      "why": "Por que usar estas guias?",
+      "whySteps": {
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
+      },
+      "featured": "Destacados esenciales",
+      "all": "Todo: Multijugador"
     },
     "updates": {
-      "title": "Actualizaciones de Mi granja de madera",
-      "description": "Sigue las actualizaciones de Mi granja de madera, los cambios de equilibrio, las nuevas hachas, los nuevos árboles y el último registro de actualizaciones de la experiencia oficial.",
-      "metaTitle": "Actualizaciones de Mi granja de madera - Notas del parche y nuevo contenido",
-      "metaDescription": "Sigue las actualizaciones de Mi granja de madera, incluyendo los cambios de equilibrio, las nuevas hachas, los nuevos árboles, los cambios en la expansión de parcelas y el último registro de actualizaciones de la experiencia oficial de Roblox y la comunidad de Did I Axe.",
-      "categoryLabel": "ACTUALIZACIONES Y NOTICIAS",
-      "whatIs": "¿Qué son las actualizaciones?",
-      "whatIsDescription": "Guías que cubren los cambios de versión de Mi granja de madera, nuevas hachas, nuevos árboles, actualizaciones del equilibrio de producción y el último registro de actualizaciones de la experiencia oficial de Roblox y la comunidad de Did I Axe.",
-      "why": "¿Por qué seguir las actualizaciones?",
+      "title": "Scrap Mechanic Actualizaciones",
+      "description": "Cobertura de lanzamiento, trailer, requisitos, plataformas y ultimas actualizaciones de Scrap Mechanic.",
+      "metaTitle": "Scrap Mechanic Actualizaciones - Wiki Guides",
+      "metaDescription": "Cobertura de lanzamiento, trailer, requisitos, plataformas y ultimas actualizaciones de Scrap Mechanic.",
+      "categoryLabel": "ACTUALIZACIONES",
+      "whatIs": "Que es Actualizaciones?",
+      "whatIsDescription": "Cobertura de lanzamiento, trailer, requisitos, plataformas y ultimas actualizaciones de Scrap Mechanic.",
+      "why": "Por que usar estas guias?",
       "whySteps": {
-        "step1Title": "Mantente al día",
-        "step1Description": "Mira las últimas hachas, árboles y cambios de equilibrio de Mi granja de madera",
-        "step2Title": "Ajusta tu estrategia",
-        "step2Description": "Actualiza tus planes de mejoras y de generación de dinero después de cada cambio",
-        "step3Title": "Entérate de los anuncios",
-        "step3Description": "Sigue las noticias oficiales para ver el nuevo contenido de Mi granja de madera y el registro de actualizaciones"
+        "step1Title": "Aprende la categoria",
+        "step1Description": "Entiende sistemas, terminos y errores comunes de esta parte de Scrap Mechanic.",
+        "step2Title": "Elige la siguiente accion",
+        "step2Description": "Usa guias enfocadas para decidir que construir, fabricar, combatir, ajustar o verificar.",
+        "step3Title": "Evita sesiones perdidas",
+        "step3Description": "Reduce prueba y error revisando primero estructuras, rutas y configuraciones probadas."
       },
-      "featured": "Destacados y esenciales",
-      "all": "Todas las guías de actualizaciones"
+      "featured": "Destacados esenciales",
+      "all": "Todo: Actualizaciones"
     }
   }
 }

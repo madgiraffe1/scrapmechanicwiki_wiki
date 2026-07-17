@@ -72,6 +72,16 @@ jobs:
           NEXT_PUBLIC_ADSTERRA_BANNER_300X250_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_300X250_KEY }}
           NEXT_PUBLIC_ADSTERRA_BANNER_160X600_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_160X600_KEY }}
           NEXT_PUBLIC_ADSTERRA_BANNER_160X300_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_160X300_KEY }}
+          NEXT_PUBLIC_ADSTERRA_NATIVE_BANNER_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_NATIVE_BANNER_SRC }}
+          NEXT_PUBLIC_ADSTERRA_NATIVE_BANNER_CONTAINER_ID: ${{ secrets.NEXT_PUBLIC_ADSTERRA_NATIVE_BANNER_CONTAINER_ID }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_728X90_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_728X90_SRC }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_468X60_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_468X60_SRC }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_320X50_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_320X50_SRC }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_300X250_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_300X250_SRC }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_160X600_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_160X600_SRC }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_160X300_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_160X300_SRC }}
+          NEXT_PUBLIC_ADSTERRA_SIDEBAR_160X600_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_SIDEBAR_160X600_SRC }}
+          NEXT_PUBLIC_ADSTERRA_SIDEBAR_160X300_SRC: ${{ secrets.NEXT_PUBLIC_ADSTERRA_SIDEBAR_160X300_SRC }}
           NEXT_PUBLIC_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_ID }}
           NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
           NEXT_PUBLIC_CLARITY_ID: ${{ secrets.NEXT_PUBLIC_CLARITY_ID }}
@@ -82,15 +92,7 @@ jobs:
       - name: Promote default locale (en) to root — 保持无前缀 URL
         # 静态导出把 [locale] 产物落在 out/en、out/es… 。默认语言 en 已收录为无前缀 URL，
         # 故把 out/en/* 提升到根；非默认语言（es/pt…）保持前缀不动。
-        run: |
-          set -e
-          if [ ! -d out/en ]; then echo "❌ out/en 不存在，静态导出可能失败"; ls -la out || true; exit 1; fi
-          cp -r out/en/. out/
-          if [ -f out/en.html ]; then cp -f out/en.html out/index.html
-          elif [ -f out/en/index.html ]; then cp -f out/en/index.html out/index.html
-          else echo "❌ 找不到 en 首页(out/en.html 或 out/en/index.html)"; ls out/en* || true; exit 1; fi
-          [ -f out/en/404.html ] && cp -f out/en/404.html out/404.html || true
-          echo "✓ 根 index：$(ls -la out/index.html 2>/dev/null || echo 缺失)"
+        run: node scripts/promote-default-locale.mjs
 
       - name: Deploy to Cloudflare Workers (asset-only)
         env:

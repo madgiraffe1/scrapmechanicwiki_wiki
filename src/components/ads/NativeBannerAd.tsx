@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useDeferredAdSlot } from "./useDeferredAdSlot";
+import { mountAdsterraNativeSlot } from "./adsterraLoader";
 
 interface NativeBannerAdProps {
-  adKey: string;
+  adKey?: string;
+  scriptSrc?: string;
+  containerId?: string;
   className?: string;
 }
 
@@ -12,51 +14,51 @@ interface NativeBannerAdProps {
  * 原生横幅广告组件
  * 特点：4:1 宽高比，完全自适应容器宽度，不限制高度
  */
-export function NativeBannerAd({ adKey, className = "" }: NativeBannerAdProps) {
-  const { ref: containerRef, isActive } = useDeferredAdSlot<HTMLDivElement>({
-    enabled: Boolean(adKey && adKey !== "0"),
-    delayMs: 600,
-  });
+export function NativeBannerAd({
+  adKey,
+  scriptSrc,
+  containerId,
+  className = "",
+}: NativeBannerAdProps) {
+  const hostRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const scriptLoadedRef = useRef(false);
+  const resolvedScriptSrc = scriptSrc || "";
+  const resolvedContainerId = containerId || (adKey ? `container-${adKey}` : "");
 
   useEffect(() => {
     if (
-      !adKey ||
-      adKey === "0" ||
-      !isActive ||
+      !resolvedScriptSrc ||
+      !resolvedContainerId ||
       scriptLoadedRef.current ||
+      !hostRef.current ||
       !containerRef.current
     )
       return;
 
-    const container = containerRef.current;
-
-    const script = document.createElement("script");
-    script.async = true;
-    script.setAttribute("data-cfasync", "false");
-    script.src = `https://pl28666083.effectivegatecpm.com/${adKey}/invoke.js`;
-
-    container.appendChild(script);
+    const cleanup = mountAdsterraNativeSlot(
+      hostRef.current,
+      containerRef.current,
+      resolvedScriptSrc,
+    );
     scriptLoadedRef.current = true;
 
     return () => {
-      if (script.parentNode) {
-        script.parentNode.removeChild(script);
-      }
+      cleanup();
       scriptLoadedRef.current = false;
     };
-  }, [adKey, containerRef, isActive]);
+  }, [resolvedContainerId, resolvedScriptSrc]);
 
-  if (!adKey || adKey === "0") return null;
+  if (!resolvedScriptSrc || !resolvedContainerId) return null;
 
   return (
-    <div className={`w-full flex justify-center my-8 ${className}`}>
-      <div className="w-full max-w-4xl">
+    <div className={`w-full justify-center my-8 ${className}`}>
+      <div className="mx-auto w-full max-w-4xl">
         <div
-          ref={containerRef}
-          className="min-h-[120px] overflow-hidden rounded-2xl"
+          ref={hostRef}
+          className="overflow-hidden"
         >
-          <div id={`container-${adKey}`} />
+          <div id={resolvedContainerId} ref={containerRef} />
         </div>
       </div>
     </div>

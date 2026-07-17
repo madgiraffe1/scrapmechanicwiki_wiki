@@ -3,8 +3,13 @@
 import Script from "next/script";
 
 export default function Analytics() {
-  const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
-  const clarityId = process.env.NEXT_PUBLIC_MICROSOFT_CLARITY_ID;
+  const gaId =
+    process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID ||
+    process.env.NEXT_PUBLIC_GA_ID;
+  const clarityId =
+    process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID ||
+    process.env.NEXT_PUBLIC_MICROSOFT_CLARITY_ID ||
+    process.env.NEXT_PUBLIC_CLARITY_ID;
 
   return (
     <>

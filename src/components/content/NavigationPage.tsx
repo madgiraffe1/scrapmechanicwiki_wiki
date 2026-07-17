@@ -4,8 +4,8 @@ import { ContentItem, Language } from '@/lib/content'
 import { Calendar, User, Sparkles, MapPin, Star, BookOpen } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 import { extractPrimaryKeyword } from '@/lib/utils'
-import { NativeBannerAd, AdBanner } from '@/components/ads'
-import { getPreferredMobileBannerSelection } from '@/components/ads/mobileAdConfigs'
+import { AdBanner } from '@/components/ads'
+import { getBannerAdKey, getBannerInvokeSrc } from '@/components/ads/mobileAdConfigs'
 import { Fragment } from 'react'
 
 interface NavigationPageProps {
@@ -51,7 +51,6 @@ export async function NavigationPage({
 }: NavigationPageProps) {
   // 获取翻译
   const t = await getTranslations(`pages.${contentType}`)
-  const mobileBannerAd = getPreferredMobileBannerSelection()
 
   // 随机选择 2 个作为 Featured & Essential
   // 使用 contentType 作为种子，确保服务器端和客户端结果一致
@@ -80,16 +79,10 @@ export async function NavigationPage({
       </section>
 
       {/* 广告位 1: Hero Section 下方 */}
-      {mobileBannerAd && (
-        <AdBanner
-          type={mobileBannerAd.type}
-          adKey={mobileBannerAd.adKey}
-          className="md:hidden"
-        />
-      )}
       <AdBanner
         type="banner-728x90"
-        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        adKey={getBannerAdKey("banner-728x90")}
+        invokeSrc={getBannerInvokeSrc("banner-728x90")}
         className="hidden md:flex"
       />
 
@@ -112,28 +105,28 @@ export async function NavigationPage({
           {/* Why Card - 6/10 */}
           <div className="md:col-span-6 relative overflow-hidden rounded-xl bg-card border border-border p-6">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center">
-                <MapPin className="w-5 h-5 text-green-400" />
+              <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                <MapPin className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
               </div>
               <h2 className="text-xl font-bold text-foreground">{t('why')}</h2>
             </div>
             <div className="space-y-4">
               <div className="flex gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">1</div>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] flex items-center justify-center text-[hsl(var(--nav-theme-light))] font-bold text-sm">1</div>
                 <div>
                   <h3 className="text-foreground font-semibold mb-1 text-base">{t('whySteps.step1Title')}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">{t('whySteps.step1Description')}</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">2</div>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] flex items-center justify-center text-[hsl(var(--nav-theme-light))] font-bold text-sm">2</div>
                 <div>
                   <h3 className="text-foreground font-semibold mb-1 text-base">{t('whySteps.step2Title')}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">{t('whySteps.step2Description')}</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">3</div>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] flex items-center justify-center text-[hsl(var(--nav-theme-light))] font-bold text-sm">3</div>
                 <div>
                   <h3 className="text-foreground font-semibold mb-1 text-base">{t('whySteps.step3Title')}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">{t('whySteps.step3Description')}</p>
@@ -203,11 +196,12 @@ export async function NavigationPage({
         </section>
       )}
 
-      {/* 广告位：Featured Section 下方 - 原生横幅 */}
-      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ''} />
-
       {/* 广告位 2: Featured Section 下方 - 300×250 方形 */}
-      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+      <AdBanner
+        type="banner-300x250"
+        adKey={getBannerAdKey("banner-300x250")}
+        invokeSrc={getBannerInvokeSrc("banner-300x250")}
+      />
 
       {/* All Items - 一行 3 个 */}
       {allItems.length > 0 && (
@@ -252,7 +246,11 @@ export async function NavigationPage({
                 {/* 广告位 3: All Items 中间 - 原生横幅（在第 6 个卡片之后） */}
                 {index === 5 && (
                   <div className="col-span-1 sm:col-span-2 lg:col-span-3">
-                    <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ''} />
+                    <AdBanner
+                      type="banner-300x250"
+                      adKey={getBannerAdKey("banner-300x250")}
+                      invokeSrc={getBannerInvokeSrc("banner-300x250")}
+                    />
                   </div>
                 )}
               </Fragment>
@@ -262,16 +260,10 @@ export async function NavigationPage({
       )}
 
       {/* 广告位 4: 页面底部 */}
-      {mobileBannerAd && (
-        <AdBanner
-          type={mobileBannerAd.type}
-          adKey={mobileBannerAd.adKey}
-          className="md:hidden"
-        />
-      )}
       <AdBanner
         type="banner-728x90"
-        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        adKey={getBannerAdKey("banner-728x90")}
+        invokeSrc={getBannerInvokeSrc("banner-728x90")}
         className="hidden md:flex"
       />
     </div>

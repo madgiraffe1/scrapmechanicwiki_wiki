@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.scrapmechanicwiki.wiki'
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - My Wood Farm Wiki',
-    description: 'Copyright and intellectual property information for My Wood Farm Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - Scrap Mechanic Wiki',
+    description: 'Copyright and intellectual property information for Scrap Mechanic Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'My Wood Farm Wiki',
-      title: 'Copyright Notice - My Wood Farm Wiki',
-      description: 'Copyright and intellectual property information for My Wood Farm Wiki.',
+      siteName: 'Scrap Mechanic Wiki',
+      title: 'Copyright Notice - Scrap Mechanic Wiki',
+      description: 'Copyright and intellectual property information for Scrap Mechanic Wiki.',
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: 'My Wood Farm Wiki',
+          alt: 'Scrap Mechanic Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - My Wood Farm Wiki',
+      title: 'Copyright Notice - Scrap Mechanic Wiki',
       description: 'Copyright and intellectual property information.',
       images: [`${siteUrl}/images/hero.webp`],
     },
@@ -77,22 +77,22 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 My Wood Farm Wiki. All rights reserved.
+              © 2025-2026 Scrap Mechanic Wiki. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of My Wood Farm Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of Scrap Mechanic Wiki and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              My Wood Farm Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              Scrap Mechanic Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Roblox</strong> - Owner of the Roblox platform</li>
-              <li><strong>My Wood Farm Developers</strong> - Creators of the My Wood Farm game</li>
+              <li><strong>Game</strong> - Owner of the Game platform</li>
+              <li><strong>Scrap Mechanic Developers</strong> - Creators of the Scrap Mechanic game</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -152,14 +152,14 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
-              <li><strong>My Wood Farm</strong> - Trademark of the game developers</li>
-              <li><strong>My Wood Farm Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>ROBLOX</strong> - Trademark of Axolot Games</li>
+              <li><strong>Scrap Mechanic</strong> - Trademark of the game developers</li>
+              <li><strong>Scrap Mechanic Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with My Wood Farm Wiki.
+              affiliation with Scrap Mechanic Wiki.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -201,8 +201,8 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              My Wood Farm Wiki<br />
-              Email: <a href="mailto:dmca@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@my-wood-farm.wiki</a>
+              Scrap Mechanic Wiki<br />
+              Email: <a href="mailto:dmca@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@scrapmechanicwiki.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -238,12 +238,12 @@ export default function Copyright() {
               If you wish to use or reference our original content (guides, articles, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "My Wood Farm Wiki"</li>
+              <li>Provide clear attribution to "Scrap Mechanic Wiki"</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: My Wood Farm Wiki (my-wood-farm.wiki)"</em>
+              Example attribution: <em>"Source: Scrap Mechanic Wiki (scrapmechanicwiki.wiki)"</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
@@ -278,8 +278,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@my-wood-farm.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@my-wood-farm.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@scrapmechanicwiki.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@scrapmechanicwiki.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.

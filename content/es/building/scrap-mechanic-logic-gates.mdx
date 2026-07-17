@@ -1,0 +1,165 @@
+export const metadata = {
+  title: "Guía de puertas lógicas de Scrap Mechanic: Desbloquea la automatización avanzada y construcciones creativas",
+  description: "Domina las puertas lógicas de Scrap Mechanic para construir circuitos complejos y automatizar tus creaciones más salvajes. Esta guía cubre AND, OR, XOR y más para mecánicas avanzadas.",
+  category: "building",
+  date: "2026-07-17",
+}
+
+## Desatando la automatización creativa con puertas lógicas de Scrap Mechanic
+
+¿Alguna vez soñaste con construir fábricas completamente automatizadas, sistemas de seguridad intrincados o incluso computadoras funcionales en Scrap Mechanic? La clave para desbloquear estas creaciones avanzadas reside en comprender y utilizar las **puertas lógicas de Scrap Mechanic**. Estos componentes fundamentales te permiten procesar señales binarias, transformando entradas simples en comportamientos complejos e inteligentes para tus artilugios.
+
+Ya seas un constructor novato que busca añadir automatización básica o un mecánico experimentado que aspira a maquinaria altamente sofisticada, dominar las **puertas lógicas de Scrap Mechanic** es una habilidad esencial. Esta guía te llevará a través de todo lo que necesitas saber, desde sus funciones básicas hasta aplicaciones avanzadas, ayudándote a elevar tu destreza en ingeniería en el mundo de Scrap Mechanic.
+
+## ¿Qué son exactamente las puertas lógicas de Scrap Mechanic?
+
+En Scrap Mechanic, una puerta lógica es un componente interactivo que procesa señales binarias. Piensa en las señales binarias como estados simples de ENCENDIDO (1) o APAGADO (0). Estas puertas reciben entradas de varias fuentes como botones, interruptores, sensores o temporizadores, y luego producen una salida basada en su lógica interna específica. Cuando la salida de una puerta lógica está ENCENDIDA, su cara se ilumina, proporcionando un claro indicador visual de su estado actual.
+
+Las puertas lógicas son una parte central de la familia de elementos "Program Node", diseñadas para imitar los principios de la ingeniería eléctrica del mundo real. Son los bloques de construcción para cualquier creación que requiera toma de decisiones o acciones condicionales.
+
+Aquí tienes una descripción general rápida de las propiedades básicas de una puerta lógica:
+
+| Propiedad     | Valor       |
+| :----------- | :---------- |
+| **Categoría** | Interactivo |
+| **Peso**     | N/A         |
+| **Durabilidad** | N/A         |
+| **Fricción** | N/A         |
+| **Flotabilidad** | N/A         |
+| **Inflamable** | No          |
+
+## Las seis puertas lógicas fundamentales explicadas
+
+Scrap Mechanic proporciona seis tipos distintos de puertas lógicas, cada una realizando una operación única en sus entradas. Comprenderlas es crucial para diseñar circuitos efectivos. Puedes seleccionar el tipo de puerta específico desde la interfaz del bloque, y el tipo elegido se mostrará en la cara de la puerta.
+
+Desglosemos cada tipo:
+
+### 1. Puerta AND
+
+La puerta AND emite una señal de ENCENDIDO *solo si* todas sus entradas están ENCENDIDAS. Si incluso una entrada está APAGADA, la salida permanece APAGADA. Requiere que se cumplan múltiples condiciones simultáneamente.
+
+### 2. Puerta OR
+
+La puerta OR emite una señal de ENCENDIDO *si al menos una* de sus entradas está ENCENDIDA. Solo emite APAGADO si todas las entradas están APAGADAS. Esto es útil cuando cualquiera de varias condiciones debe desencadenar una acción.
+
+### 3. Puerta XOR (OR Exclusivo)
+
+La puerta XOR emite una señal de ENCENDIDO *si un número impar* de sus entradas están ENCENDIDAS. Para dos entradas, esto significa que la salida está ENCENDIDA si una entrada está ENCENDIDA y la otra APAGADA. Si ambas están ENCENDIDAS o ambas APAGADAS, la salida está APAGADA.
+
+### 4. Puerta NAND (NOT AND)
+
+La puerta NAND es la inversa de la puerta AND. Emite una señal de ENCENDIDO *a menos que todas* sus entradas estén ENCENDIDAS. Si todas las entradas están ENCENDIDAS, la salida está APAGADA.
+
+### 5. Puerta NOR (NOT OR)
+
+La puerta NOR es la inversa de la puerta OR. Emite una señal de ENCENDIDO *solo si todas* sus entradas están APAGADAS. Si alguna entrada está ENCENDIDA, la salida está APAGADA.
+
+### 6. Puerta XNOR (NOR Exclusivo)
+
+La puerta XNOR es la inversa de la puerta XOR. Emite una señal de ENCENDIDO *si un número par* de sus entradas están ENCENDIDAS. Para dos entradas, esto significa que la salida está ENCENDIDA si ambas entradas están ENCENDIDAS o ambas APAGADAS. Si solo una está ENCENDIDA, la salida está APAGADA.
+
+Para visualizar mejor sus funciones, aquí tienes una tabla de verdad para puertas de dos entradas (A y B son entradas, C es salida):
+
+| Entrada A | Entrada B | AND (C) | OR (C) | XOR (C) | NAND (C) | NOR (C) | XNOR (C) |
+| :------ | :------ | :------ | :----- | :------ | :------- | :------ | :------- |
+| 0 (APAGADO) | 0 (APAGADO) | 0 (APAGADO) | 0 (APAGADO) | 0 (APAGADO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) |
+| 0 (APAGADO) | 1 (ENCENDIDO) | 0 (APAGADO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 0 (APAGADO) | 0 (APAGADO) |
+| 1 (ENCENDIDO) | 0 (APAGADO) | 0 (APAGADO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 0 (APAGADO) | 0 (APAGADO) |
+| 1 (ENCENDIDO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 1 (ENCENDIDO) | 0 (APAGADO) | 0 (APAGADO) | 0 (APAGADO) | 1 (ENCENDIDO) |
+
+## Conectando y usando puertas lógicas en tus construcciones
+
+Usar las **puertas lógicas de Scrap Mechanic** implica comprender el flujo de la señal. Las entradas deben conectarse *a* una puerta lógica, y las salidas deben conectarse *desde* la puerta lógica a otros componentes. La herramienta de conexión es tu mejor amiga aquí, permitiéndote establecer estas vías cruciales.
+
+Por ejemplo, considera una simple puerta de dos botones, un ejemplo clásico que se encuentra en el manual del juego. Es posible que desees que la puerta se abra solo si *ambos* botones están presionados. Esto requeriría una puerta AND.
+
+1.  Coloca dos botones y una puerta AND.
+2.  Conecta ambos botones como entradas a la puerta AND.
+3.  Conecta la salida de la puerta AND a un motor o un cojinete que controle la puerta.
+4.  Ahora, la puerta solo se activará cuando ambos botones se presionen simultáneamente.
+
+La belleza de estos componentes radica en su modularidad. Puedes encadenar múltiples puertas lógicas para crear condiciones cada vez más complejas. Por ejemplo, podrías tener un sistema donde "Botón A Y Botón B" O "Sensor C" desencadena un evento. Aquí es donde tu creatividad realmente brilla, al diseñar intrincados cerebros digitales para tus maravillas mecánicas.
+
+## Aplicaciones avanzadas: Más allá de los interruptores simples
+
+Si bien las puertas simples son un gran punto de partida, el verdadero poder de las **puertas lógicas de Scrap Mechanic** emerge en aplicaciones más avanzadas. Son la columna vertebral de sistemas automatizados complejos, que van desde sofisticadas líneas de fábrica hasta estructuras interactivas.
+
+### Circuitos de memoria (Latches y Flip-Flops)
+
+Uno de los usos avanzados más fascinantes es la creación de circuitos de memoria, como latches o flip-flops. Al retroalimentar las puertas lógicas a sí mismas, puedes diseñar circuitos que "recuerden" un estado (ENCENDIDO o APAGADO) incluso después de que se elimine la entrada inicial. Esto permite interruptores de palanca, operaciones secuenciales e incluso almacenamiento básico de datos dentro de tus creaciones. Por ejemplo, un simple Latch SR (Set-Reset) se puede construir usando dos puertas NOR, lo que te permite encender algo con un botón y apagarlo con otro, y permanecerá en ese estado hasta que se presione el botón opuesto.
+
+### Temporización y Retrasos
+
+Es importante tener en cuenta que cada puerta lógica tiene un minúsculo retraso de salida de 1 tick (0.025 segundos). Aunque aparentemente insignificante, este retraso puede ser crítico en circuitos muy rápidos o con temporización precisa. Comprender y tener en cuenta estos retrasos puede prevenir comportamientos inesperados en sistemas secuenciales complejos.
+
+### Herramientas externas para diseños complejos
+
+Para aquellos que planean construcciones verdaderamente elaboradas con lógica extensa, los informes de la comunidad sugieren que herramientas externas como un "Simulador de puertas lógicas de Scrap Mechanic" pueden ser increíblemente útiles. Estos simuladores te permiten diseñar y probar tus circuitos lógicos fuera del juego, asegurándote de que funcionen correctamente antes de comprometerte a construirlos dentro del juego. Esto puede ahorrar innumerables horas de resolución de problemas.
+
+Para explorar más sobre el mundo de Scrap Mechanic y sus posibilidades de construcción, consulta la página oficial de Steam: [Scrap Mechanic en Steam](https://store.steampowered.com/app/387990/Scrap_Mechanic/).
+
+## Fabricando tus puertas lógicas
+
+Antes de que puedas empezar a cablear circuitos complejos, necesitarás fabricar tus puertas lógicas. La receta es sencilla y requiere recursos comunes, lo que las hace accesibles incluso en las primeras etapas de tus aventuras de construcción.
+
+Esto es lo que necesitarás:
+
+| Componente       | Cantidad |
+| :-------------- | :------- |
+| Bloque de metal | 1        |
+| Placa de circuito | 1        |
+| Pegamento       | 1        |
+
+Fabricas puertas lógicas en un Craftbot. El tiempo de fabricación base es de 00:20, pero esto se puede reducir a 00:12 si tu Craftbot está en Nivel 5. Abastecerse de estos componentes es una buena idea si planeas sumergirte profundamente en la automatización avanzada.
+
+## Comprendiendo el comportamiento de guardado/carga para circuitos complejos
+
+Para los constructores que trabajan con circuitos de memoria o temporizadores persistentes, comprender cómo las **puertas lógicas de Scrap Mechanic** manejan los estados de guardado y carga es absolutamente crítico. Este comportamiento a veces puede ser contraintuitivo y conducir a resultados inesperados si no se tiene en cuenta adecuadamente.
+
+A diferencia de lo que cabría esperar, las puertas lógicas y los interruptores no siempre guardan su estado exacto cuando cierras sesión y vuelves a cargar, ni siempre se restablecen a cero. En cambio, se restauran al estado en el que se encontraban la última vez que ocurrió una de las siguientes acciones:
+
+*   **Retirar la construcción de un elevador:** Esta acción guarda el estado de todas las puertas lógicas e interruptores de esa creación.
+*   **Pintar la puerta lógica/interruptor:** Cambiar su color también activa un guardado de estado.
+*   **Hacer o eliminar una conexión a la puerta lógica/interruptor:** Cualquier modificación de su cableado guarda su estado actual.
+*   **(Solo en modo supervivencia) Abandonar el área donde se encontraba la construcción:** Descargar el chunk guarda el estado.
+
+### El fenómeno del "estado glitcheado"
+
+Los informes de la comunidad a menudo describen un "estado glitcheado" cuando las creaciones con circuitos de memoria se colocan en un elevador. Esta acción *borra* el estado guardado de todos los interruptores y puertas lógicas, haciendo que los circuitos de memoria se comporten erráticamente (por ejemplo, parpadeando salvajemente). Si luego interactúas con el circuito mientras está en el elevador y *luego* lo retiras, ese nuevo estado se convierte en su estado guardado. Esto significa que si recargas el juego más tarde, volverá al estado en el que se encontraba la última vez que fue retirado del elevador, no necesariamente al estado en el que estaba cuando cerraste sesión.
+
+**Nota importante:** Este comportamiento específico de guardado/carga *no* se aplica a los temporizadores. Los temporizadores guardan su estado según la última vez que se descargaron, lo que puede llevar a señales "verdaderas" de un solo tick en secuencias que deberían ser largos períodos de señales "falsas", o viceversa, al recargar.
+
+Los constructores de sistemas complejos deben diseñar sus circuitos teniendo en cuenta este comportamiento, quizás incorporando un mecanismo de "reinicio" o asegurándose de que los estados críticos se restablezcan al cargar.
+
+## Conclusión: Construye tus obras maestras mecánicas
+
+El mundo de las **puertas lógicas de Scrap Mechanic** ofrece una increíble profundidad de posibilidades creativas. Desde la automatización de puertas simples hasta la ingeniería de complejos sistemas de memoria y la transformación de vehículos, estos pequeños bloques interactivos te permiten dar vida inteligente a tus creaciones. Al comprender cada tipo de puerta, dominar las técnicas de conexión y tener en cuenta los comportamientos avanzados como los estados de guardado/carga, estás en camino de convertirte en un verdadero maestro mecánico.
+
+Así que, reúne tus bloques de metal, placas de circuito y pegamento, y empieza a experimentar. ¡El único límite es tu imaginación!
+
+## Preguntas Frecuentes (FAQ)
+
+### P: ¿Cuáles son los tipos básicos de puertas lógicas de Scrap Mechanic?
+R: Scrap Mechanic presenta seis tipos fundamentales de puertas lógicas: AND, OR, XOR, y sus contrapartes inversas, NAND, NOR y XNOR. Cada puerta realiza una operación específica sobre señales de entrada binarias (ENCENDIDO/APAGADO) para producir una única señal de salida.
+
+### P: ¿Se pueden usar las puertas lógicas para crear memoria en Scrap Mechanic?
+R: ¡Sí, absolutamente! Al retroalimentar la salida de una puerta lógica a su entrada, o conectando múltiples puertas en configuraciones específicas, puedes crear circuitos de memoria como latches y flip-flops. Estos circuitos pueden "recordar" un estado de ENCENDIDO o APAGADO, lo que permite una lógica secuencial compleja e interruptores de palanca.
+
+### P: ¿Cómo afecta el comportamiento de guardado/carga a mis circuitos lógicos?
+R: El comportamiento de guardado/carga para las **puertas lógicas de Scrap Mechanic** puede ser complicado. Las puertas lógicas y los interruptores suelen restaurarse al estado en el que se encontraban la última vez que realizaste acciones específicas, como retirar una construcción de un elevador, pintar la puerta o modificar sus conexiones. Colocar una creación en un elevador borrará el estado de sus puertas lógicas, lo que podría llevar a un comportamiento "glitcheado" para los circuitos de memoria al recargar.
+
+### P: ¿Qué es el Controlador y en qué se diferencia de las puertas lógicas?
+R: El Controlador en Scrap Mechanic es un componente distinto utilizado principalmente para movimientos mecánicos secuenciales, especialmente aquellos que involucran cojinetes. Permite programar una serie de rotaciones para hasta 10 cojinetes, cada uno con 10 pasos, lo que habilita animaciones complejas como vehículos transformadores o puertas automáticas. Las puertas lógicas, por otro lado, están diseñadas para procesar señales binarias (ENCENDIDO/APAGADO) y tomar decisiones lógicas basadas en entradas, en lugar de controlar secuencias de movimiento. Si bien ambos son cruciales para construcciones avanzadas, cumplen funciones primarias diferentes.
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: "What should I read next on Scrap Mechanic Wiki?",
+    answer: "Start with the related guides in this category, then move into survival, building, vehicles, bots, mods, multiplayer, or updates depending on what you want to improve next."
+  },
+  {
+    question: "Is this Scrap Mechanic guide official?",
+    answer: "This is an unofficial fan-made guide. Always check the official Scrap Mechanic site, Steam page, and Axolot Games channels for official announcements."
+  }
+]} />

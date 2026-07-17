@@ -1,0 +1,178 @@
+export const metadata = {
+  title: "Dominando las Incursiones de Scrap Mechanic: Tu Guía Definitiva para la Agricultura y Defensa en el Modo Supervivencia",
+  description: "¡Aprende a sobrevivir y prosperar durante las incursiones de Scrap Mechanic! Esta guía cubre los desencadenantes, niveles de incursión, estrategias de defensa y técnicas de mini-cultivo.",
+  category: "survival",
+  date: "2026-07-17",
+}
+
+## Entendiendo las Incursiones de Scrap Mechanic: El Desafío del Granjero
+
+En el duro e implacable mundo del Modo Supervivencia de *Scrap Mechanic*, asegurar una fuente confiable de alimentos es primordial. La agricultura proporciona este sustento esencial, permitiendo a los mecánicos cultivar cosechas vitales. Sin embargo, esta actividad aparentemente pacífica conlleva un riesgo significativo: las **incursiones de Scrap Mechanic**. Estas incursiones robóticas son provocadas por tus esfuerzos agrícolas, convirtiendo tu tranquila granja en un campo de batalla. Comprender la mecánica detrás de estas incursiones es el primer paso hacia una defensa efectiva y una supervivencia sostenida.
+
+¿Por qué ocurren estas **incursiones de Scrap Mechanic**? El sistema del juego detecta tus esfuerzos agrícolas, viendo el cultivo extensivo como una actividad de "¡CULTIVO NO AUTORIZADO DETECTADO!". Esta alerta señala un inminente ataque de robots, obligando a los jugadores a defender sus cultivos y su propio sustento. Ignorar estas advertencias puede llevar a pérdidas devastadoras, haciendo de la gestión de incursiones una habilidad fundamental para cualquier mecánico exitoso.
+
+### ¿Qué Desencadena una Incursión?
+
+Las incursiones en *Scrap Mechanic* están directamente ligadas al valor y la cantidad de cultivos que plantas en un área determinada. Cada tipo de cultivo tiene un "valor de cultivo" asociado, y una vez que el valor total de los cultivos dentro de un área alcanza un cierto umbral, se inicia una incursión.
+
+Aquí hay un desglose de cómo los cultivos contribuyen a desencadenar una incursión:
+
+*   **Valor Total de Cultivos:** Una incursión se desencadena cuando el valor combinado de todos los cultivos en un área alcanza al menos 10.
+*   **Cultivos de Alto Valor:** Los cultivos con un valor de 3 o más se consideran de "alto valor". Si tienes al menos cinco cultivos de alto valor, y tu valor total de cultivos alcanza 80 o más, empezarás a atraer robots más peligrosos como los Tapebots y Farmbots.
+
+Cuando se desencadena una incursión, aparece un temporizador rojo en el centro aproximado de tu grupo de cultivos, contando hacia la medianoche. En este punto, los robots aparecerán cerca y se moverán para atacar tu preciada cosecha. Es importante tener en cuenta que si sales y vuelves a cargar tu mundo después de que se desencadene una incursión pero antes de que comience, el temporizador podría no reaparecer, pero la incursión seguirá ocurriendo.
+
+### Valores de Cultivo y su Impacto
+
+Diferentes cultivos tienen diferentes valores, lo que influye directamente en la intensidad de las **incursiones de Scrap Mechanic** a las que te enfrentarás. Ser consciente de estos valores puede ayudarte a gestionar el riesgo.
+
+| Tipo de Cultivo | Valor | ¿Es Cultivo de Alto Valor? |
+| :-------------- | :---- | :------------------------- |
+| Zanahoria       | 1     | No                         |
+| Remolacha       | 2     | No                         |
+| Tomate          | 3     | Sí                         |
+| Patata          | 3     | Sí                         |
+| Piña            | 4     | Sí                         |
+| Brócoli         | 5     | Sí                         |
+
+*(Nota: Los valores para Remolacha, Tomate, Patata, Piña y Brócoli se basan en informes de la comunidad y mecánicas de juego típicas, ya que los valores específicos más allá de la Zanahoria no se detallaron completamente en la tabla fuente proporcionada.)*
+
+### Niveles de Incursión y Amenazas de Robots
+
+El nivel de una incursión se determina en el momento en que se desencadena, basándose en el valor total de los cultivos y el número de cultivos de alto valor presentes. Esto significa que añadir o quitar cultivos *después* del desencadenante no cambiará la intensidad de la incursión para esa noche. Incluso si cosechas todo, una incursión podría seguir ocurriendo, aunque al nivel en que se estableció originalmente.
+
+La intensidad de la incursión también aumenta en noches consecutivas si continúas plantando. Esta "intensidad de cultivo" se restablece solo cuando te tomas un descanso de plantar nuevos cultivos durante al menos una noche. La detección de la granja de la segunda noche ocurre específicamente entre las 4 AM y las 5 AM en el juego.
+
+Aquí hay una visión simplificada de cómo escalan los niveles de incursión y los tipos de robots que puedes esperar:
+
+| Nivel de Incursión | Valor Total de Cultivos | Cultivos de Alto Valor | Noche 1 (Bots de Ejemplo) | Noche 2 (Bots de Ejemplo) | Noche 3+ (Bots de Ejemplo) |
+| :----------------- | :---------------------- | :--------------------- | :------------------------ | :------------------------ | :------------------------- |
+| 1                  | 10-19                   | -                      | 3 Totebots                | 4 Totebots                | 3 Totebots y 1 Haybot      |
+| 2                  | 20-29                   | -                      | 4 Totebots y 1 Haybot     | 4 Totebots y 2 Haybots    | 4 Totebots y 3 Haybots     |
+| 7                  | 80-109                  | 5+                     | 3 Totebots, 6 Haybots y 1 Tapebot | 3 Totebots, 8 Haybots y 1 Tapebot | 3 Totebots, 10 Haybots y 2 Tapebots |
+| 8                  | 110-149                 | 10+                    | 3 Totebots, 6 Haybots y 2 Tapebots | 3 Totebots, 8 Haybots y 2 Tapebots | 3 Totebots, 10 Haybots y 3 Tapebots |
+| 9                  | 150-299                 | 20+                    | 3 Totebots, 6 Haybots y 3 Tapebots | 3 Totebots, 8 Haybots y 3 Tapebots | 3 Totebots, 10 Haybots, 4 Tapebots y 1 Farmbot |
+| 10                 | 300+                    | 50+                    | 3 Totebots, 6 Haybots, 4 Tapebots y 1 Farmbot | 3 Totebots, 6 Haybots, 4 Tapebots y 1 Farmbot | 3 Totebots, 6 Haybots, 5 Tapebots y 3 Farmbots |
+
+*(Basado en información de la Wiki Oficial de Scrap Mechanic.)*
+
+## Defensa Estratégica Contra las Incursiones de Scrap Mechanic
+
+Enfrentar una incursión requiere preparación y una estrategia sólida. Ya sea que estés construyendo una granja fortificada o utilizando sistemas automatizados, las medidas proactivas son clave para proteger tu cosecha de los robots hostiles.
+
+### Fortificando Tu Granja
+
+Cuando suena la alerta "¡CULTIVO NO AUTORIZADO DETECTADO!", es hora de defender. Tu primera línea de defensa suele ser estructural.
+
+*   **Muros y Barreras:** Construir muros resistentes alrededor de tu área de cultivo puede ralentizar o redirigir a los robots entrantes. Materiales como el hormigón o el metal son más duraderos que la madera.
+*   **Puntos de Estrangulamiento:** Diseña tus defensas para canalizar a los robots hacia pasajes estrechos donde puedan ser tratados más fácilmente.
+*   **Plataformas Elevadas:** Cultivar en plataformas elevadas o incluso en cimas de montañas (si el camino no es fácilmente escalable por los robots) puede ofrecer una ventaja significativa, impidiendo que la mayoría de los robots terrestres lleguen a tus cultivos. Los informes de la comunidad sugieren que cultivar en montañas como las cercanas al Escondite del Granjero puede ser efectivo, siempre que asegures las rutas de acceso.
+
+### Defensas Automatizadas
+
+Para granjas más grandes o simplemente para reducir el esfuerzo manual, la automatización es tu amiga en *Scrap Mechanic*.
+
+*   **Cañones de Agua:** Estos pueden colocarse estratégicamente para regar los cultivos automáticamente. Aunque principalmente son para el crecimiento, una colocación inteligente también podría usarse para empujar a los robots más pequeños.
+*   **Bombas de Vacío:** Más allá de la siembra y la cosecha, las Bombas de Vacío pueden integrarse en sistemas de riego automatizados, asegurando que tus cultivos siempre estén atendidos.
+*   **Torretas y Trampas:** A medida que avanzas en *Scrap Mechanic*, desbloquearás opciones de defensa más avanzadas como torretas automatizadas y varias trampas. Estas son invaluables para las **incursiones de Scrap Mechanic** de alto nivel, especialmente aquellas que involucran Tapebots y Farmbots. Diseña sistemas automatizados para apuntar a tipos de robots específicos o para activarse cuando los enemigos entran en una zona definida.
+
+### Programación de Tu Siembra y Cosecha
+
+La agricultura inteligente no se trata solo de lo que plantas, sino de cuándo.
+
+*   **Siembra Temprana por la Mañana:** Para evitar potencialmente incursiones de mayor nivel al usar cultivos de bajo valor, la experiencia del jugador sugiere plantar entre la medianoche y las 6:45 AM. Esto te permite cosechar antes de las 4 AM, cuando el juego verifica la nueva actividad agrícola en la segunda noche.
+*   **Ventaja del Fertilizante:** Si una incursión se desencadena inesperadamente, aplicar fertilizante rápidamente puede duplicar la velocidad de crecimiento de los cultivos. Si tienes suficiente tiempo antes de la medianoche, podrías cosechar tus cultivos antes de que lleguen los robots. Recuerda, cosechar no cancela la incursión, pero sí protege tu rendimiento, dejándote solo con una incursión de Nivel 1 (típicamente 3 Totebots) de la que ocuparte.
+
+## El Arte del Mini-Cultivo: Evitando Incursiones por Completo
+
+Para aquellos que prefieren un enfoque menos confrontacional, el mini-cultivo ofrece una alternativa más segura a las operaciones a gran escala que desencadenan incursiones. La idea central es dispersar tus cultivos, manteniendo su valor localizado por debajo del umbral de incursión. Esta estrategia reduce significativamente las posibilidades de desencadenar **incursiones de Scrap Mechanic** y te libera del combate nocturno.
+
+### Cómo Funciona el Mini-Cultivo
+
+El mini-cultivo se basa en el sistema de detección basado en celdas del juego. El mapa está dividido en "celdas" de 64x64 bloques. Si mantienes el valor de tus cultivos bajo dentro de cada celda individual y aseguras una distancia suficiente entre tus mini-granjas, puedes evitar en gran medida la detección.
+
+*   **Celdas Separadas:** Planta diferentes tipos de cultivos, o incluso el mismo tipo, en mini-granjas separadas. Cada mini-granja debería estar idealmente en su propia celda de 64x64 bloques.
+*   **La Distancia es Clave:** Mantén al menos 64 bloques de distancia entre mini-granjas para asegurar que estén en celdas diferentes. Las mini-granjas pueden estar más cerca si están cerca de un límite de celda, siempre que sean celdas distintas.
+*   **Cantidades Seguras de Cultivo:** Cada tipo de cultivo tiene una "cantidad segura" que puedes plantar dentro de una sola celda sin desencadenar una incursión.
+
+Aquí hay algunas cantidades seguras reportadas para varios cultivos por celda:
+
+| Tipo de Cultivo | Cantidad Segura por Celda |
+| :-------------- | :------------------------ |
+| Zanahoria       | 9                         |
+| Remolacha       | 4                         |
+| Tomate          | 3                         |
+| Patata          | 3                         |
+| Piña            | 2                         |
+| Brócoli         | 1                         |
+
+*(Nota: Estas cantidades seguras se basan en hallazgos de la comunidad y están sujetas a ligeras variaciones según las actualizaciones del juego.)*
+
+### Gestionando la Intensidad de Cultivo con Mini-Granjas
+
+Incluso con el mini-cultivo, debes ser consciente de la "intensidad de cultivo". Plantar continuamente, incluso en pequeños lotes, puede eventualmente llevar a una acumulación que desencadene una incursión.
+
+*   **Tómate un Descanso:** Es crucial tomar un descanso de la siembra durante al menos una noche periódicamente. Esto restablece la intensidad de cultivo, previniendo una incursión accidental.
+*   **Desencadenantes Accidentales:** Si accidentalmente desencadenas una incursión debido a que las granjas están demasiado cerca o la intensidad se acumula, usa fertilizante para acelerar el crecimiento y cosecha tus cultivos antes de que comience la incursión. Aún te enfrentarás a una incursión de Nivel 1, pero tu suministro de alimentos estará seguro.
+
+### Protegiendo Mini-Granjas de Robots Errantes
+
+Aunque el mini-cultivo previene la aparición de incursiones dedicadas, tus cultivos siguen siendo vulnerables a los Totebots y Haybots errantes, o a los robots que persiguen Wocs cerca de tu base.
+
+*   **Ubicación Estratégica:** Evita colocar mini-granjas demasiado cerca de las rutas de patrulla comunes de robots o cerca de tu base principal si esta atrae con frecuencia la atención hostil.
+*   **Fortificación Mínima:** Incluso un muro pequeño y bajo o unas pocas púas estratégicamente colocadas pueden disuadir a los robots extraviados de destruir tus mini-granjas. Piensa en ello como protección pasiva en lugar de defensa activa.
+
+## Estrategias Avanzadas y Consideraciones Futuras
+
+Más allá de lo básico, los mecánicos experimentados en *Scrap Mechanic* a menudo emplean soluciones creativas para gestionar sus granjas y mitigar los riesgos de incursión.
+
+### Cultivo en Montaña
+
+Como se menciona en los informes de la comunidad, cultivar en la cima de las montañas puede ser una forma efectiva de proteger tus cultivos. Los robots generalmente tienen dificultades con terrenos complejos, especialmente las pendientes pronunciadas.
+
+*   **Accesibilidad:** Elige montañas que sean difíciles de escalar para los robots. Si hay un camino o una ruta fácil, los robots pueden usarla.
+*   **Líneas de Suministro:** Planifica cómo transportarás agua, semillas y fertilizante a tu granja de montaña, y cómo bajarás los productos cosechados. Esto podría requerir diseños creativos de vehículos o ascensores automatizados.
+
+### El Futuro de la Agricultura: Chiles y Nuevas Amenazas
+
+Los desarrolladores están expandiendo continuamente *Scrap Mechanic*, y la agricultura no es una excepción. Las próximas adiciones, como los Chiles, introducirán nuevas dinámicas a la agricultura y las incursiones.
+
+*   **Nuevo Cultivo, Nuevo Robot:** Se espera que los cultivos de Chile atraigan a un "robot peligroso que 'parece difícil de manejar'". Esto sugiere un nuevo tipo de enemigo o una variante de uno existente (posiblemente un Totebot Rojo), diseñado específicamente para desafiar las granjas con este cultivo de alto valor. Esto sin duda añadirá otra capa de complejidad a la gestión de incursiones, requiriendo nuevas estrategias defensivas.
+*   **Adaptación:** A medida que se lance nuevo contenido, los jugadores deberán adaptar sus tácticas de cultivo y defensa. Mantenerse informado sobre las actualizaciones del juego de fuentes oficiales como la [página de Steam de Scrap Mechanic](https://store.steampowered.com/app/387990/Scrap_Mechanic/) será crucial.
+
+### Conocimientos de la Comunidad y Mejores Prácticas
+
+La experiencia del jugador a menudo revela trucos ingeniosos que no se mencionan explícitamente en las guías del juego:
+
+*   **Eficiencia de Riego:** Es posible regar múltiples cultivos a la vez salpicando agua con precisión en los bordes o esquinas compartidas de los montículos de tierra contiguos. Aunque es difícil de dominar, esto puede acelerar significativamente el riego manual.
+*   **Sistemas de Riego Automatizados:** Más allá de los Cañones de Agua básicos, sistemas elaborados que utilizan tuberías, sensores y temporizadores pueden automatizar completamente el proceso de riego, liberándote para otras tareas.
+*   **Diseños a Prueba de Incursiones:** Algunos jugadores diseñan sus bases enteras alrededor de la agricultura, integrando defensas automatizadas, almacenamiento seguro y sistemas de cosecha eficientes para que las **incursiones de Scrap Mechanic** sean un inconveniente menor en lugar de una amenaza importante.
+
+Al combinar una comprensión de los desencadenantes de incursiones, una planificación defensiva robusta y prácticas agrícolas inteligentes como el mini-cultivo, puedes transformar el desafío de las **incursiones de Scrap Mechanic** en un aspecto manejable de tu aventura de supervivencia. ¡Feliz cultivo, Mecánico!
+
+## Preguntas Frecuentes Sobre las Incursiones de Scrap Mechanic
+
+### P1: ¿Qué son las incursiones de Scrap Mechanic y cómo comienzan?
+A1: Las incursiones de Scrap Mechanic son eventos en el Modo Supervivencia donde robots hostiles atacan tu granja. Se desencadenan cuando plantas demasiados cultivos en un área, específicamente cuando el "valor de cultivo" total de tus plantas alcanza 10 o más. Aparecerá un mensaje de "¡CULTIVO NO AUTORIZADO DETECTADO!", seguido de una cuenta regresiva hasta la medianoche, momento en el que aparecerán los robots.
+
+### P2: ¿Puedo evitar por completo las incursiones de Scrap Mechanic?
+A2: Sí, puedes evitar en gran medida las incursiones mediante una estrategia llamada "mini-cultivo". Esto implica plantar grupos más pequeños de cultivos muy separados entre sí, asegurando que el valor del cultivo en cualquier celda individual de 64x64 bloques permanezca por debajo del umbral que desencadena la incursión. También necesitas tomar un descanso periódico de la siembra para restablecer la intensidad de cultivo.
+
+### P3: ¿Qué sucede si cosecho mis cultivos antes de que comience una incursión?
+A3: Si cosechas tus cultivos después de que se haya desencadenado una incursión pero antes de que lleguen los robots, salvarás tu producción. Sin embargo, cosechar tus cultivos no cancela la incursión en sí. La incursión seguirá ocurriendo, pero será al nivel más bajo (típicamente una incursión de Nivel 1 con 3 Totebots), ya que no quedan cultivos para que los robots destruyan.
+
+### P4: ¿Los diferentes cultivos afectan la intensidad de las incursiones de Scrap Mechanic?
+A4: Absolutamente. Cada tipo de cultivo tiene un "valor de cultivo" asignado. Plantar un valor total más alto de cultivos o un número significativo de cultivos de "alto valor" (aquellos con un valor de 3 o más, como Tomates o Piñas) desencadenará niveles de incursión más altos, atrayendo robots más peligrosos como Tapebots y Farmbots.
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: "What should I read next on Scrap Mechanic Wiki?",
+    answer: "Start with the related guides in this category, then move into survival, building, vehicles, bots, mods, multiplayer, or updates depending on what you want to improve next."
+  },
+  {
+    question: "Is this Scrap Mechanic guide official?",
+    answer: "This is an unofficial fan-made guide. Always check the official Scrap Mechanic site, Steam page, and Axolot Games channels for official announcements."
+  }
+]} />

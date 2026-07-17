@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.scrapmechanicwiki.wiki'
   const path = '/privacy-policy'
 
   return {
-    title: 'Privacy Policy - My Wood Farm Wiki',
-    description: 'My Wood Farm Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Roblox game resource platform. Your privacy matters to us.',
+    title: 'Privacy Policy - Scrap Mechanic Wiki',
+    description: 'Scrap Mechanic Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our PC game resource platform. Your privacy matters to us.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'My Wood Farm Wiki',
-      title: 'Privacy Policy - My Wood Farm Wiki',
+      siteName: 'Scrap Mechanic Wiki',
+      title: 'Privacy Policy - Scrap Mechanic Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: 'My Wood Farm Wiki',
+          alt: 'Scrap Mechanic Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Privacy Policy - My Wood Farm Wiki',
+      title: 'Privacy Policy - Scrap Mechanic Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [`${siteUrl}/images/hero.webp`],
     },
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Information Collection</h2>
             <p>
-              My Wood Farm Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
+              Scrap Mechanic Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
               We collect information in the following ways:
             </p>
             <ul>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
             <h2>4. Third-Party Services</h2>
             <p>
-              Our website may contain links to external websites, including Roblox and social media platforms.
+              Our website may contain links to external websites, including Game and social media platforms.
               We are not responsible for the privacy practices or content of these third-party sites. We encourage
               you to review their privacy policies before providing any personal information.
             </p>
@@ -212,8 +212,8 @@ export default function PrivacyPolicy() {
 
             <h2>11. Disclaimer</h2>
             <p>
-              My Wood Farm Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with Roblox Corporation or the developers of My Wood Farm. All game content, trademarks, and assets are
+              Scrap Mechanic Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
+              with Axolot Games or the developers of Scrap Mechanic. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
               please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:privacy@my-wood-farm.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@my-wood-farm.wiki</a>
+              <strong>Email:</strong> <a href="mailto:privacy@scrapmechanicwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@scrapmechanicwiki.wiki</a>
             </p>
             <p>
               We will respond to all legitimate requests within 30 days.

@@ -5,28 +5,30 @@ import { routing, type Locale } from '@/i18n/routing'
 // output:'export' 要求路由处理器显式声明静态
 export const dynamic = 'force-static'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://scrapmechanicwiki.wiki'
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'codes': 0.9,
 	'guide': 0.9,
 	'updates': 0.9,
-	'axes': 0.8,
-	'trees': 0.8,
-	'money': 0.8,
-	'upgrades': 0.8,
+	'survival': 0.85,
+	'building': 0.85,
+	'vehicles': 0.8,
+	'bots': 0.8,
+	'mods': 0.75,
+	'multiplayer': 0.75,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'codes': 'daily',
 	'updates': 'daily',
 	'guide': 'weekly',
-	'axes': 'weekly',
-	'trees': 'weekly',
-	'money': 'weekly',
-	'upgrades': 'weekly',
+	'survival': 'weekly',
+	'building': 'weekly',
+	'vehicles': 'weekly',
+	'bots': 'weekly',
+	'mods': 'weekly',
+	'multiplayer': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

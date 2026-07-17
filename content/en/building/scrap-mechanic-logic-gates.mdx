@@ -1,0 +1,165 @@
+export const metadata = {
+  title: "Scrap Mechanic logic gates guide: Unlock Advanced Automation and Creative Builds",
+  description: "Master Scrap Mechanic logic gates to build complex circuits and automate your wildest creations. This guide covers AND, OR, XOR, and more for advanced mechanics.",
+  category: "building",
+  date: "2026-07-17",
+}
+
+## Unleashing Creative Automation with Scrap Mechanic Logic Gates
+
+Ever dreamed of building fully automated factories, intricate security systems, or even functional computers in Scrap Mechanic? The key to unlocking these advanced creations lies in understanding and utilizing **Scrap Mechanic logic gates**. These fundamental components allow you to process binary signals, transforming simple inputs into complex, intelligent behaviors for your contraptions.
+
+Whether you're a novice builder looking to add basic automation or a seasoned mechanic aiming for highly sophisticated machinery, mastering **Scrap Mechanic logic gates** is an essential skill. This guide will walk you through everything you need to know, from their basic functions to advanced applications, helping you elevate your engineering prowess in the world of Scrap Mechanic.
+
+## What Exactly Are Scrap Mechanic Logic Gates?
+
+In Scrap Mechanic, a Logic Gate is an interactive component that processes binary signals. Think of binary signals as simple ON (1) or OFF (0) states. These gates receive input from various sources like buttons, switches, sensors, or timers, and then produce an output based on their specific internal logic. When a Logic Gate's output is ON, its face illuminates, providing a clear visual indicator of its current state.
+
+Logic Gates are a core part of the "Program Node" family of items, designed to mimic real-world electrical engineering principles. They are the building blocks for any creation that requires decision-making or conditional actions.
+
+Here’s a quick overview of a Logic Gate's basic properties:
+
+| Property     | Value       |
+| :----------- | :---------- |
+| **Category** | Interactive |
+| **Weight**   | N/A         |
+| **Durability** | N/A         |
+| **Friction** | N/A         |
+| **Buoyancy** | N/A         |
+| **Flammable**| No          |
+
+## The Six Fundamental Logic Gates Explained
+
+Scrap Mechanic provides six distinct types of logic gates, each performing a unique operation on its inputs. Understanding these is crucial for designing effective circuits. You can select the specific gate type from the block's interface, and the chosen type will be displayed on the gate's face.
+
+Let's break down each type:
+
+### 1. AND Gate
+
+The AND gate outputs an ON signal *only if* all its inputs are ON. If even one input is OFF, the output remains OFF. It requires multiple conditions to be met simultaneously.
+
+### 2. OR Gate
+
+The OR gate outputs an ON signal *if at least one* of its inputs is ON. It only outputs OFF if all inputs are OFF. This is useful when any of several conditions should trigger an action.
+
+### 3. XOR Gate (Exclusive OR)
+
+The XOR gate outputs an ON signal *if an odd number* of its inputs are ON. For two inputs, this means the output is ON if one input is ON and the other is OFF. If both are ON or both are OFF, the output is OFF.
+
+### 4. NAND Gate (NOT AND)
+
+The NAND gate is the inverse of the AND gate. It outputs an ON signal *unless all* its inputs are ON. If all inputs are ON, the output is OFF.
+
+### 5. NOR Gate (NOT OR)
+
+The NOR gate is the inverse of the OR gate. It outputs an ON signal *only if all* its inputs are OFF. If any input is ON, the output is OFF.
+
+### 6. XNOR Gate (Exclusive NOR)
+
+The XNOR gate is the inverse of the XOR gate. It outputs an ON signal *if an even number* of its inputs are ON. For two inputs, this means the output is ON if both inputs are ON or both are OFF. If only one is ON, the output is OFF.
+
+To better visualize their functions, here's a truth table for two-input gates (A and B are inputs, C is output):
+
+| Input A | Input B | AND (C) | OR (C) | XOR (C) | NAND (C) | NOR (C) | XNOR (C) |
+| :------ | :------ | :------ | :----- | :------ | :------- | :------ | :------- |
+| 0 (OFF) | 0 (OFF) | 0 (OFF) | 0 (OFF) | 0 (OFF) | 1 (ON)   | 1 (ON)  | 1 (ON)   |
+| 0 (OFF) | 1 (ON)  | 0 (OFF) | 1 (ON)  | 1 (ON)  | 1 (ON)   | 0 (OFF) | 0 (OFF)  |
+| 1 (ON)  | 0 (OFF) | 0 (OFF) | 1 (ON)  | 1 (ON)  | 1 (ON)   | 0 (OFF) | 0 (OFF)  |
+| 1 (ON)  | 1 (ON)  | 1 (ON)  | 1 (ON)  | 0 (OFF) | 0 (OFF)  | 0 (OFF) | 1 (ON)   |
+
+## Connecting and Using Logic Gates in Your Builds
+
+Using **Scrap Mechanic logic gates** involves understanding signal flow. Inputs must be connected *into* a Logic Gate, and outputs must be connected *from* the Logic Gate to other components. The connection tool is your best friend here, allowing you to establish these crucial pathways.
+
+For instance, consider a simple two-button door, a classic example found in the in-game handbook. You might want the door to open only if *both* buttons are pressed. This would require an AND gate.
+
+1.  Place two buttons and an AND gate.
+2.  Connect both buttons as inputs to the AND gate.
+3.  Connect the output of the AND gate to a motor or a bearing that controls the door.
+4.  Now, the door will only activate when both buttons are simultaneously pressed.
+
+The beauty of these components lies in their modularity. You can chain multiple logic gates together to create increasingly complex conditions. For example, you could have a system where "Button A AND Button B" OR "Sensor C" triggers an event. This is where your creativity truly shines, as you design intricate digital brains for your mechanical marvels.
+
+## Advanced Applications: Beyond Simple Switches
+
+While simple doors are a great starting point, the true power of **Scrap Mechanic logic gates** emerges in more advanced applications. They are the backbone of complex automated systems, ranging from sophisticated factory lines to interactive structures.
+
+### Memory Circuits (Latches and Flip-Flops)
+
+One of the most fascinating advanced uses is creating memory circuits, such as latches or flip-flops. By looping Logic Gates back into themselves, you can design circuits that "remember" a state (ON or OFF) even after the initial input is removed. This allows for toggle switches, sequential operations, and even basic data storage within your creations. For example, a simple SR (Set-Reset) Latch can be built using two NOR gates, allowing you to turn something ON with one button and OFF with another, and it will stay in that state until the opposite button is pressed.
+
+### Timing and Delays
+
+It's important to note that every Logic Gate has a minuscule output delay of 1 tick (0.025 seconds). While seemingly insignificant, this delay can be critical in very fast or precisely timed circuits. Understanding and accounting for these delays can prevent unexpected behavior in complex sequential systems.
+
+### External Tools for Complex Designs
+
+For those planning truly elaborate builds with extensive logic, community reports suggest that external tools like a "Scrap Mechanic Logic Gate Simulator" can be incredibly helpful. These simulators allow you to design and test your logic circuits outside the game, ensuring they function correctly before you commit to building them in-game. This can save countless hours of troubleshooting.
+
+To explore more about the world of Scrap Mechanic and its building possibilities, check out the official Steam page: [Scrap Mechanic on Steam](https://store.steampowered.com/app/387990/Scrap_Mechanic/).
+
+## Crafting Your Logic Gates
+
+Before you can start wiring up complex circuits, you'll need to craft your Logic Gates. The recipe is straightforward and requires common resources, making them accessible even early in your building adventures.
+
+Here's what you'll need:
+
+| Component       | Quantity |
+| :-------------- | :------- |
+| Metal Block     | 1        |
+| Circuit Board   | 1        |
+| Glue            | 1        |
+
+You craft Logic Gates at a Craftbot. The base crafting time is 00:20, but this can be reduced to 00:12 if your Craftbot is at Level 5. Stocking up on these components is a good idea if you plan on diving deep into advanced automation.
+
+## Understanding Save/Load Behavior for Complex Circuits
+
+For builders working with memory circuits or persistent timers, understanding how **Scrap Mechanic logic gates** handle save and load states is absolutely critical. This behavior can sometimes be counter-intuitive and lead to unexpected results if not properly accounted for.
+
+Unlike what you might expect, Logic Gates and switches don't necessarily save their exact state when you log out and reload, nor do they always wipe to zero. Instead, they restore to the state they were in the last time one of the following actions occurred:
+
+*   **Taking the build off a lift:** This action saves the state of all logic gates and switches on that creation.
+*   **Painting the logic gate/switch:** Changing its color also triggers a state save.
+*   **Making or deleting a connection to the logic gate/switch:** Any modification to its wiring saves its current state.
+*   **(Survival mode only) Leaving the area where the build was located:** Unloading the chunk saves the state.
+
+### The "Glitched State" Phenomenon
+
+Community reports often describe a "glitched state" when creations with memory circuits are placed on a lift. This action *clears* the saved state of all switches and logic gates, causing memory circuits to behave erratically (e.g., flashing wildly). If you then interact with the circuit while it's on the lift and *then* take it off, that new state becomes its saved state. This means if you reload the game later, it will revert to the state it was in when it was last taken off the lift, not necessarily the state it was in when you logged out.
+
+**Important Note:** This specific save/load behavior *does not* apply to Timers. Timers save their state based on when they were last unloaded, which can lead to single-tick "true" signals in sequences that should be long periods of "false" signals, or vice-versa, upon reloading.
+
+Builders of complex systems need to design their circuits with this behavior in mind, perhaps incorporating a "reset" mechanism or ensuring critical states are re-established upon loading.
+
+## Conclusion: Build Your Mechanical Masterpieces
+
+The world of **Scrap Mechanic logic gates** offers an incredible depth of creative possibilities. From automating simple doors to engineering complex memory systems and transforming vehicles, these small interactive blocks empower you to breathe intelligent life into your creations. By understanding each gate type, mastering connection techniques, and accounting for advanced behaviors like save/load states, you're well on your way to becoming a true mechanical maestro.
+
+So, gather your metal blocks, circuit boards, and glue, and start experimenting. The only limit is your imagination!
+
+## Frequently Asked Questions (FAQ)
+
+### Q: What are the basic types of Scrap Mechanic logic gates?
+A: Scrap Mechanic features six fundamental logic gate types: AND, OR, XOR, and their inverse counterparts, NAND, NOR, and XNOR. Each gate performs a specific operation on binary (ON/OFF) input signals to produce a single output signal.
+
+### Q: Can logic gates be used to create memory in Scrap Mechanic?
+A: Yes, absolutely! By looping the output of a logic gate back into its input, or by connecting multiple gates in specific configurations, you can create memory circuits like latches and flip-flops. These circuits can "remember" an ON or OFF state, allowing for complex sequential logic and toggle switches.
+
+### Q: How does the save/load behavior affect my logic circuits?
+A: The save/load behavior for **Scrap Mechanic logic gates** can be tricky. Logic gates and switches typically restore to the state they were in when you last performed specific actions, such as taking a build off a lift, painting the gate, or modifying its connections. Placing a creation on a lift will clear the state of its logic gates, potentially leading to "glitched" behavior for memory circuits upon reloading.
+
+### Q: What is the Controller and how does it differ from Logic Gates?
+A: The Controller in Scrap Mechanic is a distinct component primarily used for sequential mechanical movements, especially involving bearings. It allows you to program a series of rotations for up to 10 bearings, each with 10 steps, enabling complex animations like transforming vehicles or automatic doors. Logic gates, on the other hand, are designed for processing binary (ON/OFF) signals and making logical decisions based on inputs, rather than controlling motion sequences. While both are crucial for advanced builds, they serve different primary functions.
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: "What should I read next on Scrap Mechanic Wiki?",
+    answer: "Start with the related guides in this category, then move into survival, building, vehicles, bots, mods, multiplayer, or updates depending on what you want to improve next."
+  },
+  {
+    question: "Is this Scrap Mechanic guide official?",
+    answer: "This is an unofficial fan-made guide. Always check the official Scrap Mechanic site, Steam page, and Axolot Games channels for official announcements."
+  }
+]} />

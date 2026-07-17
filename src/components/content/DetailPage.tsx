@@ -15,6 +15,8 @@ import { DismissibleStickyBanner } from "@/components/ads/DismissibleStickyBanne
 import {
   getPreferredMobileBannerSelection,
   getPreferredMobileContentSelection,
+  getBannerAdKey,
+  getBannerInvokeSrc,
 } from "@/components/ads/mobileAdConfigs";
 import { cloneElement, isValidElement } from "react";
 
@@ -40,12 +42,13 @@ export async function DetailPage({
 
   // 内容类型翻译映射（与 navigation.ts 的 NAVIGATION_CONFIG key 完全一致）
   const contentTypeLabels: Record<string, string> = {
-    codes: t("nav.codes"),
     guide: t("nav.guide"),
-    axes: t("nav.axes"),
-    trees: t("nav.trees"),
-    money: t("nav.money"),
-    upgrades: t("nav.upgrades"),
+    survival: t("nav.survival"),
+    building: t("nav.building"),
+    vehicles: t("nav.vehicles"),
+    bots: t("nav.bots"),
+    mods: t("nav.mods"),
+    multiplayer: t("nav.multiplayer"),
     updates: t("nav.updates"),
   };
 
@@ -81,7 +84,11 @@ export async function DetailPage({
                   <p {...props}>{children}</p>
                   {shouldInsertMobileAd && mobileInlineAd && (
                     <div className="not-prose my-6 md:hidden">
-                      <AdBanner type={mobileInlineAd.type} adKey={mobileInlineAd.adKey} />
+                      <AdBanner
+                        type={mobileInlineAd.type}
+                        adKey={mobileInlineAd.adKey}
+                        invokeSrc={mobileInlineAd.invokeSrc}
+                      />
                     </div>
                   )}
                 </>
@@ -161,7 +168,10 @@ export async function DetailPage({
       </section>
 
       {/* Wiki Team 下方常驻广告：跟随页面滚动持续显示，可手动关闭 */}
-      <DismissibleStickyBanner adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+      <DismissibleStickyBanner
+        adKey={getBannerAdKey("banner-320x50")}
+        invokeSrc={getBannerInvokeSrc("banner-320x50")}
+      />
 
       {/* 左侧广告容器 - Fixed 定位 */}
       <aside
@@ -173,7 +183,8 @@ export async function DetailPage({
         {/* 左侧广告：160×600 竖幅 */}
         <SidebarAd
           type="sidebar-160x600"
-          adKey={process.env.NEXT_PUBLIC_AD_SIDEBAR_160X600}
+          adKey={getBannerAdKey("banner-160x600")}
+          invokeSrc={getBannerInvokeSrc("banner-160x600")}
         />
       </aside>
 
@@ -183,6 +194,14 @@ export async function DetailPage({
         <article className="prose prose-base md:prose-lg max-w-none">
           {articleContent}
         </article>
+
+        <div className="hidden md:flex my-8 justify-center">
+          <AdBanner
+            type="banner-300x250"
+            adKey={getBannerAdKey("banner-300x250")}
+            invokeSrc={getBannerInvokeSrc("banner-300x250")}
+          />
+        </div>
 
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
@@ -194,7 +213,11 @@ export async function DetailPage({
 
         {mobileBannerAd && (
           <div className="border-t border-border/70 pt-8 mt-8 md:hidden">
-            <AdBanner type={mobileBannerAd.type} adKey={mobileBannerAd.adKey} />
+            <AdBanner
+              type={mobileBannerAd.type}
+              adKey={mobileBannerAd.adKey}
+              invokeSrc={mobileBannerAd.invokeSrc}
+            />
           </div>
         )}
 
@@ -202,7 +225,7 @@ export async function DetailPage({
         <div className="border-t border-border pt-10 mt-10 md:pt-12 md:mt-12">
           <Link
             href={`/${contentType}`}
-            className="inline-flex items-center gap-2 rounded-lg bg-blue-500 px-5 py-3 text-sm md:text-base text-white font-semibold transition-colors hover:bg-blue-600"
+            className="inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--nav-theme))] px-5 py-3 text-sm md:text-base text-white font-semibold transition-colors hover:bg-[hsl(var(--nav-theme)/0.9)]"
           >
             <ArrowLeft className="w-4 h-4" />
             {t("common.more")} {contentTypeLabels[contentType] || contentType}
@@ -218,19 +241,15 @@ export async function DetailPage({
           {/* 广告 1: 728×90 横幅 */}
           <AdBanner
             type="banner-728x90"
-            adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+            adKey={getBannerAdKey("banner-728x90")}
+            invokeSrc={getBannerInvokeSrc("banner-728x90")}
           />
 
-          {/* 广告 2: 300×250 方形 */}
-          <AdBanner
-            type="banner-300x250"
-            adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
-          />
-
-          {/* 广告 3: 468×60 横幅 */}
+          {/* 广告 2: 468×60 横幅 */}
           <AdBanner
             type="banner-468x60"
-            adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+            adKey={getBannerAdKey("banner-468x60")}
+            invokeSrc={getBannerInvokeSrc("banner-468x60")}
           />
         </div>
       </div>
@@ -245,7 +264,8 @@ export async function DetailPage({
         {/* 右侧广告：160×300 方形 */}
         <SidebarAd
           type="sidebar-160x300"
-          adKey={process.env.NEXT_PUBLIC_AD_SIDEBAR_160X300}
+          adKey={getBannerAdKey("banner-160x300")}
+          invokeSrc={getBannerInvokeSrc("banner-160x300")}
         />
       </aside>
     </div>

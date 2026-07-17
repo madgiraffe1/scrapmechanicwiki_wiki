@@ -1,0 +1,178 @@
+export const metadata = {
+  title: "Dominando os Ataques de Scrap Mechanic: Seu Guia Definitivo para Agricultura e Defesa no Modo Sobrevivência",
+  description: "Aprenda a sobreviver e prosperar durante os ataques de Scrap Mechanic! Este guia cobre gatilhos, níveis de ataque, estratégias de defesa e técnicas de mini-agricultura.",
+  category: "survival",
+  date: "2026-07-17",
+}
+
+## Entendendo os Ataques de Scrap Mechanic: O Desafio do Agricultor
+
+No mundo hostil e impiedoso do Modo Sobrevivência de *Scrap Mechanic*, garantir uma fonte confiável de alimento é primordial. A agricultura fornece esse sustento essencial, permitindo que os mecânicos cultivem plantações vitais. No entanto, essa atividade aparentemente pacífica vem com um risco significativo: **ataques de Scrap Mechanic**. Essas incursões robóticas são acionadas por seus esforços agrícolas, transformando sua fazenda tranquila em um campo de batalha. Compreender a mecânica por trás desses ataques é o primeiro passo para uma defesa eficaz e uma sobrevivência sustentada.
+
+Por que esses **ataques de Scrap Mechanic** ocorrem? O sistema do jogo detecta seus esforços agrícolas, vendo o cultivo extensivo como uma atividade de "AGRICULTURA NÃO AUTORIZADA DETECTADA!". Este alerta sinaliza um ataque iminente de robôs, forçando os jogadores a defender suas plantações e sua própria subsistência. Ignorar esses avisos pode levar a perdas devastadoras, tornando o gerenciamento de ataques uma habilidade central para qualquer mecânico de sucesso.
+
+### O Que Aciona um Ataque?
+
+Os ataques em *Scrap Mechanic* estão diretamente ligados ao valor e à quantidade de plantações que você planta em uma determinada área. Cada tipo de plantação tem um "valor de plantação" associado, e uma vez que o valor total das plantações dentro de uma área atinge um certo limite, um ataque é iniciado.
+
+Aqui está um detalhamento de como as plantações contribuem para acionar um ataque:
+
+*   **Valor Total da Plantação:** Um ataque é acionado quando o valor combinado de todas as plantações em uma área atinge pelo menos 10.
+*   **Plantações de Alto Valor:** Plantações com valor de 3 ou mais são consideradas de "alto valor". Se você tiver pelo menos cinco plantações de alto valor, e seu valor total de plantação atingir 80 ou mais, você começará a atrair robôs mais perigosos como Tapebots e Farmbots.
+
+Quando um ataque é acionado, um cronômetro vermelho aparece no centro aproximado do seu aglomerado de plantações, contando até a meia-noite. Neste ponto, robôs aparecerão nas proximidades e se moverão para atacar sua preciosa colheita. É importante notar que, se você sair e recarregar seu mundo depois que um ataque for acionado, mas antes de começar, o cronômetro pode não reaparecer, mas o ataque ainda acontecerá.
+
+### Valores das Plantações e Seu Impacto
+
+Diferentes plantações carregam valores distintos, influenciando diretamente a intensidade dos **ataques de Scrap Mechanic** que você enfrentará. Estar atento a esses valores pode ajudá-lo a gerenciar riscos.
+
+| Tipo de Plantação | Valor | É Plantação de Alto Valor |
+| :---------------- | :---- | :----------------------- |
+| Cenoura           | 1     | Não                      |
+| Beterraba         | 2     | Não                      |
+| Tomate            | 3     | Sim                      |
+| Batata            | 3     | Sim                      |
+| Abacaxi           | 4     | Sim                      |
+| Brócolis          | 5     | Sim                      |
+
+*(Nota: Os valores para Beterraba, Tomate, Batata, Abacaxi e Brócolis são baseados em relatórios da comunidade e mecânicas típicas do jogo, pois valores específicos além da Cenoura não foram totalmente detalhados na tabela de origem fornecida.)*
+
+### Níveis de Ataque e Ameaças de Robôs
+
+O nível de um ataque é determinado no momento em que é acionado, com base no valor total da plantação e no número de plantações de alto valor presentes. Isso significa que adicionar ou remover plantações *depois* do gatilho não alterará a intensidade do ataque para aquela noite. Mesmo que você colha tudo, um ataque ainda pode ocorrer, embora no nível originalmente definido.
+
+A intensidade do ataque também aumenta em noites consecutivas se você continuar plantando. Essa "intensidade de agricultura" só é redefinida quando você faz uma pausa no plantio de novas culturas por pelo menos uma noite. A detecção da fazenda na segunda noite ocorre especificamente entre 4h e 5h da manhã no jogo.
+
+Aqui está uma visão simplificada de como os níveis de ataque escalam e os tipos de robôs que você pode esperar:
+
+| Nível de Ataque | Valor Total da Plantação | Plantações de Alto Valor | Noite 1 (Exemplo de Bots) | Noite 2 (Exemplo de Bots) | Noite 3+ (Exemplo de Bots) |
+| :-------------- | :----------------------- | :----------------------- | :------------------------ | :------------------------ | :------------------------- |
+| 1               | 10-19                    | -                        | 3 Totebots                | 4 Totebots                | 3 Totebots e 1 Haybot      |
+| 2               | 20-29                    | -                        | 4 Totebots e 1 Haybot     | 4 Totebots e 2 Haybots    | 4 Totebots e 3 Haybots     |
+| 7               | 80-109                   | 5+                       | 3 Totebots, 6 Haybots e 1 Tapebot | 3 Totebots, 8 Haybots e 1 Tapebot | 3 Totebots, 10 Haybots e 2 Tapebots |
+| 8               | 110-149                  | 10+                      | 3 Totebots, 6 Haybots e 2 Tapebots | 3 Totebots, 8 Haybots e 2 Tapebots | 3 Totebots, 10 Haybots e 3 Tapebots |
+| 9               | 150-299                  | 20+                      | 3 Totebots, 6 Haybots e 3 Tapebots | 3 Totebots, 8 Haybots e 3 Tapebots | 3 Totebots, 10 Haybots, 4 Tapebots e 1 Farmbot |
+| 10              | 300+                     | 50+                      | 3 Totebots, 6 Haybots, 4 Tapebots e 1 Farmbot | 3 Totebots, 6 Haybots, 4 Tapebots e 1 Farmbot | 3 Totebots, 6 Haybots, 5 Tapebots e 3 Farmbots |
+
+*(Com base em informações da Wiki Oficial de Scrap Mechanic.)*
+
+## Defesa Estratégica Contra Ataques de Scrap Mechanic
+
+Enfrentar um ataque exige preparação e uma estratégia sólida. Seja construindo uma fazenda fortificada ou usando sistemas automatizados, medidas proativas são essenciais para proteger sua colheita de robôs hostis.
+
+### Fortificando Sua Fazenda
+
+Quando o alerta "AGRICULTURA NÃO AUTORIZADA DETECTADA!" soar, é hora de defender. Sua primeira linha de defesa é frequentemente estrutural.
+
+*   **Paredes e Barreiras:** Construir paredes resistentes ao redor de sua área de cultivo pode atrasar ou redirecionar robôs que se aproximam. Materiais como concreto ou metal são mais duráveis que a madeira.
+*   **Pontos de Estrangulamento:** Projete suas defesas para canalizar os robôs em passagens estreitas onde eles possam ser tratados mais facilmente.
+*   **Plataformas Elevadas:** Cultivar em plataformas elevadas ou até mesmo no topo de montanhas (se o caminho não for facilmente escalável por robôs) pode oferecer uma vantagem significativa, impedindo que a maioria dos robôs terrestres alcance suas plantações. Relatos da comunidade sugerem que cultivar em montanhas como as próximas ao Esconderijo dos Agricultores pode ser eficaz, desde que você garanta as rotas de acesso.
+
+### Defesas Automatizadas
+
+Para fazendas maiores ou simplesmente para reduzir o esforço manual, a automação é sua aliada em *Scrap Mechanic*.
+
+*   **Canhões de Água:** Podem ser estrategicamente posicionados para regar as plantações automaticamente. Embora sejam principalmente para o crescimento, um posicionamento inteligente também pode ser usado para afastar robôs menores.
+*   **Bombas de Vácuo:** Além do plantio e da colheita, as Bombas de Vácuo podem ser integradas a sistemas de irrigação automatizados, garantindo que suas plantações sejam sempre cuidadas.
+*   **Torretas e Armadilhas:** À medida que você avança em *Scrap Mechanic*, você desbloqueará opções defensivas mais avançadas, como torretas automatizadas e várias armadilhas. Estas são inestimáveis para **ataques de Scrap Mechanic** de alto nível, especialmente aqueles envolvendo Tapebots e Farmbots. Projete sistemas automatizados para atingir tipos específicos de robôs ou para serem acionados quando inimigos entrarem em uma zona definida.
+
+### Cronometrando Seu Plantio e Colheita
+
+A agricultura inteligente não se trata apenas do que você planta, mas de quando.
+
+*   **Plantio Pela Manhã Cedo:** Para potencialmente evitar ataques de nível superior ao usar plantações de baixo valor, a experiência do jogador sugere plantar entre a meia-noite e as 6:45 da manhã. Isso permite que você colha antes das 4h da manhã, quando o jogo verifica novas atividades agrícolas na segunda noite.
+*   **Vantagem do Fertilizante:** Se um ataque for acionado inesperadamente, aplicar fertilizante rapidamente pode dobrar a velocidade de crescimento da plantação. Se você tiver tempo suficiente antes da meia-noite, poderá colher suas plantações antes que os robôs cheguem. Lembre-se, a colheita não cancela o ataque, mas protege sua produção, deixando você com apenas um ataque de Nível 1 para lidar (geralmente 3 Totebots).
+
+## A Arte da Mini-Agricultura: Evitando Ataques por Completo
+
+Para aqueles que preferem uma abordagem menos confrontacional, a mini-agricultura oferece uma alternativa mais segura para operações em larga escala que acionam ataques. A ideia central é espalhar suas plantações, mantendo seu valor localizado abaixo do limite de ataque. Essa estratégia reduz significativamente as chances de acionar **ataques de Scrap Mechanic** e o liberta do combate noturno.
+
+### Como Funciona a Mini-Agricultura
+
+A mini-agricultura depende do sistema de detecção baseado em células do jogo. O mapa é dividido em "células" de 64x64 blocos. Se você mantiver o valor da sua plantação baixo dentro de cada célula individual e garantir distância suficiente entre suas mini-fazendas, poderá evitar a detecção em grande parte.
+
+*   **Células Separadas:** Plante diferentes tipos de culturas, ou até o mesmo tipo, em mini-fazendas separadas. Cada mini-fazenda deve idealmente estar em sua própria célula de 64x64 blocos.
+*   **Distância é Fundamental:** Mantenha pelo menos 64 blocos de distância entre as mini-fazendas para garantir que estejam em células diferentes. As mini-fazendas podem estar mais próximas se estiverem perto de um limite de célula, desde que sejam células distintas.
+*   **Quantidades Seguras de Plantação:** Cada tipo de plantação tem uma "quantidade segura" que você pode plantar dentro de uma única célula sem acionar um ataque.
+
+Aqui estão algumas quantidades seguras relatadas para várias culturas por célula:
+
+| Tipo de Plantação | Quantidade Segura por Célula |
+| :---------------- | :--------------------------- |
+| Cenoura           | 9                            |
+| Beterraba         | 4                            |
+| Tomate            | 3                            |
+| Batata            | 3                            |
+| Abacaxi           | 2                            |
+| Brócolis          | 1                            |
+
+*(Nota: Essas quantidades seguras são baseadas em descobertas da comunidade e estão sujeitas a pequenas variações com base nas atualizações do jogo.)*
+
+### Gerenciando a Intensidade da Agricultura com Mini-Fazendas
+
+Mesmo com a mini-agricultura, você precisa estar atento à "intensidade da agricultura". Plantar continuamente, mesmo em pequenos lotes, pode eventualmente levar a um acúmulo que aciona um ataque.
+
+*   **Faça uma Pausa:** É crucial fazer uma pausa no plantio por pelo menos uma noite periodicamente. Isso redefine a intensidade do plantio, evitando um ataque acidental.
+*   **Gatilhos Acidentais:** Se você acidentalmente acionar um ataque devido a fazendas muito próximas ou ao acúmulo de intensidade, use fertilizante para acelerar o crescimento e colha suas plantações antes que o ataque comece. Você ainda enfrentará um ataque de Nível 1, mas seu suprimento de alimentos estará seguro.
+
+### Protegendo Mini-Fazendas de Robôs Errantes
+
+Embora a mini-agricultura evite o surgimento de ataques dedicados, suas plantações ainda estão vulneráveis a Totebots e Haybots errantes, ou a robôs perseguindo Wocs perto de sua base.
+
+*   **Posicionamento Estratégico:** Evite colocar mini-fazendas muito perto de rotas de patrulha comuns de robôs ou perto de sua base principal se ela frequentemente atrair atenção hostil.
+*   **Fortificação Mínima:** Mesmo uma pequena parede baixa ou algumas estacas estrategicamente colocadas podem impedir que robôs perdidos destruam suas mini-fazendas. Pense nisso como proteção passiva em vez de defesa ativa.
+
+## Estratégias Avançadas e Considerações Futuras
+
+Além do básico, mecânicos experientes em *Scrap Mechanic* frequentemente empregam soluções criativas para gerenciar suas fazendas e mitigar os riscos de ataques.
+
+### Agricultura de Montanha
+
+Conforme mencionado em relatórios da comunidade, cultivar no topo de montanhas pode ser uma maneira eficaz de proteger suas plantações. Robôs geralmente têm dificuldade com terrenos complexos, especialmente inclinações íngremes.
+
+*   **Acessibilidade:** Escolha montanhas que sejam difíceis para os robôs escalarem. Se houver uma estrada ou um caminho fácil, os robôs podem usá-lo.
+*   **Linhas de Suprimento:** Planeje como você transportará água, sementes e fertilizantes para sua fazenda na montanha, e como trará os produtos colhidos de volta. Isso pode exigir designs de veículos criativos ou elevadores automatizados.
+
+### O Futuro da Agricultura: Pimentas e Novas Ameaças
+
+Os desenvolvedores estão continuamente expandindo *Scrap Mechanic*, e a agricultura não é exceção. Adições futuras, como as Pimentas, devem introduzir novas dinâmicas à agricultura e aos ataques.
+
+*   **Nova Plantação, Novo Robô:** Espera-se que as plantações de Pimenta atraiam um "robô perigoso que 'parece um punhado'". Isso sugere um novo tipo de inimigo ou uma variante de um existente (possivelmente um Totebot Vermelho), especificamente projetado para desafiar fazendas com essa cultura de alto valor. Isso, sem dúvida, adicionará outra camada de complexidade ao gerenciamento de ataques, exigindo novas estratégias defensivas.
+*   **Adaptação:** À medida que novos conteúdos são lançados, os jogadores precisarão adaptar suas táticas de agricultura e defesa. Manter-se informado sobre as atualizações do jogo de fontes oficiais, como a [página da Steam Store de Scrap Mechanic](https://store.steampowered.com/app/387990/Scrap_Mechanic/), será crucial.
+
+### Insights da Comunidade e Melhores Práticas
+
+A experiência do jogador frequentemente revela truques inteligentes não explicitamente declarados em guias do jogo:
+
+*   **Eficiência de Irrigação:** É possível regar várias plantações de uma vez salpicando água precisamente nas bordas ou cantos compartilhados de montes de terra que se tocam. Embora seja difícil de dominar, isso pode acelerar significativamente a irrigação manual.
+*   **Sistemas Automatizados de Irrigação:** Além dos Canhões de Água básicos, sistemas elaborados usando tubos, sensores e temporizadores podem automatizar completamente o processo de irrigação, liberando você para outras tarefas.
+*   **Designs à Prova de Ataque:** Alguns jogadores projetam suas bases inteiras em torno da agricultura, integrando defesas automatizadas, armazenamento seguro e sistemas eficientes de colheita para tornar os **ataques de Scrap Mechanic** um pequeno inconveniente em vez de uma grande ameaça.
+
+Ao combinar a compreensão dos gatilhos de ataque, um planejamento defensivo robusto e práticas agrícolas inteligentes como a mini-agricultura, você pode transformar o desafio dos **ataques de Scrap Mechanic** em um aspecto gerenciável de sua aventura de sobrevivência. Boa agricultura, Mecânico!
+
+## Perguntas Frequentes Sobre Ataques de Scrap Mechanic
+
+### P1: O que são ataques de Scrap Mechanic e como eles começam?
+R1: Ataques de Scrap Mechanic são eventos no Modo Sobrevivência onde robôs hostis atacam sua fazenda. Eles são acionados quando você planta muitas culturas em uma área, especificamente quando o "valor total da cultura" de suas plantas atinge 10 ou mais. Uma mensagem "AGRICULTURA NÃO AUTORIZADA DETECTADA!" aparecerá, seguida por uma contagem regressiva até a meia-noite, quando os robôs irão aparecer.
+
+### P2: Posso evitar os ataques de Scrap Mechanic completamente?
+R2: Sim, você pode evitar ataques em grande parte através de uma estratégia chamada "mini-agricultura". Isso envolve plantar grupos menores de culturas bem separados uns dos outros, garantindo que o valor da cultura em qualquer célula de 64x64 blocos permaneça abaixo do limite de acionamento de ataque. Você também precisa fazer uma pausa periódica no plantio para redefinir a intensidade da agricultura.
+
+### P3: O que acontece se eu colher minhas plantações antes que um ataque comece?
+R3: Se você colher suas plantações depois que um ataque foi acionado, mas antes que os robôs cheguem, você salvará sua produção. No entanto, colher suas plantações não cancela o ataque em si. O ataque ainda ocorrerá, mas será no nível mais baixo (geralmente um ataque de Nível 1 com 3 Totebots), já que não há plantações restantes para os robôs destruírem.
+
+### P4: Diferentes plantações afetam a intensidade dos ataques de Scrap Mechanic?
+R4: Com certeza. Cada tipo de plantação tem um "valor de plantação" atribuído. Plantar um valor total maior de plantações ou um número significativo de plantações de "alto valor" (aquelas com valor de 3 ou mais, como Tomates ou Abacaxis) acionará níveis de ataque mais altos, atraindo robôs mais perigosos, como Tapebots e Farmbots.
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: "What should I read next on Scrap Mechanic Wiki?",
+    answer: "Start with the related guides in this category, then move into survival, building, vehicles, bots, mods, multiplayer, or updates depending on what you want to improve next."
+  },
+  {
+    question: "Is this Scrap Mechanic guide official?",
+    answer: "This is an unofficial fan-made guide. Always check the official Scrap Mechanic site, Steam page, and Axolot Games channels for official announcements."
+  }
+]} />
