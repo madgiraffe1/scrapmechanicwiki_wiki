@@ -109,14 +109,15 @@ export default function HomePageClient({
 
       <section className="relative overflow-hidden px-4 pt-24 pb-14 md:pt-32 md:pb-20">
         <div className="absolute inset-0 bg-gradient-to-b from-[hsl(var(--nav-theme)/0.16)] to-transparent" />
-        <div className="container relative z-10 mx-auto max-w-6xl">
+        <div className="absolute inset-x-4 top-3 z-20 md:top-4">
           <DismissibleStickyBanner
             adKey={getBannerAdKey("banner-320x50")}
             invokeSrc={getBannerInvokeSrc("banner-320x50")}
             sticky={false}
-            className="mb-8"
+            showCloseButton={false}
           />
-
+        </div>
+        <div className="container relative z-10 mx-auto max-w-6xl">
           <div className="scroll-reveal mb-8 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1.5 md:mb-6 md:px-4 md:py-2">
               <Sparkles className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
@@ -159,12 +160,6 @@ export default function HomePageClient({
         </div>
       </section>
 
-      <NativeBannerAd
-        adKey={nativeBanner.adKey}
-        scriptSrc={nativeBanner.scriptSrc}
-        containerId={nativeBanner.containerId}
-      />
-
       <section className="px-4 py-10 md:py-12">
         <div className="container mx-auto max-w-5xl scroll-reveal">
           <div className="relative overflow-hidden rounded-lg">
@@ -175,6 +170,14 @@ export default function HomePageClient({
           </div>
         </div>
       </section>
+
+      <div data-ad-position="native-after-video">
+        <NativeBannerAd
+          adKey={nativeBanner.adKey}
+          scriptSrc={nativeBanner.scriptSrc}
+          containerId={nativeBanner.containerId}
+        />
+      </div>
 
       <section className="bg-white/[0.02] px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-6xl">

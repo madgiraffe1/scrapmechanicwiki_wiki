@@ -8,6 +8,7 @@ interface DismissibleStickyBannerProps {
   adKey?: string;
   invokeSrc?: string;
   sticky?: boolean;
+  showCloseButton?: boolean;
   className?: string;
 }
 
@@ -19,6 +20,7 @@ export function DismissibleStickyBanner({
   adKey,
   invokeSrc,
   sticky = true,
+  showCloseButton = true,
   className = "",
 }: DismissibleStickyBannerProps) {
   const [dismissed, setDismissed] = useState(false);
@@ -52,9 +54,18 @@ export function DismissibleStickyBanner({
         adVisible ? `py-2 ${className}` : "h-0 overflow-hidden"
       }`}
     >
-      <div className={`relative mx-auto max-w-4xl ${adVisible ? "pr-10" : ""}`}>
-        <AdBanner type="banner-320x50" adKey={adKey} invokeSrc={invokeSrc} eager />
-        {adVisible && (
+      <div
+        className={`relative mx-auto max-w-4xl ${
+          adVisible && showCloseButton ? "pr-10" : ""
+        }`}
+      >
+        <AdBanner
+          type="banner-320x50"
+          adKey={adKey}
+          invokeSrc={invokeSrc}
+          eager
+        />
+        {adVisible && showCloseButton && (
           <button
             type="button"
             aria-label="Close ad"
