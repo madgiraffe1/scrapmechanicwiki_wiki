@@ -95,9 +95,11 @@ export default function Navigation({ navPreviewData }: NavigationProps) {
 						href="/"
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
-						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							SM
-						</div>
+						<img
+							src="/images/logo.png"
+							alt="Scrap Mechanic Wiki"
+							className="h-10 w-10 rounded-lg object-cover"
+						/>
 						<span className="font-bold text-lg hidden sm:inline">Scrap Mechanic</span>
 						<span className="font-bold text-lg sm:hidden">SM</span>
 					</Link>
